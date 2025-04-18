@@ -1,0 +1,1001 @@
+required_skills,min_experience,salary_range,location,sector,education_level
+"['Python', 'R', 'Ruby', 'CSS']",5,"(46041, 120123)",Bordj Badji Mokhtar,tech,phd
+"['Go', 'C#', 'MATLAB']",5,"(51498, 70963)",Naama,finance,phd
+"['CSS', 'MATLAB', 'HTML', 'SQL', 'Java']",5,"(87010, 132210)",Ain Temouchent,medical,bachelor
+"['JavaScript', 'C#', 'Ruby', 'R', 'Go']",9,"(41328, 131194)",Oum El Bouaghi,software,doctorate
+"['MATLAB', 'Java']",10,"(44689, 77124)",Touggourt,pharma,bachelor
+"['PHP', 'R', 'JavaScript', 'Python']",0,"(61600, 72993)",Bordj Badji Mokhtar,health,high school
+"['Ruby', 'PHP', 'HTML', 'C++']",0,"(29842, 109873)",Boumerdes,accounting,ingenieur
+['C++'],0,"(82969, 182559)",Biskra,sales,ingenieur
+"['JavaScript', 'R', 'Ruby', 'C#', 'Java']",2,"(65658, 127101)",Sidi Bel Abbes,finance,bachelor
+"['CSS', 'HTML', 'Swift', 'Scala']",0,"(71693, 151930)",El Menia,tech,doctorate
+['MATLAB'],2,"(37869, 82880)",Timimoun,healthcare,bachelor's
+"['PHP', 'C++', 'Ruby', 'SQL', 'Java']",4,"(47620, 57667)",Saida,banking,no formal education
+"['JavaScript', 'MATLAB', 'Ruby', 'Go', 'SQL']",1,"(66997, 129662)",Relizane,software,doctorate
+"['Go', 'C++', 'Scala', 'C#']",3,"(90451, 112090)",Bechar,advertising,ingenieur
+"['Python', 'C#', 'SQL', 'CSS']",10,"(52002, 69749)",Bordj Bou Arreridj,sales,bachelor's
+['HTML'],7,"(95701, 113364)",Tlemcen,advertising,master
+"['C#', 'JavaScript', 'SQL', 'Python']",4,"(97398, 169057)",El M'Ghair,finance,high school
+"['JavaScript', 'HTML', 'Java', 'C#']",9,"(53962, 75154)",Tiaret,business,master
+['SQL'],0,"(45415, 55092)",Khenchela,tech,bachelor's
+"['Go', 'Python', 'R', 'Java', 'HTML']",9,"(74413, 127563)",Illizi,finance,bachelor
+['SQL'],10,"(25623, 36413)",Relizane,finance,bachelor's
+"['Swift', 'PHP', 'MATLAB']",10,"(37373, 43451)",Ouled Djellal,business,master
+"['HTML', 'SQL', 'Java', 'JavaScript', 'C#']",9,"(75654, 114998)",Bechar,consulting,high school
+"['R', 'Java', 'Ruby', 'C++', 'Scala']",0,"(44313, 52749)",Blida,information technology,master
+['HTML'],1,"(79409, 157957)",Skikda,banking,master
+"['Scala', 'PHP', 'Java', 'C++', 'CSS']",3,"(81130, 112681)",Djanet,business,high school
+"['C++', 'Scala', 'Go', 'JavaScript']",10,"(74101, 173895)",Djanet,healthcare,bachelor's
+"['R', 'Java']",5,"(85306, 128144)",Relizane,marketing,technical diploma
+"['Go', 'Java', 'PHP']",2,"(74154, 162693)",Djelfa,finance,technical diploma
+"['Scala', 'PHP', 'Python', 'C++', 'MATLAB']",0,"(79720, 162974)",Alger,software,phd
+"['Go', 'Java']",1,"(41120, 133275)",Saida,health,no formal education
+"['HTML', 'SQL', 'PHP', 'Java', 'Scala']",0,"(88912, 108439)",Annaba,healthcare,master
+"['CSS', 'C#']",5,"(69144, 142690)",Saida,banking,phd
+['Python'],9,"(45790, 69677)",Ghardaia,pharma,technical diploma
+['HTML'],4,"(84484, 125845)",Biskra,finance,no formal education
+['MATLAB'],8,"(89598, 163594)",Illizi,consulting,master
+"['Swift', 'CSS', 'Go', 'HTML']",0,"(29589, 99146)",Oran,healthcare,phd
+"['R', 'C#', 'C++']",2,"(40157, 53219)",Sidi Bel Abbes,sales,high school
+['SQL'],7,"(58987, 138421)",Djanet,health,no formal education
+['C#'],5,"(94261, 144959)",Tebessa,finance,doctorate
+"['PHP', 'Scala', 'C++']",8,"(56466, 95938)",Tissemsilt,pharma,master
+"['JavaScript', 'C#']",8,"(95281, 189224)",Skikda,banking,master
+"['HTML', 'C++', 'CSS']",10,"(88628, 135015)",Blida,sales,ingenieur
+"['Swift', 'R', 'Ruby']",2,"(39746, 55350)",Ain Temouchent,tech,bachelor's
+"['Scala', 'PHP', 'Python', 'Ruby', 'R']",0,"(45660, 132380)",Boumerdes,tech,no formal education
+"['Ruby', 'Java', 'HTML']",7,"(50854, 104446)",Skikda,health,ingenieur
+['MATLAB'],1,"(98695, 118245)",El Oued,marketing,high school
+['C++'],2,"(73466, 109801)",Blida,it,master's
+"['C#', 'CSS']",4,"(76211, 138767)",Oran,pharma,phd
+"['HTML', 'JavaScript', 'C#', 'Ruby', 'PHP']",9,"(95893, 149938)",Oum El Bouaghi,information technology,master
+"['HTML', 'Java', 'JavaScript', 'PHP']",2,"(90111, 165462)",Constantine,finance,master
+"['MATLAB', 'C#']",5,"(39331, 96298)",Tipaza,tech,no formal education
+"['PHP', 'Python']",5,"(33685, 55417)",Tebessa,sales,technical diploma
+"['Scala', 'HTML', 'PHP']",3,"(63131, 125790)",Ain Defla,business,technical diploma
+"['R', 'Ruby', 'Swift', 'CSS', 'HTML']",2,"(29037, 66720)",Illizi,health,bachelor's
+"['Python', 'MATLAB', 'Ruby', 'R']",10,"(63970, 148318)",Oran,finance,phd
+"['Swift', 'C++', 'Scala']",5,"(39807, 54356)",Mascara,consulting,high school
+"['R', 'Scala', 'HTML']",8,"(23233, 32506)",Bouira,business,bachelor's
+"['R', 'Go', 'JavaScript', 'CSS', 'MATLAB']",10,"(82188, 129702)",Tebessa,pharma,bachelor's
+"['MATLAB', 'Go']",7,"(23999, 91549)",Tebessa,consulting,bachelor's
+"['Scala', 'Java', 'PHP']",0,"(34222, 97840)",Bordj Badji Mokhtar,marketing,technical diploma
+"['Go', 'C#', 'Swift']",1,"(64624, 122245)",Bechar,healthcare,master's
+"['C++', 'Python']",9,"(45114, 90448)",In Guezzam,software,bachelor's
+"['C++', 'Scala', 'Go']",9,"(86987, 103096)",In Salah,information technology,doctorate
+"['C++', 'C#']",9,"(54506, 101424)",Naama,health,bachelor
+"['CSS', 'HTML', 'Swift']",6,"(32381, 100604)",Skikda,consulting,master
+"['JavaScript', 'MATLAB', 'SQL', 'C++']",5,"(55301, 65469)",Khenchela,information technology,technical diploma
+"['Java', 'HTML']",10,"(54341, 151738)",Tlemcen,information technology,master's
+['C#'],6,"(42895, 100214)",Khenchela,advertising,technical diploma
+['Go'],1,"(65537, 145293)",Oran,accounting,bachelor's
+"['Python', 'PHP', 'CSS']",0,"(96121, 137585)",Tiaret,medical,ingenieur
+"['JavaScript', 'Swift', 'CSS', 'HTML']",6,"(48271, 74780)",Bordj Badji Mokhtar,consulting,master
+"['Swift', 'Python', 'SQL', 'C++', 'Scala']",1,"(29357, 113870)",Djanet,finance,bachelor
+"['HTML', 'Ruby', 'Go', 'CSS', 'PHP']",1,"(99860, 191677)",Illizi,software,technical diploma
+"['JavaScript', 'Scala']",4,"(76692, 175476)",Ghardaia,pharma,high school
+"['HTML', 'Java']",9,"(60829, 156596)",El M'Ghair,it,master's
+"['Python', 'Ruby', 'MATLAB', 'PHP', 'CSS']",4,"(30494, 39264)",Oum El Bouaghi,information technology,technical diploma
+['Go'],6,"(80352, 174837)",Sidi Bel Abbes,accounting,bachelor's
+['R'],4,"(48737, 98408)",Annaba,healthcare,bachelor
+"['CSS', 'JavaScript', 'C++', 'Python']",5,"(70263, 155731)",Setif,marketing,no formal education
+"['R', 'SQL']",1,"(41919, 140424)",Batna,finance,bachelor's
+"['Java', 'JavaScript', 'C#', 'Go', 'Swift']",0,"(37501, 50042)",Relizane,business,high school
+['C++'],4,"(58912, 158001)",Djanet,finance,ingenieur
+"['SQL', 'R', 'Python']",8,"(66582, 85195)",El Tarf,banking,bachelor's
+"['Go', 'PHP', 'CSS']",5,"(38770, 108474)",Tiaret,business,master
+['Scala'],6,"(80557, 169334)",Relizane,software,bachelor's
+"['Ruby', 'R', 'HTML', 'Swift', 'JavaScript']",10,"(86588, 148357)",Batna,advertising,master's
+['Swift'],4,"(48945, 109263)",Saida,finance,doctorate
+['PHP'],9,"(98837, 128707)",Sidi Bel Abbes,health,phd
+"['Swift', 'Java']",5,"(79129, 177944)",Tiaret,banking,phd
+"['C++', 'Java', 'Ruby', 'Python', 'Swift']",0,"(89909, 120427)",Adrar,healthcare,doctorate
+"['CSS', 'Go', 'C++', 'C#']",7,"(24517, 91382)",M'Sila,marketing,technical diploma
+['Go'],5,"(86511, 182906)",Saida,advertising,phd
+"['MATLAB', 'Java']",9,"(44923, 116398)",Ghardaia,tech,master
+"['R', 'CSS', 'C#']",8,"(47133, 81774)",Tiaret,sales,bachelor's
+['CSS'],4,"(46443, 128011)",Tamanrasset,business,doctorate
+['R'],9,"(23612, 66178)",Timimoun,information technology,master
+['Python'],9,"(80720, 173435)",Timimoun,healthcare,master
+"['R', 'Scala', 'Java']",4,"(83420, 151628)",Souk Ahras,it,ingenieur
+['PHP'],2,"(34574, 111947)",Laghouat,tech,master's
+['Go'],9,"(34581, 113958)",Jijel,sales,phd
+"['PHP', 'C++']",9,"(94789, 188403)",Khenchela,business,high school
+"['Swift', 'HTML']",0,"(91558, 189179)",Batna,banking,master's
+"['Java', 'Ruby', 'MATLAB']",2,"(33100, 43501)",Setif,marketing,technical diploma
+"['CSS', 'Swift', 'Ruby', 'Java', 'C#']",6,"(30806, 67363)",Alger,sales,master
+"['C#', 'Java', 'Go', 'HTML', 'R']",8,"(48381, 145789)",Relizane,tech,high school
+"['Swift', 'CSS', 'JavaScript']",3,"(94778, 138684)",El M'Ghair,accounting,master
+"['R', 'JavaScript', 'Ruby', 'C++', 'C#']",4,"(63383, 82166)",Bordj Bou Arreridj,finance,bachelor's
+"['SQL', 'Ruby', 'R']",3,"(31260, 52642)",Bejaia,sales,no formal education
+"['HTML', 'Python', 'Java', 'C#', 'C++']",5,"(34524, 73650)",In Guezzam,banking,phd
+['Java'],7,"(77410, 164963)",In Guezzam,pharma,doctorate
+"['Go', 'MATLAB', 'C++', 'JavaScript']",1,"(44146, 96086)",Tamanrasset,sales,technical diploma
+"['CSS', 'MATLAB', 'C++']",7,"(53079, 90519)",Tindouf,marketing,bachelor's
+"['JavaScript', 'Go', 'SQL', 'Python', 'HTML']",7,"(84988, 141747)",Biskra,consulting,doctorate
+"['CSS', 'JavaScript', 'C#']",5,"(87885, 179262)",El M'Ghair,sales,ingenieur
+"['Ruby', 'Scala', 'C++', 'C#']",2,"(49012, 143247)",Ghardaia,health,bachelor
+['C++'],3,"(20915, 63300)",Tlemcen,marketing,bachelor
+"['HTML', 'SQL', 'Python', 'Scala']",0,"(70181, 144355)",Illizi,pharma,technical diploma
+"['MATLAB', 'Scala', 'SQL', 'R']",5,"(45364, 63047)",Ouargla,software,high school
+"['Java', 'PHP', 'Ruby', 'C++']",10,"(67154, 80262)",Naama,sales,master's
+['CSS'],4,"(58327, 152356)",Ouargla,tech,ingenieur
+['C#'],5,"(68400, 84566)",Tipaza,finance,doctorate
+"['Scala', 'Python', 'CSS', 'C++']",2,"(32130, 131235)",El M'Ghair,medical,no formal education
+"['Ruby', 'HTML', 'SQL', 'R', 'Java']",9,"(87080, 125363)",Khenchela,healthcare,master
+"['PHP', 'SQL', 'JavaScript']",0,"(70803, 106990)",Bordj Badji Mokhtar,sales,master's
+"['Ruby', 'HTML']",7,"(79901, 121337)",Ouargla,software,bachelor
+"['Swift', 'PHP', 'CSS']",1,"(32746, 110014)",El M'Ghair,consulting,no formal education
+['Scala'],5,"(73296, 166031)",Ouargla,tech,high school
+"['C#', 'SQL']",9,"(53438, 118452)",Annaba,pharma,phd
+"['C++', 'MATLAB', 'JavaScript']",10,"(81025, 122461)",Djanet,tech,phd
+"['Swift', 'Java', 'R']",6,"(40223, 97481)",Sidi Bel Abbes,pharma,phd
+['CSS'],6,"(53445, 152494)",Ghardaia,health,technical diploma
+"['MATLAB', 'JavaScript']",5,"(25799, 104823)",Oum El Bouaghi,it,bachelor's
+"['CSS', 'R']",10,"(25475, 45247)",Oum El Bouaghi,accounting,doctorate
+"['PHP', 'Swift', 'Scala', 'Java', 'MATLAB']",6,"(79096, 88692)",Oran,software,technical diploma
+"['Swift', 'MATLAB']",9,"(40104, 52076)",Bechar,advertising,no formal education
+['R'],2,"(79153, 131633)",Adrar,sales,master
+"['HTML', 'C++', 'SQL', 'Scala']",3,"(91119, 139481)",Ain Temouchent,tech,master
+['SQL'],7,"(39292, 58603)",El Menia,finance,master
+"['Ruby', 'R', 'C#', 'Go', 'Scala']",9,"(25541, 85916)",Blida,it,bachelor's
+['Scala'],8,"(37589, 106965)",Touggourt,pharma,technical diploma
+"['C#', 'HTML', 'C++', 'Java']",4,"(59142, 72050)",Saida,it,no formal education
+"['Scala', 'JavaScript', 'Ruby', 'Java', 'SQL']",4,"(69685, 140185)",Tamanrasset,finance,ingenieur
+"['JavaScript', 'PHP', 'Java']",7,"(22992, 87316)",Laghouat,health,master's
+"['Java', 'C++']",4,"(37327, 119201)",Mostaganem,advertising,phd
+"['JavaScript', 'CSS', 'R', 'C++', 'SQL']",4,"(93580, 180768)",Constantine,banking,bachelor's
+"['CSS', 'SQL', 'MATLAB']",2,"(43132, 89949)",In Salah,marketing,phd
+"['PHP', 'Scala', 'C++', 'Go']",3,"(27469, 76366)",Biskra,sales,no formal education
+['MATLAB'],1,"(96883, 178565)",Guelma,advertising,high school
+"['Python', 'PHP', 'Java', 'R']",4,"(60873, 101325)",Constantine,consulting,doctorate
+"['PHP', 'HTML']",0,"(27231, 108828)",Tissemsilt,advertising,no formal education
+"['Go', 'HTML', 'Python']",2,"(45780, 125673)",Batna,software,high school
+"['C++', 'JavaScript', 'Scala', 'PHP']",9,"(21027, 39998)",Djanet,medical,ingenieur
+"['Swift', 'Scala']",9,"(63580, 151346)",Illizi,accounting,no formal education
+"['R', 'Python']",0,"(35215, 91452)",Guelma,banking,high school
+"['SQL', 'R', 'Go', 'Python', 'HTML']",1,"(43383, 121978)",Relizane,sales,doctorate
+"['CSS', 'Go', 'C++']",10,"(20682, 95924)",M'Sila,advertising,no formal education
+['Java'],10,"(40683, 90139)",Alger,health,no formal education
+"['C#', 'Ruby', 'C++']",1,"(46643, 121318)",Chlef,information technology,doctorate
+"['CSS', 'Scala', 'Swift']",10,"(97066, 170931)",Alger,marketing,high school
+"['Swift', 'MATLAB', 'Java', 'R', 'C#']",6,"(84785, 111727)",Ouargla,software,no formal education
+"['C#', 'Java', 'C++']",8,"(86232, 136201)",Biskra,sales,bachelor's
+"['JavaScript', 'MATLAB']",7,"(51861, 127661)",Mascara,sales,no formal education
+"['Python', 'C#', 'R', 'CSS']",5,"(64582, 90147)",El Oued,accounting,phd
+"['MATLAB', 'R']",0,"(58211, 119371)",Bejaia,health,high school
+"['Swift', 'Go', 'Java', 'Python']",10,"(25227, 50641)",Batna,software,no formal education
+"['Go', 'PHP', 'CSS']",7,"(44591, 66444)",Bouira,marketing,phd
+"['Python', 'Swift', 'C++']",5,"(93452, 191289)",Naama,advertising,doctorate
+"['C++', 'CSS', 'Scala', 'SQL', 'Java']",2,"(82892, 136196)",Blida,it,master
+"['Go', 'PHP', 'Scala']",7,"(77574, 111009)",Guelma,banking,high school
+"['MATLAB', 'Ruby', 'C++']",0,"(88144, 154420)",Tamanrasset,software,doctorate
+"['HTML', 'Go', 'C#']",0,"(25707, 34708)",Khenchela,finance,no formal education
+"['MATLAB', 'SQL']",2,"(62060, 133217)",Djanet,advertising,ingenieur
+['MATLAB'],3,"(32815, 54070)",El Tarf,business,doctorate
+"['CSS', 'SQL', 'MATLAB', 'R', 'C#']",8,"(78000, 143921)",Guelma,pharma,master's
+"['C#', 'Swift', 'SQL', 'Ruby', 'JavaScript']",1,"(81217, 98862)",In Salah,business,bachelor
+['HTML'],9,"(85786, 148482)",Tlemcen,health,master
+"['R', 'Java', 'C#', 'Scala']",4,"(39124, 61202)",Constantine,health,technical diploma
+"['R', 'PHP', 'C#', 'Swift']",4,"(98165, 170310)",Guelma,software,doctorate
+"['Scala', 'Swift', 'C++', 'HTML', 'JavaScript']",1,"(29527, 80384)",Biskra,banking,high school
+"['Java', 'Go', 'JavaScript']",0,"(29422, 50587)",In Guezzam,software,bachelor's
+"['Python', 'Swift', 'C++', 'Go', 'Java']",6,"(50383, 125950)",Touggourt,information technology,technical diploma
+"['Go', 'MATLAB', 'R']",9,"(65821, 93302)",Khenchela,software,bachelor's
+"['MATLAB', 'Java', 'Python']",2,"(89077, 112291)",Touggourt,sales,technical diploma
+"['Python', 'CSS', 'Go', 'HTML', 'Java']",4,"(26019, 125513)",Tlemcen,advertising,master
+"['PHP', 'MATLAB', 'SQL', 'C++']",6,"(89570, 100858)",Tamanrasset,health,bachelor
+['SQL'],4,"(54810, 111724)",In Salah,sales,phd
+"['MATLAB', 'Go', 'Swift']",8,"(42151, 135131)",Bouira,advertising,bachelor's
+"['PHP', 'C++', 'R', 'HTML', 'CSS']",1,"(49256, 55685)",El Tarf,health,bachelor's
+"['HTML', 'JavaScript']",8,"(78274, 166830)",Tissemsilt,information technology,high school
+"['R', 'Java', 'CSS']",3,"(99108, 170818)",Illizi,accounting,ingenieur
+['JavaScript'],0,"(47904, 92766)",Sidi Bel Abbes,medical,bachelor's
+['Swift'],9,"(84355, 129882)",Annaba,health,no formal education
+"['R', 'Swift', 'SQL', 'Ruby']",4,"(68708, 108472)",Batna,pharma,doctorate
+['PHP'],2,"(56255, 110214)",Tissemsilt,tech,bachelor
+['SQL'],2,"(86379, 93824)",Timimoun,business,no formal education
+"['Go', 'Python', 'HTML', 'SQL', 'MATLAB']",0,"(32947, 122833)",Adrar,pharma,phd
+"['Ruby', 'Java']",10,"(90721, 125915)",Relizane,consulting,bachelor
+"['Go', 'Ruby']",6,"(93994, 143633)",Sidi Bel Abbes,pharma,ingenieur
+"['Scala', 'Swift']",9,"(90273, 113524)",El M'Ghair,pharma,ingenieur
+"['Python', 'Ruby', 'C#', 'Java']",10,"(80505, 142605)",Mascara,pharma,master
+"['HTML', 'MATLAB', 'PHP', 'SQL']",9,"(85356, 166394)",Tlemcen,finance,high school
+['Python'],8,"(49215, 145045)",Laghouat,accounting,high school
+['R'],3,"(20524, 31088)",Timimoun,health,technical diploma
+"['Scala', 'Python', 'R', 'MATLAB']",3,"(53846, 92321)",Annaba,information technology,master's
+['SQL'],1,"(61193, 130758)",Jijel,health,bachelor's
+"['JavaScript', 'Java', 'Python']",8,"(74249, 141100)",Ouargla,software,master
+"['C#', 'Scala', 'HTML', 'Swift']",7,"(93224, 126491)",Tebessa,information technology,bachelor's
+"['Python', 'Java', 'Ruby', 'MATLAB', 'PHP']",4,"(22903, 88810)",Ghardaia,healthcare,bachelor's
+['PHP'],6,"(33789, 95877)",Constantine,software,bachelor
+"['Go', 'C++', 'SQL', 'Python']",2,"(74725, 98154)",Souk Ahras,consulting,phd
+"['C++', 'Swift', 'Go', 'Scala', 'Ruby']",5,"(93439, 122469)",Mostaganem,finance,master
+"['PHP', 'Python', 'Scala', 'Ruby']",7,"(82309, 138812)",El Tarf,advertising,no formal education
+['Scala'],2,"(22809, 62411)",Alger,software,bachelor's
+"['R', 'CSS', 'HTML', 'C#', 'Go']",4,"(21977, 111092)",Medea,sales,master
+"['Swift', 'PHP', 'HTML', 'C#']",3,"(37661, 92558)",Tamanrasset,healthcare,bachelor's
+"['MATLAB', 'Python']",6,"(78857, 94652)",Touggourt,marketing,master's
+"['C#', 'SQL', 'R']",8,"(99244, 110763)",Sidi Bel Abbes,information technology,bachelor
+"['Go', 'MATLAB']",7,"(50944, 132559)",Alger,software,high school
+"['HTML', 'Python']",7,"(70252, 104977)",Annaba,banking,no formal education
+"['Swift', 'R', 'Scala']",7,"(48505, 73109)",Ain Defla,it,master
+"['HTML', 'Go', 'CSS', 'Scala']",6,"(33822, 98881)",Ain Defla,consulting,master's
+"['C++', 'Scala', 'PHP', 'CSS', 'MATLAB']",2,"(78056, 89067)",Ouargla,consulting,technical diploma
+"['Java', 'Python', 'MATLAB']",8,"(54295, 62152)",Setif,medical,phd
+"['Ruby', 'R', 'MATLAB']",0,"(78185, 100890)",Djanet,accounting,master's
+['MATLAB'],8,"(72703, 158913)",Saida,accounting,ingenieur
+"['Python', 'C#', 'HTML']",7,"(93085, 147685)",Tindouf,health,master
+"['MATLAB', 'C++']",6,"(85818, 121950)",Saida,business,technical diploma
+"['C++', 'Go', 'CSS', 'Ruby']",7,"(79188, 150926)",Bordj Badji Mokhtar,medical,master
+"['HTML', 'JavaScript', 'CSS']",9,"(66427, 166404)",Ain Temouchent,accounting,technical diploma
+"['C++', 'R', 'PHP']",10,"(87333, 96705)",Saida,healthcare,ingenieur
+"['CSS', 'C#', 'PHP', 'SQL', 'Python']",5,"(21530, 71658)",Tizi Ouzou,marketing,phd
+['PHP'],3,"(40683, 136601)",Tipaza,accounting,bachelor's
+"['CSS', 'Go']",1,"(90166, 169967)",Ain Temouchent,marketing,bachelor's
+"['Python', 'HTML', 'Java', 'SQL']",3,"(83135, 140837)",Biskra,information technology,phd
+"['MATLAB', 'Ruby', 'R', 'CSS']",7,"(54989, 61611)",M'Sila,accounting,bachelor
+['Java'],4,"(67153, 75041)",Bordj Badji Mokhtar,pharma,phd
+"['CSS', 'PHP', 'C#']",6,"(80133, 151393)",Tizi Ouzou,business,doctorate
+"['CSS', 'MATLAB', 'Python']",4,"(42326, 87891)",Bordj Badji Mokhtar,it,phd
+"['R', 'Swift', 'CSS']",5,"(87557, 108730)",In Salah,tech,ingenieur
+"['Go', 'MATLAB', 'C#']",5,"(32719, 69737)",Sidi Bel Abbes,advertising,phd
+"['C#', 'Ruby', 'Python']",6,"(39482, 47125)",El M'Ghair,it,bachelor's
+"['Go', 'MATLAB']",7,"(74581, 127247)",Bouira,software,doctorate
+['C++'],4,"(69499, 143589)",Batna,healthcare,bachelor's
+"['Java', 'Swift', 'JavaScript', 'Python', 'C++']",0,"(89931, 134417)",Bordj Bou Arreridj,accounting,no formal education
+"['Python', 'Swift', 'MATLAB', 'JavaScript', 'HTML']",7,"(20623, 102755)",Skikda,medical,high school
+"['Python', 'C#', 'CSS', 'Swift']",6,"(50557, 103069)",El M'Ghair,software,no formal education
+['SQL'],7,"(33007, 48983)",El Menia,consulting,master's
+['Swift'],10,"(81631, 122511)",Oran,advertising,technical diploma
+"['C++', 'HTML', 'PHP', 'C#']",6,"(78747, 113820)",Khenchela,consulting,master's
+['HTML'],3,"(99620, 129140)",El Tarf,consulting,high school
+['CSS'],9,"(26195, 90737)",Tissemsilt,consulting,ingenieur
+"['Scala', 'Python', 'C++', 'Java', 'PHP']",0,"(87470, 154829)",Tiaret,banking,phd
+"['CSS', 'C++', 'Scala']",9,"(67447, 127811)",Chlef,health,doctorate
+"['Ruby', 'MATLAB', 'JavaScript', 'Swift', 'Python']",8,"(34297, 39604)",Djelfa,health,no formal education
+"['SQL', 'R', 'C#']",2,"(61317, 110219)",Timimoun,software,phd
+"['Swift', 'SQL', 'CSS', 'PHP']",2,"(91106, 109203)",Sidi Bel Abbes,it,master's
+"['C++', 'Python', 'HTML', 'Java']",3,"(82672, 171224)",Boumerdes,marketing,no formal education
+"['SQL', 'Python']",0,"(31871, 49485)",Skikda,sales,doctorate
+"['PHP', 'C#']",4,"(91865, 177209)",Alger,tech,phd
+"['C#', 'SQL', 'Ruby', 'Go', 'JavaScript']",5,"(92771, 151248)",Tiaret,pharma,bachelor's
+"['C#', 'JavaScript', 'C++']",6,"(26088, 47824)",Mila,it,master
+['SQL'],10,"(53618, 142951)",Bordj Badji Mokhtar,marketing,doctorate
+"['Python', 'C#']",2,"(64648, 100214)",Boumerdes,software,high school
+"['Ruby', 'SQL', 'Java']",9,"(27771, 33587)",Bordj Bou Arreridj,healthcare,high school
+"['R', 'HTML', 'MATLAB', 'Swift', 'PHP']",4,"(80168, 123346)",Tebessa,health,doctorate
+"['Scala', 'HTML', 'SQL', 'PHP']",8,"(29639, 78301)",Sidi Bel Abbes,business,high school
+"['C++', 'JavaScript']",10,"(31340, 91811)",Touggourt,health,master's
+"['Scala', 'JavaScript', 'C#', 'Java', 'SQL']",10,"(23225, 45937)",Oran,advertising,doctorate
+['Scala'],5,"(97434, 182243)",Tlemcen,banking,master
+['SQL'],5,"(33524, 124034)",Relizane,consulting,technical diploma
+"['SQL', 'Ruby']",9,"(99764, 169611)",Batna,healthcare,no formal education
+['PHP'],3,"(25060, 44458)",Sidi Bel Abbes,business,master's
+['Swift'],9,"(67577, 90230)",Oran,advertising,master
+"['CSS', 'Ruby']",8,"(20690, 54411)",Tebessa,banking,bachelor
+['Go'],5,"(92074, 118366)",Chlef,medical,bachelor
+"['HTML', 'PHP', 'SQL', 'JavaScript', 'C#']",1,"(27700, 121123)",Tlemcen,information technology,no formal education
+"['PHP', 'SQL', 'Python']",10,"(26824, 43803)",Ain Defla,tech,ingenieur
+"['JavaScript', 'Ruby', 'R']",1,"(36179, 65757)",Khenchela,medical,technical diploma
+"['R', 'Ruby', 'MATLAB']",9,"(79962, 96411)",Chlef,business,master's
+"['CSS', 'HTML', 'Swift', 'MATLAB', 'Ruby']",5,"(80268, 141270)",Tamanrasset,software,no formal education
+"['Ruby', 'Java', 'MATLAB']",0,"(73982, 158184)",Adrar,healthcare,bachelor
+"['PHP', 'C#', 'Python', 'Scala']",7,"(66299, 154620)",Biskra,banking,high school
+"['PHP', 'C#', 'Swift', 'MATLAB']",7,"(33263, 116094)",Jijel,information technology,master's
+"['HTML', 'SQL']",6,"(60583, 94244)",Annaba,banking,high school
+"['PHP', 'Swift']",6,"(63198, 151872)",El Bayadh,it,technical diploma
+"['Python', 'Ruby', 'R', 'PHP', 'HTML']",1,"(94288, 189305)",Tipaza,marketing,high school
+"['R', 'C++', 'Python', 'CSS', 'HTML']",0,"(38625, 114647)",Bordj Badji Mokhtar,marketing,doctorate
+['C++'],8,"(83272, 97641)",Bejaia,information technology,phd
+"['C#', 'Python', 'Ruby', 'SQL', 'Scala']",6,"(24479, 38306)",Ain Defla,sales,phd
+['R'],8,"(30191, 107620)",Guelma,accounting,bachelor's
+"['Ruby', 'R', 'C#']",8,"(76411, 125628)",Ouled Djellal,consulting,ingenieur
+"['C++', 'SQL', 'MATLAB']",4,"(71357, 117865)",Alger,software,phd
+"['C++', 'C#', 'R', 'Ruby', 'Go']",5,"(81390, 168575)",Illizi,information technology,technical diploma
+['CSS'],5,"(94308, 120695)",Touggourt,it,phd
+['MATLAB'],3,"(63431, 133964)",Setif,sales,no formal education
+"['MATLAB', 'JavaScript', 'C++', 'CSS', 'Scala']",0,"(67954, 155023)",Tamanrasset,pharma,ingenieur
+"['Java', 'HTML']",5,"(90486, 132785)",Djelfa,it,master's
+"['Swift', 'HTML', 'Ruby']",0,"(57952, 86955)",Alger,it,bachelor's
+"['JavaScript', 'Python', 'HTML']",10,"(57686, 128436)",Ouled Djellal,tech,ingenieur
+"['C#', 'Scala']",1,"(31877, 61618)",Mostaganem,marketing,doctorate
+"['Go', 'CSS', 'Ruby', 'HTML']",2,"(25510, 35520)",Sidi Bel Abbes,tech,bachelor's
+['JavaScript'],3,"(53919, 65938)",Ghardaia,healthcare,bachelor's
+"['MATLAB', 'Java', 'Go', 'Scala']",4,"(24949, 111543)",Mostaganem,banking,no formal education
+"['Scala', 'C#', 'SQL']",5,"(30517, 36833)",Bouira,it,no formal education
+"['HTML', 'Swift', 'CSS', 'Go', 'C++']",3,"(36363, 96456)",Tindouf,pharma,phd
+"['CSS', 'Scala', 'Java', 'PHP', 'C++']",7,"(41189, 48893)",In Guezzam,finance,ingenieur
+"['Python', 'C#', 'Swift']",10,"(85282, 126841)",Tiaret,software,ingenieur
+"['Java', 'C++', 'CSS']",6,"(95737, 118911)",Tiaret,healthcare,doctorate
+"['Swift', 'Go']",1,"(42314, 107363)",Oran,consulting,bachelor
+"['HTML', 'JavaScript', 'C#', 'CSS', 'PHP']",6,"(96342, 138461)",Beni Abbes,advertising,no formal education
+"['SQL', 'Scala', 'PHP', 'C++', 'HTML']",0,"(72385, 130406)",Ouargla,it,doctorate
+"['Go', 'C++', 'HTML', 'Java']",9,"(42304, 120348)",Alger,it,bachelor's
+"['R', 'HTML', 'Scala']",9,"(75494, 104998)",El Tarf,finance,no formal education
+"['C#', 'R']",10,"(32399, 112433)",Touggourt,business,master
+"['R', 'Go', 'JavaScript', 'Swift']",3,"(74899, 107732)",Sidi Bel Abbes,tech,technical diploma
+['PHP'],8,"(71871, 131119)",Batna,medical,bachelor
+"['MATLAB', 'CSS', 'JavaScript']",0,"(87922, 159165)",Chlef,banking,master
+"['Ruby', 'CSS']",1,"(60530, 120368)",Illizi,advertising,phd
+"['CSS', 'Ruby', 'Go', 'R', 'JavaScript']",2,"(57445, 78083)",Ouargla,sales,technical diploma
+"['Ruby', 'R', 'PHP']",3,"(43392, 71739)",Khenchela,information technology,phd
+"['R', 'JavaScript']",9,"(58973, 121027)",Adrar,medical,master's
+"['MATLAB', 'CSS', 'R', 'Go']",0,"(41546, 127955)",Biskra,marketing,technical diploma
+"['Swift', 'C#']",1,"(35981, 65763)",Djanet,software,master's
+"['JavaScript', 'Go', 'C++', 'Scala']",10,"(74477, 118692)",Illizi,it,master's
+"['Swift', 'SQL']",4,"(76703, 92928)",Mascara,it,master's
+"['Swift', 'MATLAB', 'Java']",6,"(31605, 128241)",Sidi Bel Abbes,information technology,technical diploma
+['Swift'],4,"(90530, 140599)",Tindouf,information technology,master
+"['PHP', 'C++', 'Python']",1,"(97007, 120546)",El Menia,software,master's
+"['CSS', 'Ruby']",2,"(58859, 158219)",Bordj Badji Mokhtar,healthcare,high school
+"['JavaScript', 'C++']",2,"(96009, 126819)",Tiaret,consulting,phd
+['CSS'],7,"(61746, 83138)",Laghouat,accounting,ingenieur
+"['R', 'HTML', 'Scala']",6,"(75342, 93209)",Oum El Bouaghi,business,master
+"['Java', 'Scala', 'MATLAB', 'SQL', 'Ruby']",7,"(88881, 136492)",In Salah,tech,master
+['Python'],2,"(21653, 110118)",Ain Defla,sales,phd
+"['Python', 'SQL', 'HTML', 'Ruby']",0,"(65545, 144738)",Tamanrasset,software,master's
+['Python'],0,"(60396, 112300)",Ouled Djellal,health,no formal education
+"['C#', 'MATLAB', 'Python', 'CSS']",9,"(96513, 183110)",Bejaia,information technology,master's
+"['Go', 'MATLAB', 'Ruby']",4,"(64724, 124202)",Khenchela,health,high school
+"['CSS', 'JavaScript']",6,"(95140, 187784)",Ouargla,information technology,high school
+['CSS'],5,"(29544, 65613)",Ouargla,information technology,ingenieur
+"['C#', 'CSS', 'PHP']",3,"(71378, 114633)",Bejaia,tech,technical diploma
+['Python'],7,"(91501, 181381)",Bechar,pharma,bachelor
+"['PHP', 'JavaScript', 'C++']",1,"(48857, 123824)",Oran,banking,ingenieur
+"['CSS', 'Python']",10,"(24055, 46408)",Tlemcen,information technology,ingenieur
+"['Python', 'SQL', 'Go', 'MATLAB', 'Swift']",3,"(63762, 116216)",Ain Defla,it,bachelor
+['R'],1,"(76316, 126695)",Biskra,health,doctorate
+['Python'],0,"(84394, 144231)",Laghouat,medical,master's
+"['SQL', 'Java', 'Python']",4,"(68816, 95198)",Bejaia,business,high school
+['Go'],6,"(58758, 81221)",Boumerdes,medical,phd
+['Ruby'],2,"(54777, 110003)",Oran,accounting,bachelor
+"['Go', 'Python', 'HTML']",10,"(32840, 115157)",Sidi Bel Abbes,banking,no formal education
+['R'],2,"(77373, 145551)",Chlef,sales,no formal education
+['JavaScript'],10,"(40290, 110491)",Khenchela,software,bachelor's
+['HTML'],1,"(85458, 90584)",Mila,tech,high school
+"['Ruby', 'HTML', 'JavaScript', 'CSS']",2,"(94846, 125679)",Mascara,software,bachelor's
+"['Java', 'CSS', 'PHP', 'HTML', 'SQL']",8,"(67934, 117493)",El Oued,accounting,high school
+"['MATLAB', 'Swift']",1,"(27485, 32832)",Chlef,accounting,doctorate
+['PHP'],6,"(77734, 158099)",Beni Abbes,business,bachelor
+"['JavaScript', 'Swift', 'Ruby', 'CSS', 'HTML']",4,"(79724, 137101)",In Guezzam,consulting,technical diploma
+"['PHP', 'JavaScript']",2,"(35959, 53081)",Batna,banking,phd
+['R'],8,"(51165, 131215)",In Guezzam,tech,master
+"['C++', 'MATLAB', 'Java']",7,"(88237, 167511)",Mila,consulting,doctorate
+"['MATLAB', 'Ruby']",7,"(35735, 98831)",Timimoun,information technology,master
+"['CSS', 'Ruby', 'Python', 'R', 'Java']",3,"(97907, 152785)",Ghardaia,advertising,master's
+"['JavaScript', 'PHP']",6,"(88720, 165976)",Bejaia,sales,phd
+['C++'],4,"(45082, 131584)",Ain Defla,advertising,doctorate
+"['Java', 'PHP', 'JavaScript']",7,"(62641, 149799)",Batna,finance,phd
+"['CSS', 'Ruby', 'Scala', 'HTML']",0,"(45819, 92846)",Bouira,tech,bachelor
+['Go'],10,"(31555, 71304)",El Oued,software,bachelor's
+"['SQL', 'Java', 'JavaScript']",10,"(93580, 173661)",Oran,finance,bachelor
+"['C#', 'SQL', 'JavaScript']",7,"(39006, 114748)",Tizi Ouzou,advertising,high school
+['R'],10,"(33868, 76250)",Annaba,medical,bachelor
+['Java'],0,"(23368, 39800)",In Salah,sales,bachelor
+"['PHP', 'JavaScript', 'Scala', 'C#', 'MATLAB']",9,"(67103, 86673)",In Guezzam,advertising,bachelor's
+"['SQL', 'Python', 'PHP']",7,"(76585, 119684)",Souk Ahras,sales,ingenieur
+"['C#', 'JavaScript', 'Python']",0,"(24152, 67483)",Timimoun,marketing,master
+['Python'],10,"(94536, 148443)",Bordj Bou Arreridj,sales,ingenieur
+['C#'],4,"(22976, 72591)",Ain Temouchent,software,technical diploma
+"['CSS', 'C#', 'MATLAB']",2,"(87937, 135596)",El M'Ghair,pharma,ingenieur
+"['Java', 'MATLAB', 'PHP']",7,"(30334, 118573)",Tamanrasset,marketing,bachelor's
+['CSS'],7,"(21806, 56544)",Bordj Badji Mokhtar,accounting,doctorate
+['SQL'],5,"(44355, 112356)",Djelfa,medical,high school
+"['CSS', 'JavaScript', 'Python', 'PHP']",8,"(55932, 74585)",Bordj Bou Arreridj,it,technical diploma
+"['MATLAB', 'HTML', 'CSS', 'Swift', 'Go']",0,"(92179, 98195)",Relizane,advertising,master's
+['PHP'],1,"(63432, 81138)",Oran,marketing,ingenieur
+"['Scala', 'Go', 'SQL']",2,"(78392, 85559)",Bordj Badji Mokhtar,medical,ingenieur
+"['JavaScript', 'MATLAB', 'Ruby', 'Python']",6,"(91277, 170363)",Constantine,it,bachelor's
+"['Swift', 'C#', 'PHP']",2,"(55506, 90949)",Tissemsilt,software,bachelor's
+"['PHP', 'C#', 'MATLAB', 'Ruby']",10,"(92549, 99632)",Adrar,tech,no formal education
+['SQL'],10,"(42025, 80608)",Tiaret,advertising,no formal education
+"['Ruby', 'Java', 'R', 'Python']",10,"(58740, 69348)",Beni Abbes,software,phd
+['R'],6,"(50661, 81949)",Ouled Djellal,it,master
+"['C++', 'Scala', 'Java', 'Swift', 'Go']",10,"(85917, 131859)",Oran,information technology,no formal education
+"['JavaScript', 'C#', 'C++']",2,"(57331, 148411)",Guelma,medical,master
+"['CSS', 'HTML', 'C++', 'Java', 'Swift']",7,"(20448, 108973)",Bouira,marketing,bachelor
+['MATLAB'],8,"(71177, 100415)",El Tarf,accounting,no formal education
+"['Java', 'C#', 'C++', 'R']",2,"(22201, 67870)",Bejaia,accounting,master's
+"['Java', 'JavaScript', 'HTML']",10,"(88853, 160824)",Constantine,advertising,doctorate
+"['Swift', 'JavaScript']",2,"(85386, 134243)",Beni Abbes,healthcare,technical diploma
+"['Python', 'Swift', 'HTML', 'PHP']",0,"(56664, 76335)",Mila,health,technical diploma
+"['HTML', 'Python', 'Go', 'Ruby', 'C#']",8,"(21082, 36555)",Illizi,business,bachelor's
+"['JavaScript', 'Swift']",8,"(65993, 141442)",Constantine,tech,master
+['HTML'],4,"(74020, 122283)",M'Sila,pharma,no formal education
+"['MATLAB', 'Java', 'C++']",2,"(94292, 153326)",Bouira,information technology,no formal education
+"['JavaScript', 'Go', 'SQL']",3,"(59016, 105780)",Tindouf,healthcare,phd
+"['Python', 'R']",6,"(75871, 175013)",M'Sila,software,master
+"['R', 'PHP', 'C++', 'Python', 'MATLAB']",6,"(55630, 127145)",Bouira,healthcare,ingenieur
+"['MATLAB', 'PHP']",4,"(53849, 88830)",Adrar,pharma,technical diploma
+"['C++', 'Python']",2,"(72903, 82946)",Mostaganem,sales,no formal education
+['R'],4,"(93874, 128370)",Tamanrasset,consulting,master's
+"['C++', 'JavaScript', 'MATLAB']",0,"(79808, 166144)",Ouled Djellal,sales,no formal education
+"['Scala', 'Swift', 'Python', 'C#', 'PHP']",8,"(24544, 90854)",Naama,advertising,bachelor's
+"['Swift', 'Python']",6,"(23444, 107418)",Relizane,software,bachelor
+"['JavaScript', 'Java', 'PHP', 'Swift', 'CSS']",5,"(53526, 70409)",Relizane,advertising,phd
+"['MATLAB', 'Java', 'Python', 'Scala', 'R']",1,"(83995, 156460)",Adrar,health,technical diploma
+['Python'],5,"(27573, 75251)",El M'Ghair,business,bachelor's
+"['Python', 'Java', 'Go', 'C#']",5,"(65820, 135364)",In Guezzam,advertising,high school
+"['CSS', 'C#', 'Python', 'HTML', 'JavaScript']",1,"(57505, 117022)",Sidi Bel Abbes,banking,no formal education
+"['PHP', 'Java', 'JavaScript']",9,"(41728, 78709)",Touggourt,it,phd
+['PHP'],1,"(73064, 144708)",Mascara,pharma,master
+['SQL'],7,"(62887, 122449)",Saida,health,no formal education
+"['C++', 'SQL', 'CSS', 'Scala', 'JavaScript']",10,"(56914, 145701)",Ouled Djellal,health,ingenieur
+"['Python', 'Go']",4,"(85312, 173604)",Bejaia,business,no formal education
+"['C++', 'JavaScript', 'Go', 'HTML', 'R']",4,"(68608, 114045)",Tebessa,information technology,doctorate
+"['Ruby', 'Java', 'R', 'JavaScript']",9,"(61135, 137918)",Relizane,health,bachelor
+"['Java', 'Ruby', 'JavaScript']",10,"(25246, 81606)",M'Sila,marketing,bachelor's
+"['C++', 'C#', 'Swift', 'JavaScript']",7,"(28719, 85222)",Mostaganem,pharma,bachelor
+['C++'],1,"(43388, 114368)",Chlef,software,high school
+"['Swift', 'C#', 'CSS', 'Python', 'PHP']",3,"(54313, 91737)",Jijel,accounting,high school
+"['CSS', 'C++', 'Scala', 'MATLAB']",3,"(34427, 108100)",Ouled Djellal,consulting,bachelor's
+"['Java', 'MATLAB', 'HTML', 'CSS']",1,"(44368, 121100)",Illizi,information technology,master
+['Ruby'],4,"(34362, 53984)",Tebessa,software,no formal education
+"['Go', 'R', 'C#', 'PHP']",10,"(56110, 147927)",Guelma,tech,master's
+"['Java', 'Swift', 'Python', 'MATLAB']",3,"(70150, 149481)",Mascara,healthcare,bachelor
+"['HTML', 'Java', 'C++', 'PHP']",2,"(97487, 112401)",Djanet,tech,high school
+"['C#', 'Python', 'JavaScript']",7,"(92656, 102744)",El Bayadh,consulting,phd
+"['PHP', 'CSS', 'Python']",7,"(57339, 135011)",Jijel,business,doctorate
+"['Scala', 'Java', 'MATLAB']",3,"(51297, 90147)",El Oued,advertising,technical diploma
+"['Java', 'C++']",8,"(92724, 185787)",Sidi Bel Abbes,pharma,technical diploma
+['SQL'],0,"(52932, 94710)",Tissemsilt,accounting,technical diploma
+"['C++', 'Scala', 'MATLAB', 'C#', 'Ruby']",9,"(27995, 47485)",Adrar,business,ingenieur
+"['Scala', 'Python', 'Java', 'CSS']",4,"(70425, 84353)",Tipaza,it,no formal education
+"['Ruby', 'C++']",2,"(63593, 157627)",Naama,software,doctorate
+"['Java', 'HTML', 'PHP']",6,"(28079, 39414)",Bouira,finance,master's
+"['Go', 'Java', 'Ruby', 'Scala']",4,"(28736, 68815)",In Guezzam,information technology,phd
+['Python'],1,"(21705, 107275)",Constantine,finance,ingenieur
+['Go'],9,"(32634, 131168)",Oum El Bouaghi,health,no formal education
+"['PHP', 'R', 'SQL', 'Scala', 'CSS']",2,"(42825, 98924)",Tipaza,accounting,bachelor's
+"['Java', 'SQL']",8,"(33782, 47631)",Bordj Badji Mokhtar,medical,master
+['Python'],8,"(97819, 189916)",Illizi,marketing,phd
+"['Scala', 'Ruby']",0,"(87813, 96621)",In Salah,finance,phd
+"['MATLAB', 'C#']",8,"(67149, 111267)",Souk Ahras,finance,bachelor's
+"['PHP', 'Ruby', 'SQL', 'Go', 'C#']",9,"(32903, 48578)",Bouira,tech,bachelor
+"['R', 'Go']",9,"(97092, 118057)",Bechar,business,bachelor's
+"['Java', 'MATLAB']",1,"(96309, 184782)",Ghardaia,sales,ingenieur
+['SQL'],9,"(53639, 116476)",Bordj Bou Arreridj,pharma,high school
+"['C#', 'C++', 'R']",1,"(91438, 146533)",Tebessa,software,doctorate
+"['PHP', 'Scala']",8,"(49708, 84672)",Djanet,business,technical diploma
+"['HTML', 'Python', 'CSS', 'R']",6,"(35115, 56734)",Tlemcen,software,doctorate
+"['SQL', 'MATLAB']",8,"(76821, 82984)",Djelfa,accounting,bachelor
+"['SQL', 'PHP']",8,"(53601, 103972)",Ouargla,banking,phd
+"['Scala', 'SQL', 'C++', 'MATLAB', 'CSS']",10,"(61975, 79993)",Mostaganem,pharma,phd
+"['Java', 'HTML', 'Go', 'MATLAB', 'Ruby']",6,"(73494, 100614)",Boumerdes,software,bachelor's
+"['Python', 'Scala', 'Swift', 'CSS']",8,"(50565, 149823)",El Bayadh,health,bachelor
+"['Java', 'MATLAB', 'JavaScript', 'Python']",4,"(75528, 164266)",Skikda,consulting,master
+"['MATLAB', 'HTML']",2,"(68855, 98395)",Djelfa,marketing,master
+['Swift'],10,"(98647, 181804)",Tizi Ouzou,pharma,phd
+"['Scala', 'SQL', 'C++', 'JavaScript', 'Java']",8,"(73391, 158431)",Jijel,business,phd
+"['Ruby', 'Swift', 'PHP']",0,"(65124, 122562)",Khenchela,business,master
+"['Ruby', 'MATLAB', 'JavaScript', 'R', 'C++']",8,"(92838, 178671)",Tizi Ouzou,software,bachelor
+"['MATLAB', 'C#', 'Python']",1,"(68468, 166250)",Sidi Bel Abbes,advertising,technical diploma
+['MATLAB'],4,"(34026, 113883)",Annaba,consulting,bachelor
+"['Java', 'Python']",4,"(33200, 110333)",Bordj Badji Mokhtar,advertising,phd
+"['Scala', 'C#', 'JavaScript', 'Go', 'Swift']",4,"(50613, 120918)",Adrar,marketing,phd
+['PHP'],10,"(33330, 63411)",Tizi Ouzou,health,phd
+"['Java', 'Go', 'R', 'HTML']",1,"(72283, 154744)",Skikda,information technology,no formal education
+"['JavaScript', 'C++', 'PHP', 'Ruby']",4,"(56469, 119823)",Tindouf,marketing,master's
+"['R', 'CSS']",3,"(48061, 68705)",In Guezzam,information technology,ingenieur
+"['R', 'Python', 'C#', 'Scala', 'PHP']",5,"(31198, 68604)",Djanet,sales,technical diploma
+"['Java', 'Go']",4,"(35018, 72125)",Naama,banking,phd
+"['MATLAB', 'PHP']",9,"(63845, 77178)",Medea,healthcare,technical diploma
+"['HTML', 'R', 'MATLAB', 'Ruby', 'Swift']",3,"(78624, 157510)",Alger,tech,doctorate
+"['SQL', 'R']",0,"(59098, 120123)",Constantine,medical,technical diploma
+"['Swift', 'MATLAB', 'CSS', 'JavaScript', 'SQL']",3,"(95110, 164876)",Bordj Bou Arreridj,information technology,high school
+"['C++', 'MATLAB']",0,"(26283, 111801)",Tipaza,medical,master
+"['Swift', 'PHP', 'C++']",8,"(80403, 111938)",Khenchela,business,no formal education
+"['R', 'PHP', 'JavaScript', 'HTML']",1,"(70356, 151676)",Blida,accounting,bachelor's
+"['MATLAB', 'SQL', 'Java']",2,"(86840, 99037)",Mostaganem,marketing,bachelor
+"['HTML', 'Go', 'SQL', 'Java', 'PHP']",9,"(45790, 108803)",Tebessa,medical,technical diploma
+"['Swift', 'Python', 'PHP']",5,"(92413, 116751)",Tindouf,accounting,master
+"['HTML', 'R', 'SQL', 'MATLAB']",3,"(49637, 127683)",Bechar,banking,doctorate
+"['C#', 'Ruby']",3,"(59348, 124293)",Mila,sales,technical diploma
+"['C++', 'Swift', 'Go', 'Python']",9,"(67394, 157001)",Tebessa,health,technical diploma
+['PHP'],1,"(86857, 162358)",Ouled Djellal,healthcare,technical diploma
+"['Swift', 'SQL', 'Go', 'Python']",4,"(78146, 157788)",Illizi,marketing,master's
+"['Python', 'Swift', 'C++']",4,"(21769, 94745)",Setif,health,technical diploma
+['C#'],10,"(55504, 79579)",Setif,tech,bachelor's
+"['SQL', 'Scala', 'Python']",6,"(91490, 189939)",Tissemsilt,business,no formal education
+"['MATLAB', 'R', 'CSS', 'C++', 'Go']",2,"(48208, 132515)",Bordj Badji Mokhtar,sales,master
+"['JavaScript', 'C++']",9,"(84323, 155213)",In Salah,tech,master's
+"['CSS', 'PHP']",3,"(74206, 104965)",Tlemcen,sales,ingenieur
+"['HTML', 'JavaScript', 'Swift', 'Java', 'Ruby']",4,"(92207, 148472)",Mascara,it,phd
+"['Java', 'Python']",0,"(72538, 141348)",El Menia,finance,no formal education
+"['Swift', 'C++', 'MATLAB', 'Python']",4,"(89971, 131148)",Mostaganem,finance,doctorate
+"['Go', 'Scala']",9,"(87887, 123304)",Tipaza,advertising,master's
+"['Scala', 'MATLAB', 'SQL', 'Python']",1,"(69743, 75064)",Ghardaia,advertising,no formal education
+"['PHP', 'Ruby', 'MATLAB']",8,"(26224, 110370)",Touggourt,finance,high school
+"['HTML', 'Swift']",9,"(51350, 136134)",Tebessa,business,phd
+"['PHP', 'R', 'Java', 'JavaScript']",7,"(28900, 90449)",El Menia,marketing,no formal education
+"['PHP', 'R', 'C++']",4,"(31614, 50818)",El M'Ghair,medical,doctorate
+['C#'],6,"(22082, 87629)",Saida,it,master
+"['SQL', 'PHP', 'Go']",1,"(61106, 100621)",Boumerdes,finance,bachelor
+['Swift'],0,"(22734, 103760)",Tlemcen,banking,no formal education
+"['C++', 'Python', 'R', 'Go']",8,"(51320, 66043)",M'Sila,health,bachelor's
+"['Go', 'JavaScript']",4,"(91004, 132585)",Tebessa,tech,high school
+['CSS'],3,"(53412, 85154)",Tindouf,tech,ingenieur
+"['PHP', 'JavaScript']",5,"(35203, 93727)",Adrar,tech,doctorate
+['R'],9,"(58821, 111072)",El Oued,it,ingenieur
+"['R', 'C++', 'PHP', 'Scala', 'Swift']",6,"(69203, 155138)",Laghouat,medical,bachelor's
+['HTML'],7,"(52842, 123327)",Sidi Bel Abbes,it,no formal education
+['Go'],1,"(93789, 128344)",Blida,sales,high school
+"['C#', 'C++']",4,"(40377, 99310)",Khenchela,sales,ingenieur
+"['Go', 'Java', 'Ruby', 'PHP', 'MATLAB']",0,"(64163, 157637)",Skikda,finance,technical diploma
+"['MATLAB', 'Scala']",2,"(63524, 104296)",Djanet,consulting,technical diploma
+"['CSS', 'Swift', 'JavaScript']",8,"(37228, 46626)",Jijel,information technology,master's
+"['HTML', 'PHP', 'SQL', 'JavaScript']",8,"(99762, 193699)",Ghardaia,healthcare,bachelor
+"['CSS', 'SQL', 'PHP', 'C++']",8,"(88808, 115018)",Naama,medical,ingenieur
+"['Swift', 'PHP', 'Python', 'JavaScript']",0,"(59751, 100469)",In Salah,sales,high school
+"['C++', 'Java', 'Go', 'R']",7,"(72346, 163141)",Timimoun,banking,technical diploma
+"['JavaScript', 'PHP', 'C#', 'HTML', 'MATLAB']",10,"(98384, 178600)",Laghouat,marketing,doctorate
+"['Ruby', 'SQL']",1,"(37610, 51648)",Tissemsilt,it,bachelor's
+"['R', 'HTML']",9,"(82453, 161364)",Tlemcen,health,doctorate
+"['Swift', 'MATLAB', 'C#']",5,"(76517, 123798)",Bechar,software,phd
+"['C++', 'PHP', 'Scala']",3,"(80005, 126358)",Bordj Badji Mokhtar,banking,bachelor
+"['R', 'C++']",0,"(47390, 77675)",Djanet,software,master's
+"['SQL', 'Python', 'Ruby', 'CSS', 'HTML']",7,"(36769, 91471)",In Guezzam,sales,ingenieur
+"['CSS', 'Swift', 'Python', 'SQL']",9,"(47923, 135364)",Bejaia,software,master's
+"['C#', 'Python', 'Go']",7,"(86518, 152699)",Skikda,pharma,master's
+['JavaScript'],2,"(93607, 182007)",Bordj Bou Arreridj,finance,master's
+"['Ruby', 'C++']",8,"(44315, 138705)",Blida,banking,master
+"['Java', 'R']",2,"(81880, 173206)",Relizane,sales,high school
+"['PHP', 'Java', 'C++', 'HTML']",7,"(41742, 67371)",Chlef,tech,master
+"['Ruby', 'Swift', 'Java', 'MATLAB']",3,"(74102, 166964)",Ouargla,banking,doctorate
+"['Python', 'CSS', 'PHP', 'Swift', 'Scala']",3,"(39671, 54888)",El Oued,pharma,high school
+['Swift'],6,"(95665, 166831)",El M'Ghair,consulting,master's
+"['Go', 'MATLAB', 'JavaScript', 'Python']",2,"(32135, 83995)",Bordj Badji Mokhtar,accounting,ingenieur
+"['Java', 'C#', 'Swift']",4,"(48754, 125991)",Constantine,advertising,master's
+['MATLAB'],3,"(86750, 111282)",Mostaganem,it,high school
+['R'],6,"(68326, 79552)",Ghardaia,banking,ingenieur
+"['Python', 'SQL', 'R']",9,"(93301, 133393)",El M'Ghair,accounting,master
+"['HTML', 'Scala', 'Ruby']",7,"(88880, 142999)",Batna,business,no formal education
+"['Go', 'Scala', 'Java', 'HTML']",4,"(66922, 140397)",Mila,software,phd
+['JavaScript'],8,"(69266, 142988)",Sidi Bel Abbes,medical,no formal education
+['C++'],3,"(76991, 97572)",Djelfa,marketing,phd
+"['Swift', 'PHP', 'C#']",9,"(30767, 86463)",El Menia,pharma,doctorate
+"['PHP', 'R', 'Go', 'MATLAB']",7,"(68626, 107902)",Setif,information technology,ingenieur
+"['Scala', 'Go', 'Swift']",10,"(32223, 38278)",Timimoun,healthcare,technical diploma
+"['Swift', 'HTML', 'Ruby']",8,"(89668, 187150)",Bordj Bou Arreridj,software,bachelor's
+"['C#', 'Go', 'SQL', 'Scala']",7,"(70031, 157413)",El Tarf,finance,bachelor's
+"['MATLAB', 'Swift', 'C++', 'Ruby']",6,"(53088, 98407)",Oran,marketing,bachelor
+"['C++', 'CSS', 'Python', 'SQL']",8,"(87731, 161519)",Bejaia,marketing,master's
+"['Go', 'MATLAB', 'SQL']",4,"(70032, 113430)",Tlemcen,accounting,no formal education
+"['Java', 'Go', 'C#']",10,"(54441, 114656)",In Salah,information technology,master
+"['MATLAB', 'R', 'C++', 'C#']",9,"(90795, 104790)",Ain Defla,health,technical diploma
+"['Java', 'R']",4,"(93285, 168547)",Khenchela,sales,bachelor
+"['CSS', 'Swift', 'R', 'SQL', 'Ruby']",0,"(27789, 62193)",Tizi Ouzou,pharma,high school
+"['HTML', 'Ruby']",2,"(91696, 124630)",Bordj Badji Mokhtar,sales,bachelor's
+"['MATLAB', 'HTML', 'SQL', 'PHP']",2,"(88707, 174262)",Bejaia,finance,ingenieur
+"['Ruby', 'PHP', 'C++', 'JavaScript']",6,"(63940, 116432)",Timimoun,accounting,master's
+"['Java', 'HTML', 'Scala']",9,"(56819, 146016)",Batna,finance,technical diploma
+"['Scala', 'CSS', 'SQL', 'HTML', 'C++']",1,"(72448, 101021)",Tebessa,marketing,technical diploma
+"['SQL', 'HTML', 'Scala']",0,"(32253, 125357)",Alger,business,doctorate
+"['CSS', 'Python', 'SQL', 'Go']",8,"(63099, 140009)",Illizi,consulting,master's
+['C#'],6,"(74000, 112595)",Blida,tech,master's
+"['JavaScript', 'MATLAB']",9,"(51519, 132196)",Tissemsilt,it,ingenieur
+"['JavaScript', 'Go']",1,"(74834, 116183)",El M'Ghair,marketing,high school
+['C#'],5,"(99054, 161544)",Tindouf,tech,high school
+"['C++', 'CSS', 'Go', 'R', 'Swift']",1,"(53292, 74076)",Laghouat,health,master
+"['PHP', 'R', 'Python', 'JavaScript']",4,"(78855, 131910)",In Guezzam,information technology,bachelor
+"['C++', 'C#', 'CSS', 'HTML']",8,"(97024, 185229)",Beni Abbes,health,bachelor
+"['MATLAB', 'PHP', 'Scala', 'HTML', 'C++']",4,"(53048, 58134)",Tindouf,pharma,master's
+"['SQL', 'HTML', 'Swift', 'Python']",5,"(61188, 90654)",Tipaza,banking,ingenieur
+"['Scala', 'SQL', 'C++']",9,"(93978, 170429)",Timimoun,it,bachelor
+"['C#', 'MATLAB', 'HTML', 'SQL', 'R']",4,"(81601, 128455)",Khenchela,finance,phd
+['Go'],4,"(94740, 111061)",Tebessa,healthcare,master
+"['MATLAB', 'Scala', 'Swift', 'CSS', 'C++']",10,"(70752, 100623)",In Salah,business,no formal education
+"['HTML', 'Python', 'JavaScript', 'Swift']",2,"(93145, 166917)",Tamanrasset,tech,bachelor's
+"['JavaScript', 'CSS', 'PHP', 'R', 'SQL']",6,"(44500, 51263)",Tebessa,medical,master
+"['PHP', 'C#', 'Python', 'MATLAB']",8,"(55254, 147775)",Medea,it,no formal education
+['C#'],10,"(67061, 103117)",Ain Defla,it,master
+['C++'],6,"(44171, 53988)",Setif,healthcare,high school
+"['HTML', 'R']",4,"(41736, 74657)",Mascara,software,master
+"['Java', 'Go', 'C++']",10,"(54211, 99303)",Tipaza,consulting,technical diploma
+"['Go', 'Ruby']",9,"(30298, 76214)",Ain Defla,marketing,bachelor
+"['HTML', 'CSS', 'MATLAB']",1,"(33450, 90050)",Constantine,tech,ingenieur
+"['Ruby', 'PHP', 'R']",9,"(55018, 109142)",M'Sila,medical,bachelor
+['MATLAB'],9,"(65320, 141566)",Saida,software,high school
+"['Ruby', 'C#', 'Scala', 'HTML', 'CSS']",7,"(42922, 106340)",In Guezzam,banking,technical diploma
+"['Scala', 'MATLAB', 'CSS', 'R']",5,"(52712, 75536)",Tlemcen,advertising,ingenieur
+"['HTML', 'Scala', 'MATLAB']",5,"(92929, 142774)",Skikda,advertising,no formal education
+"['Scala', 'HTML', 'MATLAB']",3,"(55037, 146146)",Blida,banking,ingenieur
+"['SQL', 'PHP', 'CSS', 'Swift', 'Scala']",8,"(37986, 108189)",Ouled Djellal,it,high school
+"['JavaScript', 'Go', 'HTML', 'Swift']",4,"(29291, 52117)",Sidi Bel Abbes,pharma,master's
+['CSS'],9,"(74423, 141366)",Mascara,information technology,phd
+"['C++', 'MATLAB']",0,"(30735, 43155)",Oum El Bouaghi,advertising,master
+"['Ruby', 'Scala']",5,"(78317, 125581)",Constantine,advertising,doctorate
+"['SQL', 'HTML', 'C#', 'PHP', 'Ruby']",8,"(51591, 105084)",Bouira,banking,phd
+"['Python', 'MATLAB', 'JavaScript', 'C++', 'Go']",8,"(77446, 144990)",Saida,health,no formal education
+"['Scala', 'HTML', 'Ruby']",10,"(96921, 163912)",Laghouat,software,ingenieur
+['Scala'],5,"(67475, 161399)",Guelma,accounting,master's
+"['MATLAB', 'Go']",4,"(99885, 156181)",Ghardaia,medical,technical diploma
+"['R', 'Go']",8,"(79124, 124410)",Bordj Bou Arreridj,finance,doctorate
+['Go'],1,"(27788, 43481)",Touggourt,pharma,doctorate
+"['Java', 'SQL']",7,"(25495, 107668)",Oran,healthcare,bachelor's
+"['Scala', 'JavaScript', 'Python', 'R', 'C#']",0,"(59554, 90981)",Tlemcen,healthcare,technical diploma
+"['MATLAB', 'HTML', 'Java']",10,"(51482, 97979)",Oran,it,technical diploma
+"['Java', 'C#']",8,"(32661, 81984)",Khenchela,banking,master's
+"['R', 'C++', 'HTML']",4,"(30161, 127516)",Tissemsilt,health,master
+"['JavaScript', 'R']",3,"(80729, 88347)",Illizi,software,ingenieur
+"['MATLAB', 'R']",1,"(84158, 116109)",Tlemcen,medical,no formal education
+"['Swift', 'CSS', 'Scala', 'Python']",7,"(63173, 104179)",Djelfa,sales,bachelor
+"['HTML', 'Python', 'JavaScript', 'C++']",5,"(29776, 70996)",Adrar,finance,ingenieur
+['Ruby'],9,"(85727, 135081)",Bordj Bou Arreridj,information technology,doctorate
+"['HTML', 'C++', 'Go', 'C#', 'JavaScript']",2,"(96048, 119546)",Oran,information technology,high school
+"['Swift', 'JavaScript', 'HTML', 'SQL', 'C++']",0,"(36041, 93854)",Touggourt,health,doctorate
+"['Python', 'Go']",6,"(99934, 124247)",In Salah,medical,high school
+"['MATLAB', 'JavaScript', 'HTML', 'PHP', 'C++']",3,"(71596, 135978)",Tlemcen,business,bachelor's
+"['C#', 'Swift', 'PHP']",9,"(55493, 66299)",Bordj Bou Arreridj,advertising,phd
+['C++'],5,"(38540, 120430)",Tebessa,consulting,master
+"['Java', 'C#']",9,"(36581, 74556)",Saida,consulting,bachelor
+['MATLAB'],7,"(44373, 93647)",In Guezzam,advertising,ingenieur
+"['Ruby', 'MATLAB', 'Go', 'C#', 'Java']",1,"(39633, 108628)",El Menia,accounting,no formal education
+"['Java', 'Scala', 'C++', 'R']",10,"(38403, 118868)",El M'Ghair,business,master
+"['SQL', 'R']",3,"(24710, 97116)",Tindouf,health,bachelor
+"['Ruby', 'R', 'Java']",5,"(63241, 93689)",Tindouf,accounting,bachelor
+"['C++', 'SQL']",2,"(34666, 77222)",El Bayadh,sales,master
+"['Scala', 'Java', 'C#', 'CSS', 'MATLAB']",6,"(43529, 117480)",Sidi Bel Abbes,marketing,technical diploma
+"['Swift', 'Python', 'C#', 'Java', 'Go']",1,"(44402, 104276)",Chlef,pharma,doctorate
+"['MATLAB', 'Swift']",7,"(20696, 35771)",Tizi Ouzou,accounting,phd
+"['R', 'CSS']",3,"(27749, 120170)",M'Sila,health,high school
+"['R', 'HTML']",3,"(81786, 151152)",Tlemcen,advertising,doctorate
+"['R', 'HTML', 'Swift', 'JavaScript', 'Java']",0,"(29955, 46412)",Timimoun,finance,ingenieur
+"['HTML', 'C#', 'Swift']",10,"(70994, 149499)",Ain Temouchent,health,no formal education
+"['HTML', 'SQL', 'CSS', 'PHP', 'Ruby']",7,"(47724, 73908)",Ghardaia,health,no formal education
+"['R', 'CSS', 'PHP']",3,"(49193, 99736)",Saida,finance,high school
+"['Go', 'C#', 'Java', 'R']",1,"(67650, 85349)",Tlemcen,marketing,no formal education
+"['CSS', 'Scala']",2,"(29496, 38396)",Tindouf,marketing,master
+['PHP'],5,"(70813, 168529)",Naama,advertising,master's
+"['Swift', 'C#']",1,"(82993, 147774)",Saida,pharma,bachelor
+"['JavaScript', 'R', 'Ruby', 'C++', 'HTML']",9,"(27477, 88029)",Tipaza,tech,no formal education
+"['Ruby', 'R', 'JavaScript']",3,"(83984, 122949)",Djanet,it,ingenieur
+"['SQL', 'HTML', 'PHP', 'JavaScript', 'C++']",6,"(45198, 67402)",Tlemcen,medical,bachelor
+"['Go', 'SQL', 'Python']",7,"(36013, 123484)",Constantine,advertising,technical diploma
+"['CSS', 'Go', 'R', 'HTML', 'C++']",2,"(26011, 40622)",El Oued,finance,technical diploma
+"['Java', 'Swift']",6,"(21628, 109016)",Skikda,pharma,bachelor's
+['C++'],6,"(81152, 90257)",Illizi,banking,phd
+['Go'],2,"(93794, 112976)",Adrar,it,technical diploma
+"['Python', 'Scala', 'JavaScript', 'Java']",8,"(71571, 140395)",Relizane,accounting,no formal education
+"['C#', 'Ruby']",4,"(30732, 40652)",Tipaza,healthcare,high school
+"['C#', 'MATLAB', 'HTML']",0,"(21027, 42572)",Biskra,business,master's
+"['HTML', 'PHP', 'C#', 'R']",3,"(63872, 94052)",Constantine,it,master
+['R'],8,"(79669, 134090)",Naama,it,master's
+['Python'],9,"(84470, 111570)",Oran,software,high school
+"['R', 'Ruby', 'HTML']",6,"(59816, 126959)",Illizi,it,ingenieur
+"['PHP', 'Python']",4,"(55724, 79588)",Ouargla,medical,no formal education
+"['PHP', 'MATLAB', 'HTML', 'Scala', 'Go']",8,"(85898, 128156)",Bordj Bou Arreridj,it,master
+"['R', 'Java']",7,"(88211, 143538)",Tizi Ouzou,banking,high school
+"['CSS', 'C#']",3,"(57616, 87917)",In Guezzam,banking,bachelor's
+"['CSS', 'C++', 'Swift', 'SQL']",0,"(29665, 45683)",M'Sila,banking,phd
+"['Python', 'SQL']",2,"(68075, 107500)",Tissemsilt,health,bachelor's
+['MATLAB'],9,"(56166, 62139)",Djanet,health,no formal education
+"['MATLAB', 'PHP', 'Swift', 'CSS', 'Python']",4,"(59809, 134815)",Mostaganem,banking,doctorate
+['Go'],8,"(64812, 153484)",Setif,information technology,ingenieur
+"['Java', 'MATLAB', 'Ruby', 'Swift', 'Scala']",4,"(49026, 78548)",In Guezzam,marketing,no formal education
+"['Swift', 'C++']",9,"(81996, 90825)",Djelfa,banking,bachelor
+"['Swift', 'Ruby', 'JavaScript']",2,"(96755, 139971)",Bordj Bou Arreridj,it,bachelor's
+"['R', 'Ruby', 'Swift', 'MATLAB', 'CSS']",10,"(85415, 115037)",El Tarf,marketing,master
+"['PHP', 'Scala']",7,"(33832, 71302)",Setif,banking,phd
+"['Ruby', 'Scala']",8,"(54339, 74415)",Boumerdes,software,master
+"['HTML', 'R']",6,"(90147, 178783)",Saida,marketing,high school
+"['HTML', 'JavaScript', 'MATLAB', 'Java', 'PHP']",3,"(29705, 84147)",Souk Ahras,medical,phd
+"['C#', 'JavaScript']",10,"(36287, 75968)",Medea,advertising,bachelor's
+"['Go', 'Java']",0,"(97092, 150500)",Alger,accounting,high school
+"['HTML', 'C#']",9,"(41270, 84729)",In Guezzam,advertising,bachelor's
+"['Java', 'PHP']",4,"(42919, 137319)",Naama,marketing,bachelor's
+['Java'],3,"(44275, 109786)",M'Sila,health,bachelor's
+['SQL'],9,"(71469, 140471)",Jijel,medical,bachelor's
+"['R', 'C++', 'Swift']",3,"(22058, 85677)",Illizi,tech,ingenieur
+"['Scala', 'SQL', 'CSS', 'PHP']",3,"(63465, 152297)",In Guezzam,banking,phd
+['CSS'],10,"(30777, 97722)",Ain Defla,information technology,master
+"['PHP', 'SQL', 'MATLAB', 'Ruby']",9,"(62855, 77036)",Tissemsilt,healthcare,master's
+"['Java', 'CSS', 'Swift', 'SQL', 'Ruby']",6,"(97438, 191605)",Blida,consulting,phd
+"['Scala', 'Python', 'MATLAB', 'C#', 'Go']",8,"(53194, 144720)",Khenchela,business,no formal education
+['Python'],8,"(44522, 52286)",Beni Abbes,accounting,phd
+"['MATLAB', 'Scala', 'SQL']",8,"(43926, 70899)",Adrar,healthcare,high school
+"['C++', 'MATLAB', 'C#']",2,"(88250, 97385)",Tipaza,accounting,ingenieur
+"['PHP', 'Ruby', 'Scala']",1,"(29777, 114198)",M'Sila,pharma,master's
+"['PHP', 'Java']",2,"(75473, 132643)",In Guezzam,it,ingenieur
+"['JavaScript', 'Python']",3,"(41248, 55486)",Bordj Bou Arreridj,tech,high school
+"['SQL', 'MATLAB', 'Swift', 'Ruby', 'PHP']",9,"(64257, 163494)",Laghouat,accounting,master's
+"['Ruby', 'PHP', 'CSS', 'MATLAB']",4,"(53553, 111834)",Biskra,accounting,ingenieur
+"['CSS', 'Python', 'C#', 'Go', 'HTML']",1,"(64709, 151215)",Mila,it,no formal education
+"['Go', 'C#', 'Swift', 'MATLAB', 'SQL']",3,"(40717, 98087)",Illizi,finance,no formal education
+"['Ruby', 'Go', 'Scala', 'JavaScript']",3,"(85012, 178331)",Laghouat,finance,no formal education
+"['Scala', 'Python', 'C++', 'SQL', 'JavaScript']",6,"(27177, 40722)",Tipaza,banking,bachelor's
+['Go'],10,"(60720, 152769)",Ain Defla,business,high school
+['Scala'],3,"(63182, 114404)",Tissemsilt,tech,doctorate
+['C++'],4,"(96206, 188177)",Timimoun,business,bachelor's
+"['Swift', 'Go', 'Python', 'HTML', 'SQL']",5,"(39353, 66749)",Mila,information technology,high school
+"['PHP', 'MATLAB', 'Go']",9,"(95651, 102192)",Boumerdes,information technology,no formal education
+"['Swift', 'SQL', 'Java']",6,"(76007, 170690)",Ghardaia,banking,bachelor
+['Scala'],2,"(69848, 106221)",Constantine,medical,bachelor
+"['Swift', 'Ruby', 'R', 'Go']",8,"(20633, 82258)",Ouargla,medical,ingenieur
+"['PHP', 'Scala']",10,"(87725, 143150)",Setif,consulting,doctorate
+"['MATLAB', 'Go', 'Java', 'CSS']",10,"(65740, 137587)",Djanet,sales,phd
+['Python'],7,"(71378, 116085)",Tindouf,consulting,high school
+"['Scala', 'C++']",4,"(88793, 100059)",El M'Ghair,it,bachelor's
+"['Java', 'Swift', 'C++', 'MATLAB']",7,"(95355, 195310)",Skikda,it,master's
+"['C#', 'Swift', 'C++']",3,"(81003, 105918)",Djelfa,it,phd
+"['MATLAB', 'R', 'SQL', 'CSS']",6,"(74533, 109535)",Tiaret,it,master
+"['MATLAB', 'Go', 'R', 'JavaScript', 'PHP']",0,"(25175, 40170)",Bouira,health,technical diploma
+"['Java', 'CSS', 'C#', 'Python']",6,"(92146, 154440)",Batna,healthcare,no formal education
+"['Java', 'Swift']",3,"(33439, 95154)",Constantine,healthcare,bachelor
+['Ruby'],7,"(64251, 112750)",Souk Ahras,information technology,master's
+"['HTML', 'Go', 'CSS', 'Java', 'C#']",3,"(52680, 108842)",Tissemsilt,it,ingenieur
+['MATLAB'],1,"(34835, 59489)",Bordj Bou Arreridj,accounting,technical diploma
+"['C#', 'MATLAB', 'C++', 'CSS']",1,"(59554, 66522)",Bechar,marketing,technical diploma
+"['R', 'HTML', 'C++', 'MATLAB']",3,"(47739, 118390)",Tindouf,information technology,master's
+"['PHP', 'R']",10,"(78379, 110921)",El Oued,advertising,high school
+"['C#', 'SQL']",4,"(55054, 89724)",Tebessa,finance,ingenieur
+"['HTML', 'MATLAB', 'Go', 'JavaScript', 'Ruby']",6,"(67899, 76296)",Mascara,health,high school
+"['CSS', 'SQL', 'Swift']",4,"(51849, 68660)",In Salah,health,ingenieur
+"['Swift', 'JavaScript']",1,"(77411, 83649)",Tissemsilt,information technology,technical diploma
+"['HTML', 'C#']",10,"(65197, 91111)",Naama,consulting,bachelor
+"['PHP', 'Python', 'HTML']",0,"(50664, 75716)",El Menia,marketing,technical diploma
+['Scala'],7,"(88532, 105161)",Ghardaia,health,ingenieur
+['Python'],3,"(29741, 85328)",Bordj Badji Mokhtar,information technology,technical diploma
+"['HTML', 'CSS', 'R']",4,"(81420, 168196)",Tipaza,healthcare,bachelor
+"['Java', 'C++', 'SQL', 'JavaScript']",2,"(72012, 90902)",El Menia,marketing,no formal education
+"['C#', 'Java']",2,"(34534, 70071)",Bouira,software,technical diploma
+"['PHP', 'Go', 'C#']",2,"(34047, 58080)",El Bayadh,information technology,technical diploma
+"['Scala', 'Python', 'Java']",5,"(33348, 108157)",Bechar,accounting,doctorate
+['Scala'],2,"(65732, 126344)",Touggourt,finance,phd
+['PHP'],6,"(83494, 164427)",Bordj Bou Arreridj,pharma,doctorate
+"['JavaScript', 'CSS', 'MATLAB', 'Python']",9,"(41454, 141388)",Mostaganem,sales,doctorate
+"['Ruby', 'Go', 'Scala']",8,"(88512, 177312)",Djanet,advertising,master
+"['CSS', 'Scala', 'C++', 'R', 'Java']",9,"(32131, 58722)",Souk Ahras,healthcare,bachelor
+"['HTML', 'Go', 'C++']",5,"(59418, 96313)",Chlef,business,bachelor's
+"['C#', 'R', 'PHP']",5,"(43979, 84376)",Ouargla,marketing,ingenieur
+"['Go', 'SQL', 'JavaScript']",1,"(63450, 150006)",Tlemcen,advertising,bachelor's
+"['CSS', 'C++', 'MATLAB', 'Swift', 'R']",2,"(62396, 156384)",Ghardaia,pharma,ingenieur
+"['Go', 'Ruby', 'Swift', 'HTML', 'MATLAB']",8,"(81309, 91489)",Bejaia,advertising,phd
+"['SQL', 'HTML', 'MATLAB']",3,"(46904, 75153)",Tebessa,finance,ingenieur
+"['C++', 'MATLAB', 'PHP', 'Python']",7,"(36708, 97310)",El M'Ghair,information technology,bachelor's
+"['PHP', 'HTML', 'SQL']",7,"(33639, 72180)",In Guezzam,medical,master's
+"['Ruby', 'JavaScript', 'C++']",5,"(95887, 140407)",Illizi,health,bachelor
+"['C#', 'MATLAB', 'Ruby', 'HTML']",10,"(89436, 155211)",Tindouf,advertising,master
+"['C#', 'JavaScript']",1,"(66689, 133057)",Bouira,accounting,high school
+"['HTML', 'Swift', 'PHP']",10,"(33352, 88628)",El Bayadh,information technology,technical diploma
+"['Python', 'Java', 'Swift']",10,"(56141, 89293)",Adrar,healthcare,high school
+"['Java', 'Go', 'SQL', 'C++']",7,"(76792, 138328)",Chlef,medical,ingenieur
+"['C++', 'CSS', 'Python', 'Java', 'MATLAB']",5,"(57691, 93346)",Medea,advertising,phd
+"['HTML', 'Swift']",3,"(39910, 95357)",Guelma,tech,bachelor's
+"['Swift', 'PHP', 'JavaScript']",8,"(95270, 130191)",Tamanrasset,advertising,ingenieur
+"['JavaScript', 'Java']",6,"(42625, 114740)",Mostaganem,advertising,doctorate
+"['Python', 'Java']",1,"(73245, 100646)",Ouargla,medical,no formal education
+"['Ruby', 'JavaScript', 'Python', 'Go']",3,"(23524, 33845)",Beni Abbes,business,ingenieur
+['SQL'],7,"(68409, 94434)",Naama,information technology,doctorate
+"['HTML', 'SQL', 'Ruby', 'Go', 'CSS']",8,"(49378, 138570)",Ghardaia,tech,phd
+"['C++', 'PHP']",10,"(74208, 108836)",Beni Abbes,tech,bachelor's
+"['Python', 'Ruby', 'Java']",10,"(67592, 160628)",Ouled Djellal,tech,bachelor
+"['MATLAB', 'PHP', 'R', 'JavaScript']",10,"(58073, 132652)",Tebessa,information technology,no formal education
+['PHP'],7,"(21186, 50105)",Ouled Djellal,pharma,bachelor's
+"['CSS', 'C++']",6,"(41300, 131427)",Ain Temouchent,advertising,master's
+"['JavaScript', 'Ruby']",6,"(91697, 151643)",Tebessa,sales,high school
+"['SQL', 'HTML', 'Go', 'CSS']",6,"(57853, 87777)",El Bayadh,advertising,technical diploma
+"['R', 'JavaScript', 'Java', 'C#', 'Swift']",1,"(57430, 85684)",Annaba,it,no formal education
+"['Java', 'PHP']",6,"(43414, 59623)",El Menia,tech,master
+['Python'],0,"(57152, 112513)",Tiaret,healthcare,phd
+"['Ruby', 'CSS', 'Swift', 'PHP', 'HTML']",5,"(38563, 131977)",Constantine,advertising,bachelor
+"['CSS', 'C#', 'Scala']",2,"(97587, 119246)",Setif,business,high school
+"['JavaScript', 'MATLAB', 'Java']",0,"(82470, 120423)",Jijel,consulting,master
+['Ruby'],4,"(36688, 69400)",Alger,accounting,no formal education
+"['JavaScript', 'CSS']",8,"(90740, 134059)",Tizi Ouzou,finance,high school
+"['HTML', 'R']",6,"(51479, 72535)",Khenchela,finance,master
+"['PHP', 'C#', 'MATLAB', 'R', 'Scala']",0,"(46124, 61396)",Boumerdes,information technology,phd
+['Swift'],2,"(77521, 157669)",Djanet,business,master
+"['PHP', 'Swift', 'HTML', 'Go']",5,"(95839, 184733)",Skikda,advertising,doctorate
+"['PHP', 'Java', 'C++']",2,"(76267, 131447)",Sidi Bel Abbes,business,doctorate
+['Scala'],2,"(66772, 74273)",Adrar,banking,technical diploma
+"['Swift', 'PHP']",7,"(84306, 141090)",Ain Temouchent,pharma,ingenieur
+"['C++', 'Ruby', 'Swift', 'MATLAB']",4,"(44924, 71967)",Constantine,marketing,ingenieur
+"['Java', 'Go', 'Scala']",2,"(82662, 96720)",M'Sila,accounting,bachelor's
+"['Ruby', 'C++', 'SQL', 'C#']",3,"(60759, 110751)",Boumerdes,accounting,phd
+"['C++', 'Scala', 'Go', 'SQL']",9,"(30200, 113268)",Djanet,health,ingenieur
+"['Java', 'C#', 'CSS', 'C++']",7,"(43031, 131809)",Bouira,medical,no formal education
+"['Scala', 'R', 'MATLAB', 'Swift', 'CSS']",9,"(57982, 90679)",Chlef,business,bachelor
+"['Java', 'Ruby', 'HTML', 'MATLAB', 'Go']",4,"(48736, 99216)",Tamanrasset,tech,master
+['MATLAB'],4,"(93659, 118652)",El Tarf,medical,ingenieur
+"['HTML', 'Scala', 'Python', 'Ruby']",9,"(23163, 40452)",Sidi Bel Abbes,sales,technical diploma
+"['C++', 'PHP']",10,"(70701, 75963)",Blida,health,no formal education
+"['R', 'Scala', 'MATLAB', 'Go']",8,"(30968, 84123)",Mascara,marketing,doctorate
+"['Scala', 'Go', 'Swift', 'C#', 'Ruby']",9,"(73874, 131693)",Naama,consulting,doctorate
+['Go'],1,"(89139, 115507)",Touggourt,medical,no formal education
+"['MATLAB', 'SQL', 'Go', 'Ruby', 'Scala']",0,"(98732, 188711)",El Bayadh,information technology,ingenieur
+"['R', 'C++', 'JavaScript', 'Python', 'PHP']",0,"(26102, 69671)",Batna,sales,high school
+"['C#', 'Swift']",0,"(50416, 92643)",Oum El Bouaghi,healthcare,master
+"['Swift', 'PHP', 'HTML', 'JavaScript']",8,"(81554, 128978)",Chlef,marketing,bachelor
+"['Go', 'Python', 'PHP', 'C#']",6,"(46267, 52327)",Bejaia,marketing,doctorate
+"['C++', 'Ruby', 'Scala']",7,"(47203, 110404)",Ghardaia,marketing,technical diploma
+"['C++', 'Go', 'CSS', 'Swift']",4,"(80048, 162662)",Ain Defla,consulting,bachelor
+"['C++', 'C#']",1,"(37777, 121956)",Jijel,tech,technical diploma
+"['JavaScript', 'Go', 'SQL', 'Ruby']",2,"(60175, 130799)",Boumerdes,banking,master's
+"['HTML', 'Ruby']",3,"(41965, 137023)",Tindouf,software,high school
+"['Java', 'HTML', 'SQL']",8,"(86956, 182382)",Bordj Bou Arreridj,accounting,master
+"['Ruby', 'R', 'Java']",5,"(77805, 112346)",In Guezzam,advertising,bachelor's
+"['PHP', 'Python', 'MATLAB']",3,"(96116, 130423)",Biskra,sales,bachelor's
+"['PHP', 'Go', 'Scala']",1,"(32019, 121858)",Ain Temouchent,finance,technical diploma
+"['C++', 'Python', 'HTML']",7,"(62762, 74915)",Mostaganem,consulting,master's
+"['MATLAB', 'R', 'Swift']",7,"(90320, 183981)",Touggourt,healthcare,master
+"['C#', 'JavaScript']",6,"(52223, 58387)",Ouargla,business,phd
+['JavaScript'],7,"(24555, 34981)",Jijel,sales,no formal education
+"['Python', 'MATLAB']",2,"(31684, 95328)",Ain Defla,accounting,master's
+"['PHP', 'C#', 'MATLAB', 'R']",8,"(58805, 65145)",Timimoun,tech,high school
+"['CSS', 'Swift', 'Scala']",5,"(25179, 56520)",El Menia,information technology,bachelor's
+['C++'],3,"(38240, 114850)",Tipaza,medical,phd
+"['Ruby', 'PHP']",4,"(94779, 161206)",Blida,medical,technical diploma
+"['Java', 'MATLAB', 'R', 'Go', 'JavaScript']",8,"(97043, 147889)",M'Sila,banking,bachelor
+['Java'],3,"(37410, 56663)",Jijel,medical,ingenieur
+"['C++', 'PHP', 'Python']",5,"(55801, 117840)",Bechar,pharma,doctorate
+"['HTML', 'Scala', 'JavaScript']",9,"(50153, 139262)",Souk Ahras,business,doctorate
+"['SQL', 'Ruby']",9,"(34335, 61101)",Constantine,tech,no formal education
+"['Scala', 'Java', 'PHP', 'MATLAB']",2,"(72769, 138540)",El Bayadh,it,bachelor's
+['JavaScript'],5,"(64911, 113762)",Souk Ahras,it,doctorate
+['Ruby'],3,"(48667, 76960)",Bordj Badji Mokhtar,healthcare,phd
+"['SQL', 'Java', 'C#']",9,"(73869, 149926)",Adrar,sales,bachelor
+['Scala'],5,"(80775, 89269)",Bejaia,marketing,doctorate
+"['Python', 'Java', 'HTML', 'SQL']",2,"(93272, 138460)",Tizi Ouzou,accounting,master
+"['SQL', 'C#', 'Scala', 'JavaScript']",3,"(48535, 69808)",Bouira,accounting,master
+"['R', 'Go', 'Python', 'Ruby', 'SQL']",3,"(92089, 150894)",Tiaret,tech,high school
+"['PHP', 'JavaScript', 'Swift', 'Java', 'HTML']",4,"(60624, 102639)",Laghouat,accounting,high school
+['HTML'],0,"(32290, 76501)",Timimoun,healthcare,master's
+"['Python', 'MATLAB', 'CSS', 'Scala', 'PHP']",10,"(71874, 161851)",Biskra,health,bachelor
+"['Go', 'R', 'CSS', 'Python']",2,"(99692, 105557)",Tiaret,healthcare,ingenieur
+"['Go', 'R', 'MATLAB', 'C++', 'HTML']",10,"(49158, 121951)",Guelma,tech,high school
+"['Java', 'MATLAB', 'CSS', 'Swift']",1,"(93668, 175069)",Souk Ahras,it,ingenieur
+"['SQL', 'HTML', 'Go', 'PHP', 'R']",0,"(99810, 114338)",In Guezzam,healthcare,bachelor
+"['PHP', 'Scala', 'Ruby']",8,"(35120, 89233)",El Menia,business,bachelor
+['SQL'],0,"(23818, 116847)",Naama,pharma,bachelor's
+"['CSS', 'C#', 'HTML', 'SQL']",6,"(31321, 107505)",Oum El Bouaghi,marketing,phd
+"['Swift', 'MATLAB', 'HTML']",7,"(82312, 93089)",Tamanrasset,it,master
+"['SQL', 'Python', 'Ruby']",10,"(40020, 69339)",Constantine,information technology,high school
+"['SQL', 'Java']",9,"(34537, 98864)",Annaba,health,bachelor
+"['C++', 'HTML', 'Ruby', 'Go', 'C#']",3,"(50513, 80407)",Khenchela,healthcare,bachelor
+"['Ruby', 'Swift']",2,"(57550, 62640)",Medea,software,technical diploma
+['PHP'],10,"(77058, 82430)",Oum El Bouaghi,accounting,doctorate
+"['SQL', 'Swift']",6,"(36361, 115020)",Oum El Bouaghi,health,phd
+['Swift'],6,"(29292, 124669)",Ghardaia,finance,bachelor's
+"['Python', 'JavaScript', 'Scala', 'SQL']",9,"(91363, 124356)",Bordj Badji Mokhtar,software,high school
+['C#'],6,"(40430, 126421)",Guelma,consulting,phd
+"['R', 'Swift', 'Ruby']",2,"(26989, 108637)",Ghardaia,sales,doctorate
+"['Swift', 'Python', 'Java']",3,"(33737, 46385)",Ouargla,information technology,no formal education
+"['MATLAB', 'Go']",1,"(59135, 151773)",El Menia,tech,technical diploma
+"['MATLAB', 'JavaScript', 'Java', 'R']",0,"(62578, 119467)",Batna,medical,doctorate
+"['R', 'Java', 'C++', 'PHP', 'Scala']",1,"(69105, 75328)",Tebessa,information technology,technical diploma
+"['Scala', 'CSS', 'Java', 'C#', 'Python']",4,"(97565, 175408)",In Salah,consulting,technical diploma
+"['Ruby', 'C#', 'Swift', 'JavaScript', 'PHP']",9,"(52891, 98113)",Souk Ahras,software,high school
+"['MATLAB', 'Python', 'R']",10,"(80655, 121114)",Beni Abbes,software,ingenieur
+['HTML'],9,"(92887, 110742)",Djelfa,advertising,no formal education
+"['Python', 'PHP', 'MATLAB', 'CSS']",2,"(38023, 69663)",Djelfa,it,master
+"['Go', 'R', 'CSS']",3,"(59329, 93666)",Bejaia,pharma,no formal education
+"['R', 'Go', 'C++', 'MATLAB', 'Swift']",7,"(42385, 64131)",El Tarf,sales,master
+"['Scala', 'MATLAB', 'CSS', 'PHP']",2,"(35861, 82493)",El Menia,pharma,high school
+"['Ruby', 'JavaScript', 'Swift']",3,"(32758, 120747)",Bouira,business,no formal education
+"['Go', 'MATLAB', 'Ruby', 'C#']",6,"(79098, 107010)",In Guezzam,healthcare,master's
+"['Java', 'PHP', 'Scala', 'MATLAB', 'Ruby']",8,"(99774, 132629)",Tiaret,tech,no formal education
+"['Java', 'R', 'HTML', 'PHP', 'JavaScript']",3,"(97055, 187464)",Ghardaia,it,bachelor
+"['Ruby', 'C#', 'PHP', 'JavaScript']",8,"(94942, 168906)",Boumerdes,it,bachelor's
+"['CSS', 'Go', 'JavaScript', 'Swift', 'Python']",8,"(31113, 78254)",Ain Defla,tech,bachelor's
+['Swift'],3,"(63176, 94097)",Oran,it,no formal education
+"['R', 'SQL', 'Ruby']",10,"(41003, 133992)",Bechar,banking,high school
+"['C#', 'SQL', 'Go', 'R']",3,"(25930, 82048)",In Guezzam,finance,high school
+"['HTML', 'R', 'CSS', 'C++']",0,"(28520, 88392)",In Salah,pharma,high school
+['MATLAB'],4,"(81274, 134011)",Tizi Ouzou,banking,ingenieur
+"['C#', 'CSS', 'Python']",3,"(93825, 179923)",M'Sila,health,doctorate
+"['SQL', 'Swift', 'CSS']",2,"(21404, 69278)",Saida,business,technical diploma
+"['CSS', 'Python']",0,"(62756, 76261)",Tissemsilt,it,no formal education
+"['Ruby', 'CSS', 'SQL']",0,"(60979, 93964)",Tizi Ouzou,finance,technical diploma
+"['Go', 'Scala']",10,"(39043, 109768)",Constantine,information technology,master's
+"['PHP', 'MATLAB', 'C++', 'HTML', 'JavaScript']",6,"(28153, 44196)",Tipaza,medical,master's
+"['JavaScript', 'C++', 'Java', 'Ruby', 'Go']",10,"(73843, 88034)",El Tarf,marketing,doctorate
+"['JavaScript', 'PHP', 'Python', 'R', 'C++']",8,"(97383, 129647)",Tamanrasset,marketing,doctorate
+['Go'],3,"(79169, 130763)",Ghardaia,finance,doctorate
+"['Python', 'SQL', 'JavaScript']",6,"(84606, 181461)",Saida,healthcare,technical diploma
+"['Go', 'R', 'Java', 'SQL', 'Scala']",5,"(81984, 106296)",Ain Defla,advertising,ingenieur
+"['Swift', 'Python', 'Go', 'C++', 'Java']",4,"(77714, 151710)",Ouargla,information technology,bachelor's
+"['CSS', 'Go', 'C++', 'Java', 'SQL']",10,"(40727, 89682)",Timimoun,pharma,phd
+['CSS'],1,"(55130, 122840)",Oum El Bouaghi,it,master's
+['PHP'],7,"(60659, 101646)",Djanet,marketing,bachelor's
+"['Go', 'PHP']",4,"(87023, 134423)",Tipaza,banking,high school
+"['Go', 'Scala', 'MATLAB', 'Python', 'R']",2,"(26016, 79978)",Bordj Bou Arreridj,advertising,ingenieur
+"['Go', 'C#', 'Swift']",0,"(29813, 107822)",Bordj Badji Mokhtar,software,technical diploma
+"['R', 'Python', 'Go']",10,"(92336, 120123)",Ouled Djellal,advertising,doctorate
+"['PHP', 'SQL', 'MATLAB']",4,"(23197, 40577)",Beni Abbes,finance,phd
+"['PHP', 'CSS', 'Java']",3,"(90211, 188031)",Oran,accounting,master's
+"['HTML', 'Python']",8,"(74647, 158186)",El Bayadh,tech,bachelor
+"['PHP', 'SQL']",6,"(86197, 151146)",Setif,advertising,high school
+"['Ruby', 'Java', 'R', 'Go']",9,"(77710, 94445)",El Tarf,banking,bachelor
+"['C#', 'Go', 'R', 'Python', 'C++']",3,"(65971, 116622)",El Oued,accounting,bachelor
+"['HTML', 'C#']",0,"(58450, 155666)",Annaba,finance,technical diploma
+"['Python', 'C++', 'SQL']",7,"(81511, 111492)",Timimoun,advertising,master
+"['MATLAB', 'Go', 'R']",3,"(40038, 78978)",Naama,business,master's
+"['PHP', 'C++']",5,"(94194, 106884)",Naama,pharma,master's
+"['C#', 'Swift']",0,"(56315, 130208)",Alger,business,phd
+"['Python', 'R', 'CSS', 'PHP']",8,"(20283, 119297)",Annaba,marketing,phd
+['CSS'],7,"(81876, 102050)",Boumerdes,sales,master
+"['PHP', 'C++']",3,"(57511, 68544)",Naama,sales,ingenieur
+"['Ruby', 'Python', 'PHP', 'R', 'SQL']",4,"(30778, 118860)",Mostaganem,medical,phd
+['Ruby'],4,"(64272, 115380)",Alger,information technology,master's
+"['Ruby', 'MATLAB', 'Go']",4,"(43143, 52486)",Biskra,marketing,phd
+"['C++', 'Go', 'Python']",9,"(37822, 54916)",Ouargla,information technology,master's
+['PHP'],4,"(86475, 143068)",Bordj Badji Mokhtar,advertising,no formal education
+"['Scala', 'PHP']",10,"(90331, 117990)",El Oued,medical,master
+"['JavaScript', 'PHP', 'Ruby']",7,"(68675, 152608)",Ain Temouchent,consulting,bachelor's
+['SQL'],0,"(90493, 99970)",Bordj Badji Mokhtar,consulting,phd
+['PHP'],7,"(92380, 123591)",Boumerdes,consulting,master
+"['JavaScript', 'R', 'Ruby', 'SQL']",2,"(52099, 87563)",El Oued,pharma,no formal education
+['MATLAB'],3,"(24734, 53607)",Djelfa,marketing,doctorate
+"['Scala', 'C++', 'PHP']",2,"(66658, 147652)",Saida,accounting,doctorate
+"['HTML', 'Scala', 'Python']",1,"(38652, 132665)",Bordj Bou Arreridj,medical,ingenieur
+['CSS'],4,"(81419, 132137)",Jijel,information technology,bachelor's
+['CSS'],4,"(81644, 91478)",Sidi Bel Abbes,consulting,ingenieur
+"['CSS', 'SQL', 'C#']",0,"(62926, 156573)",Bordj Badji Mokhtar,sales,phd
+['Scala'],5,"(95459, 110057)",Illizi,advertising,bachelor
+"['CSS', 'R', 'C++', 'HTML', 'Java']",8,"(71420, 103352)",Ouled Djellal,pharma,bachelor's
+['Go'],10,"(64111, 155741)",Jijel,software,bachelor's
+"['CSS', 'Java', 'Swift', 'R', 'Go']",3,"(96103, 106937)",Ouled Djellal,finance,high school
+"['Swift', 'JavaScript', 'C++']",2,"(31450, 47766)",Tipaza,information technology,phd
+['R'],6,"(62544, 155642)",Bordj Bou Arreridj,finance,master
+"['HTML', 'C++', 'PHP', 'Ruby']",2,"(37011, 42588)",Illizi,it,phd
+"['Python', 'HTML', 'MATLAB', 'CSS', 'PHP']",6,"(68904, 144227)",Tlemcen,consulting,master
+"['CSS', 'C++']",10,"(74750, 169797)",Batna,banking,doctorate
+"['JavaScript', 'Ruby', 'SQL']",7,"(44478, 98195)",Tissemsilt,it,master's
+"['HTML', 'PHP', 'Python']",2,"(22496, 39620)",Bordj Badji Mokhtar,medical,bachelor
+"['Swift', 'MATLAB']",5,"(56644, 95944)",Medea,advertising,bachelor
+"['Go', 'PHP', 'C#', 'Swift']",5,"(77031, 151481)",El Tarf,sales,bachelor
+"['PHP', 'Go']",0,"(34592, 113029)",Khenchela,marketing,no formal education
+"['C#', 'SQL', 'Swift', 'PHP', 'Java']",7,"(90633, 150713)",Mostaganem,marketing,high school
+"['C#', 'Java', 'SQL', 'Swift', 'CSS']",5,"(59111, 79926)",Bechar,finance,no formal education
+['R'],8,"(39083, 83381)",Oum El Bouaghi,advertising,bachelor
+"['Go', 'MATLAB', 'R', 'CSS']",9,"(53305, 65283)",El M'Ghair,healthcare,bachelor's
+"['JavaScript', 'Go', 'R']",10,"(99404, 124872)",Tipaza,medical,doctorate
+"['R', 'JavaScript', 'Java', 'Scala']",9,"(91545, 134478)",Tipaza,health,bachelor's
+"['Swift', 'SQL', 'CSS', 'Scala']",10,"(78327, 98672)",Skikda,tech,bachelor's
+"['C#', 'HTML', 'C++', 'JavaScript', 'Python']",3,"(93683, 130108)",Medea,it,no formal education
+['JavaScript'],7,"(62747, 119144)",Souk Ahras,banking,master
+"['Go', 'CSS', 'HTML', 'R', 'MATLAB']",0,"(21214, 90741)",Touggourt,tech,bachelor's
+"['PHP', 'CSS', 'HTML', 'C#']",5,"(39993, 123059)",Tlemcen,sales,ingenieur
+"['CSS', 'R', 'HTML', 'Swift', 'JavaScript']",9,"(33062, 81580)",Setif,tech,ingenieur
+['SQL'],7,"(93700, 167283)",Medea,pharma,master's
+"['HTML', 'CSS', 'C++', 'Go', 'Ruby']",10,"(28937, 74110)",Skikda,business,phd
+"['PHP', 'SQL', 'Swift', 'Go']",7,"(96784, 188855)",Bechar,software,bachelor's
+"['Scala', 'R']",0,"(62668, 124542)",Guelma,accounting,master's
+"['JavaScript', 'CSS']",10,"(35550, 115189)",Constantine,tech,technical diploma
+"['Swift', 'PHP', 'SQL', 'Python']",2,"(65637, 116595)",Jijel,information technology,bachelor
+"['C++', 'PHP', 'R', 'Ruby', 'Python']",2,"(87260, 133019)",Djanet,business,technical diploma
+['MATLAB'],5,"(51882, 77909)",Tipaza,sales,high school
+"['C++', 'Java']",9,"(84419, 142016)",Tamanrasset,healthcare,ingenieur
+"['Ruby', 'Java']",7,"(56701, 106221)",Oum El Bouaghi,sales,high school
+"['C#', 'R', 'C++', 'Go']",0,"(97435, 195229)",Mila,information technology,bachelor's
+['Swift'],1,"(58469, 83494)",Medea,advertising,bachelor's
+"['MATLAB', 'Scala', 'Go', 'Swift', 'Java']",7,"(20403, 46886)",Ghardaia,pharma,technical diploma
+['Go'],7,"(89294, 119463)",Illizi,banking,bachelor's
+"['JavaScript', 'Java']",2,"(44286, 88360)",M'Sila,software,master
+"['PHP', 'CSS']",3,"(30621, 124094)",Ain Defla,health,no formal education
+"['Swift', 'Java', 'Scala', 'R', 'C#']",2,"(73830, 115052)",El M'Ghair,healthcare,bachelor's
+"['HTML', 'CSS', 'Python']",9,"(75945, 121117)",Jijel,tech,ingenieur
+"['CSS', 'JavaScript']",6,"(27458, 34231)",Mostaganem,health,no formal education
+"['R', 'Ruby', 'Java']",7,"(44362, 118630)",Tindouf,medical,bachelor's
+"['C#', 'Java', 'MATLAB', 'SQL', 'Ruby']",7,"(27658, 121223)",Tiaret,advertising,bachelor
+['CSS'],4,"(28103, 51235)",Bejaia,advertising,technical diploma
+"['Python', 'C++', 'Ruby']",2,"(51144, 81571)",Laghouat,it,no formal education
+"['Swift', 'HTML']",6,"(21733, 93729)",Mila,consulting,bachelor
+"['Swift', 'Ruby']",10,"(30842, 78233)",Ouargla,finance,technical diploma
+"['JavaScript', 'C++', 'Ruby', 'Java']",0,"(38232, 88962)",In Guezzam,finance,bachelor
+['CSS'],4,"(31914, 76530)",Bordj Badji Mokhtar,medical,bachelor's
+"['Swift', 'Ruby', 'HTML', 'C#']",9,"(33957, 107171)",Relizane,software,technical diploma
+"['CSS', 'Scala', 'PHP', 'Python']",1,"(36068, 96325)",Tlemcen,consulting,doctorate
+['JavaScript'],6,"(49453, 61497)",Adrar,business,bachelor's
+"['SQL', 'HTML', 'Python', 'MATLAB']",2,"(88753, 117840)",In Salah,medical,bachelor's
+"['Swift', 'HTML']",6,"(30168, 38721)",Constantine,health,doctorate
+"['Java', 'MATLAB', 'Python', 'C#', 'SQL']",2,"(62009, 119598)",Djanet,marketing,phd
+['Python'],0,"(77958, 93766)",Saida,advertising,phd
+['Ruby'],1,"(73149, 131349)",M'Sila,pharma,bachelor's
+"['HTML', 'PHP', 'Swift', 'C++', 'MATLAB']",1,"(63101, 77674)",El Bayadh,banking,technical diploma
+"['C#', 'C++']",7,"(98314, 115353)",Naama,healthcare,bachelor
+"['PHP', 'Ruby', 'Swift']",9,"(51069, 108615)",Laghouat,information technology,doctorate
+"['Scala', 'Ruby', 'R']",10,"(27808, 61784)",Alger,software,doctorate
+['PHP'],0,"(81515, 125107)",El Tarf,banking,no formal education
