@@ -702,6 +702,10 @@ Where:
 
 ## Performance Results
 
+> **Note**: Screenshots are also available in the `screenshots/` directory:
+> - `screenshots/time_comparison.png` - Algorithm performance comparison chart
+> - `screenshots/search_output.png` - Example search output with candidate matches
+
 ### Algorithm Execution Time Comparison
 
 ![Algorithm Time Comparison](https://github.com/user-attachments/assets/fa456536-50c9-46eb-bdfd-2738c22e121d)
@@ -1043,4 +1047,4 @@ This project is available for educational and research purposes.
 
 ---
 
-*Last Updated: 2026-01-16*
+*Last Updated: January 2026*
