@@ -838,7 +838,6 @@ pip install numpy pandas scikit-learn jupyter notebook
 #### 1. A* with ML
 
 ```bash
-cd /home/runner/work/Ai-project/Ai-project
 python heuristic_withML.py
 ```
 
@@ -858,20 +857,6 @@ technical_skills    : ['Risk Assessment', 'Safety Protocols', 'Reporting']
 
 Final similarity score: 55
 ```
-
-#### 2. Run Algorithm Benchmarks
-
-Compare all algorithms performance:
-
-```bash
-python benchmark_algorithms.py
-```
-
-This will execute all algorithms and display:
-- Execution time for each algorithm
-- Performance comparison
-- Speed ratings
-- Key insights and recommendations
 
 #### 2. Run Algorithm Benchmarks
 

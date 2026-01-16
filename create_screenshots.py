@@ -46,7 +46,7 @@ try:
     ax.legend(handles=legend_patches, loc='lower right', fontsize=10)
     
     plt.tight_layout()
-    plt.savefig('/home/runner/work/Ai-project/Ai-project/screenshots/time_comparison.png', 
+    plt.savefig('screenshots/time_comparison.png', 
                 dpi=150, bbox_inches='tight', facecolor='white')
     print("✓ Created: screenshots/time_comparison.png")
     plt.close()
@@ -128,7 +128,7 @@ try:
             transform=ax.transAxes, color='#7f8c8d')
     
     plt.tight_layout()
-    plt.savefig('/home/runner/work/Ai-project/Ai-project/screenshots/search_output.png',
+    plt.savefig('screenshots/search_output.png',
                 dpi=150, bbox_inches='tight', facecolor='#f8f9fa')
     print("✓ Created: screenshots/search_output.png")
     plt.close()

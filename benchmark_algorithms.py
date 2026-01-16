@@ -9,8 +9,6 @@ import random
 from sklearn.ensemble import RandomForestClassifier
 
 # Import the A* with ML algorithm
-import sys
-sys.path.insert(0, '/home/runner/work/Ai-project/Ai-project')
 from heuristic_withML import (
     JobOffer, FeaturePredictor, feature_based_job_matching, 
     similarity_function, FEATURE_VALUES, FEATURE_NAMES
