@@ -1048,3 +1048,11 @@ This project is available for educational and research purposes.
 ---
 
 *Last Updated: January 2026*
+
+---
+
+## Alternative Screenshot Viewing
+
+If the embedded screenshots above don't display properly, you can view them directly from the repository:
+- Time Comparison: [screenshots/time_comparison.png](screenshots/time_comparison.png)
+- Search Output: [screenshots/search_output.png](screenshots/search_output.png)
