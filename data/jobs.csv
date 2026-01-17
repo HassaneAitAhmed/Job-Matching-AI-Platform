@@ -1,0 +1,755 @@
+job_Id,job title,department,date posted,application deadline,valid through,sector,job location,education requirement,edu_value,type of contract,available posts,technical_skills,experience_min_req,experience_max_req,salary
+1,Teacher,Academic Advisor,2025-04-10,2025-04-15,2025-05-15,Education,Blida,Licence,15,CDD,2,"Gamification, Special Needs Education, Teacher Training, Early Childhood Education",2,5,50000
+2,Cybersecurity Analyst,DevOps Engineer,2025-02-09,2025-02-22,2025-03-24,Information Technology,Algiers,Baccalaureate,12,Internship,6,"Git, Ruby, UI/UX Design, Functional Programming",0,1,89000
+3,Store Manager,Inventory Coordinator,2025-03-02,2025-03-12,2025-04-11,Retail,Oran,Ingénieur d'État,19,CDI,9,"Assortment Planning, Retail Sustainability, Retail Buying, Retail IoT, Inventory Management",4,6,58000
+4,Fleet Coordinator,Supply Chain Analyst,2025-02-20,2025-02-24,2025-03-26,Transport & Logistics,Batna,Doctorat,20,CDI,10,,8,10,90000
+5,Health Informatics Specialist,Health Informatics Specialist,2025-04-13,2025-05-09,2025-06-08,Healthcare,Tébessa,Licence,15,Freelance,3,,2,5,67000
+6,Curriculum Developer,Curriculum Developer,2025-02-15,2025-03-15,2025-04-14,Education,Jijel,Doctorat,20,CDI,7,"Collaborative Learning, Gifted Education, Bloom's Taxonomy, Learning Analytics, Curriculum Development",8,13,60000
+7,Quality Control Inspector,Quality Control Inspector,2025-03-19,2025-03-20,2025-04-19,Manufacturing,Sétif,Baccalaureate,12,Alternance,9,"SCADA, 3D Printing, Digital Twin, CAD Software, PLC Programming, MES",0,2,48000
+8,Mine Engineer,Mine Engineer,2025-02-09,2025-02-13,2025-03-15,Mining,Bouira,No Formal Education,0,Alternance,3,,0,1,72000
+9,Process Technician,Maintenance Engineer,2025-02-28,2025-03-11,2025-04-10,Manufacturing,M’sila,Master,17,Internship,2,"Digital Twin, CAD Software, PLC Programming, Robotics, MES",0,1,71000
+10,Video Editor,Content Producer,2025-03-28,2025-04-26,2025-05-26,Media & Entertainment,Algiers,No Formal Education,0,Freelance,2,"Costume Design, NFTs in Entertainment, Programmatic Advertising, OTT Platforms",0,1,36000
+11,Regulatory Affairs Specialist,Clinical Trials Manager,2025-02-09,2025-03-08,2025-04-07,Pharmaceuticals,Oran,Doctorat,20,Internship,6,,0,1,134000
+12,Medical Technologist,Health Informatics Specialist,2025-02-26,2025-03-24,2025-04-23,Healthcare,Oran,Master,17,CDD,5,,6,7,80000
+13,Aquaculture Technician,Fishery Inspector,2025-03-19,2025-03-29,2025-04-28,Fisheries,Béjaïa,No Formal Education,0,Internship,5,"Fisheries Education, Marine Protected Areas, Algae Cultivation, GIS Applications, Community Fisheries",0,1,24000
+14,Quality Control Inspector,Production Supervisor,2025-03-22,2025-04-19,2025-05-19,Manufacturing,Algiers,Doctorat,20,Freelance,1,"3D Printing, ERP, CAD Software, Digital Twin, PLC Programming",8,13,80000
+15,Formulation Scientist,Formulation Scientist,2025-03-06,2025-03-06,2025-04-05,Pharmaceuticals,Annaba,Doctorat,20,Freelance,4,,8,10,140000
+16,Fleet Coordinator,Supply Chain Analyst,2025-04-21,2025-04-28,2025-05-28,Transport & Logistics,M’sila,Master,17,Freelance,10,,6,9,90000
+17,Store Manager,Store Manager,2025-04-15,2025-05-05,2025-06-04,Retail,Jijel,Licence,15,CDI,1,"Retail Data Privacy, Retail Finance, RFID Systems, Retail Media Networks, Omnichannel Retail",2,5,49000
+18,Site Manager,Quantity Surveyor,2025-03-12,2025-03-25,2025-04-24,Construction,Constantine,Ingénieur d'État,19,CDD,1,,4,5,86000
+19,Risk Manager,Portfolio Manager,2025-02-22,2025-03-04,2025-04-03,Finance,Algiers,Licence,15,Freelance,7,"Risk Analysis Tools, Power BI, Tableau, QuickBooks",2,3,94000
+20,Data Scientist,Software Engineer,2025-04-22,2025-05-08,2025-06-07,Information Technology,Annaba,Ingénieur d'État,19,Freelance,5,"Backend Development, Go, MATLAB, Web Development, Data Structures, Docker",4,7,148000
+21,Fleet Coordinator,Customs Compliance Officer,2025-02-16,2025-02-20,2025-03-22,Transport & Logistics,Chlef,No Formal Education,0,Internship,10,,0,1,42000
+22,Sound Designer,Sound Designer,2025-03-15,2025-03-19,2025-04-18,Media & Entertainment,Oran,Doctorat,20,Freelance,9,"Stunt Coordination, Entertainment Law, Media Archiving, AR/VR Development, 3D Animation",8,11,80000
+23,Quality Control Inspector,Process Technician,2025-03-13,2025-03-29,2025-04-28,Manufacturing,Bejaïa,Ingénieur d'État,19,Internship,8,"Python, Robotics, CAD Software, ERP, 3D Printing, MES",0,1,66000
+24,DevOps Engineer,Data Scientist,2025-04-06,2025-04-18,2025-05-18,Information Technology,Annaba,Baccalaureate,12,CDI,1,"Scrum, RESTful APIs, CSS, Bash, Data Analysis",0,1,89000
+25,Data Scientist,Software Engineer,2025-04-26,2025-04-28,2025-05-28,Information Technology,Oran,Ingénieur d'État,19,CDD,3,"Database Design, PHP, MATLAB, TypeScript",4,5,143000
+26,Portfolio Manager,Portfolio Manager,2025-04-18,2025-05-10,2025-06-09,Finance,Batna,Licence,15,Freelance,9,"Blockchain, Python, Excel, R",2,4,96000
+27,Cybersecurity Analyst,Data Scientist,2025-03-31,2025-04-06,2025-05-06,Information Technology,Annaba,No Formal Education,0,Internship,7,"Mobile Development, DevOps, Backend Development, Object-Oriented Programming",0,1,71000
+28,Reservoir Engineer,Reservoir Engineer,2025-05-07,2025-05-25,2025-06-24,Energy & Petroleum,Algiers,Master,17,Freelance,7,"Computational Fluid Dynamics, Well Testing, Oilfield Chemicals, Energy Storage, Drilling Engineering, Pipeline Engineering",6,10,200000
+29,Regulatory Affairs Specialist,QA Analyst,2025-02-14,2025-03-12,2025-04-11,Pharmaceuticals,Constantine,Licence,15,Freelance,7,,2,4,112000
+30,Supply Chain Analyst,Logistics Manager,2025-03-07,2025-03-24,2025-04-23,Transport & Logistics,Algiers,No Formal Education,0,CDD,4,,0,1,42000
+31,Supply Chain Analyst,Logistics Manager,2025-04-04,2025-04-13,2025-05-13,Transport & Logistics,Constantine,Licence,15,CDI,10,,2,5,72000
+32,Customs Compliance Officer,Fleet Coordinator,2025-04-16,2025-04-19,2025-05-19,Transport & Logistics,Algiers,Master,17,Freelance,1,,6,7,90000
+33,Blasting Technician,Blasting Technician,2025-02-11,2025-02-22,2025-03-24,Mining,Blida,No Formal Education,0,Freelance,8,,0,1,72000
+34,Clinical Researcher,Clinical Researcher,2025-04-23,2025-05-07,2025-06-06,Healthcare,Skikda,Ingénieur d'État,19,Alternance,5,,0,1,69000
+35,Avionics Engineer,Avionics Engineer,2025-02-14,2025-02-25,2025-03-27,Aerospace & Defense,Sétif,Ingénieur d'État,19,Internship,4,,0,1,152000
+36,Flight Test Engineer,Flight Test Engineer,2025-05-02,2025-05-06,2025-06-05,Aerospace & Defense,Blida,Ingénieur d'État,19,CDI,4,,4,6,175000
+37,Wind Turbine Engineer,Energy Auditor,2025-03-15,2025-03-28,2025-04-27,Renewable Energy,Algiers,Licence,15,Alternance,5,,0,1,92000
+38,Inventory Coordinator,Store Manager,2025-03-23,2025-04-09,2025-05-09,Retail,Algiers,Ingénieur d'État,19,Internship,2,"Store Layout, Demand Forecasting, Retail IoT, Retail KPIs",0,1,50000
+39,Tour Guide,Guest Services Manager,2025-02-22,2025-03-11,2025-04-10,Tourism & Hospitality,Medea,Ingénieur d'État,19,Freelance,10,,4,5,57000
+40,Reservoir Engineer,Reservoir Engineer,2025-03-13,2025-03-23,2025-04-22,Energy & Petroleum,Tipaza,Master,17,CDI,4,"Midstream Operations, Energy Transition, Directional Drilling, Petroleum Accounting, Petroleum Geology",6,10,200000
+41,Instructional Designer,Academic Advisor,2025-04-13,2025-04-25,2025-05-25,Education,El Oued,Ingénieur d'État,19,Alternance,9,"Montessori Methods, Learning Analytics, Maker Education, Curriculum Development, Career Counseling, Multicultural Education",0,1,52000
+42,Mine Engineer,Geologist,2025-04-16,2025-04-19,2025-05-19,Mining,Tipaza,Master,17,Internship,5,,0,1,142000
+43,QA Analyst,Formulation Scientist,2025-04-07,2025-04-15,2025-05-15,Pharmaceuticals,El Oued,Doctorat,20,CDI,8,,8,11,140000
+44,Sales Associate,Merchandiser,2025-03-30,2025-04-10,2025-05-10,Retail,M’sila,Doctorat,20,Internship,2,"Franchise Management, Consumer Behavior, Shopper Marketing, Vendor Management, Retail Digital Transformation",0,1,57000
+45,Avionics Engineer,Systems Engineer,2025-02-22,2025-03-16,2025-04-15,Aerospace & Defense,Laghouat,Master,17,Alternance,5,,0,2,165000
+46,Formulation Scientist,Formulation Scientist,2025-03-15,2025-03-28,2025-04-27,Pharmaceuticals,Algiers,Master,17,Freelance,10,,6,8,140000
+47,Marketplace Coordinator,UX/UI Designer,2025-05-07,2025-06-03,2025-07-03,E-Commerce,Béjaïa,Ingénieur d'État,19,CDD,8,,4,7,98000
+48,Guest Services Manager,Hotel Manager,2025-02-28,2025-03-15,2025-04-14,Tourism & Hospitality,Bejaïa,Doctorat,20,Alternance,7,,0,1,57000
+49,Systems Engineer,Flight Test Engineer,2025-04-29,2025-05-01,2025-05-31,Aerospace & Defense,Algiers,Licence,15,Freelance,1,,2,4,145000
+50,VFX Artist,Content Producer,2025-03-01,2025-03-02,2025-04-01,Media & Entertainment,Laghouat,Master,17,CDD,4,"Motion Graphics, Film Financing, Entertainment Law, Media Buying, Post-Production",6,10,80000
+51,Health Informatics Specialist,Health Informatics Specialist,2025-04-26,2025-05-11,2025-06-10,Healthcare,Oran,Licence,15,Internship,10,,0,1,61000
+52,UX/UI Designer,Marketplace Coordinator,2025-03-17,2025-03-29,2025-04-28,E-Commerce,Blida,Master,17,Freelance,4,,6,8,100000
+53,Energy Auditor,Energy Auditor,2025-02-13,2025-02-23,2025-03-25,Renewable Energy,Constantine,Master,17,Internship,5,,0,1,116000
+54,HSE Specialist,Petroleum Engineer,2025-05-06,2025-06-02,2025-07-02,Energy & Petroleum,Tébessa,Master,17,Freelance,10,"Hydraulic Fracturing, Energy Storage, Subsea Engineering, Reservoir Engineering, Renewable Integration, Energy Trading",6,7,200000
+55,Process Technician,Production Supervisor,2025-05-03,2025-05-18,2025-06-17,Manufacturing,Oran,Baccalaureate,12,Alternance,3,"3D Printing, PLC Programming, Digital Twin, MES, ERP",0,2,48000
+56,Digital Services Manager,Urban Planner,2025-02-27,2025-03-23,2025-04-22,Public Sector,Algiers,Ingénieur d'État,19,CDD,8,,4,7,69000
+57,Data Scientist,Data Scientist,2025-03-17,2025-04-08,2025-05-08,Information Technology,Algiers,Master,17,CDD,10,"Cloud Computing, Bash, Docker, R, Microservices",6,9,150000
+58,Store Manager,Sales Associate,2025-02-20,2025-03-04,2025-04-03,Retail,Khenchela,Master,17,CDI,2,"Demand Forecasting, Omnichannel Retail, Retail Technology, Vendor Management, Self-Checkout",6,9,60000
+59,Instructional Designer,Instructional Designer,2025-02-20,2025-03-03,2025-04-02,Education,Algiers,Baccalaureate,12,Freelance,10,"Inquiry-Based Learning, Academic Research, STEM Education, Gamification",0,1,40000
+60,Wind Turbine Engineer,Grid Integration Specialist,2025-04-20,2025-05-17,2025-06-16,Renewable Energy,Medea,Ingénieur d'État,19,Internship,6,,0,1,108000
+61,Policy Analyst,Policy Analyst,2025-03-31,2025-04-12,2025-05-12,Public Sector,Oran,Baccalaureate,12,Internship,2,,0,1,43000
+62,Marketplace Coordinator,Marketplace Coordinator,2025-04-20,2025-05-18,2025-06-17,E-Commerce,Sétif,No Formal Education,0,Alternance,9,,0,2,49000
+63,Geologist,Environmental Compliance Officer,2025-03-20,2025-04-17,2025-05-17,Mining,Algiers,Master,17,Freelance,1,,6,9,160000
+64,Auditor,Auditor,2025-03-17,2025-04-03,2025-05-03,Finance,Bejaïa,Doctorat,20,Alternance,2,"Power BI, Python, Tableau, Excel",0,1,115000
+65,Registered Nurse,Clinical Researcher,2025-02-28,2025-03-06,2025-04-05,Healthcare,Mostaganem,Baccalaureate,12,Freelance,10,,0,1,53000
+66,Merchandiser,Merchandiser,2025-03-28,2025-04-20,2025-05-20,Retail,Oran,No Formal Education,0,Internship,7,"Loyalty Programs, Retail Expansion, Assortment Planning, Retail Marketing, Private Label Development",0,1,29000
+67,VFX Artist,Video Editor,2025-02-15,2025-02-17,2025-03-19,Media & Entertainment,Mostaganem,No Formal Education,0,Internship,2,"Entertainment Law, Media Archiving, Sound Design, Music Production, Virtual Production, Influencer Marketing",0,1,36000
+68,HSE Specialist,Drilling Supervisor,2025-05-01,2025-05-06,2025-06-05,Energy & Petroleum,Tébessa,Master,17,CDI,7,"Renewable Integration, Seismic Interpretation, Offshore Drilling, Well Testing, Oilfield Chemicals",6,10,200000
+69,Project Engineer,Site Manager,2025-02-21,2025-02-28,2025-03-30,Construction,Constantine,Licence,15,CDD,3,,2,5,74000
+70,Safety Officer,Site Manager,2025-04-24,2025-05-14,2025-06-13,Construction,Tipaza,Ingénieur d'État,19,Freelance,5,,4,7,89000
+71,Avionics Engineer,Defense Analyst,2025-04-05,2025-04-08,2025-05-08,Aerospace & Defense,Annaba,Master,17,Alternance,8,,0,1,162000
+72,Fleet Coordinator,Fleet Coordinator,2025-03-16,2025-04-03,2025-05-03,Transport & Logistics,Tiaret,Ingénieur d'État,19,Freelance,10,,4,5,86000
+73,Fleet Coordinator,Customs Compliance Officer,2025-04-05,2025-04-27,2025-05-27,Transport & Logistics,Oran,Master,17,CDI,5,,6,9,90000
+74,Sound Designer,Video Editor,2025-03-30,2025-04-11,2025-05-11,Media & Entertainment,Souk Ahras,Master,17,Alternance,1,"Media Archiving, Audience Analytics, OTT Platforms, Set Design, Media Planning, NFTs in Entertainment",0,2,72000
+75,UX/UI Designer,Marketplace Coordinator,2025-04-01,2025-04-01,2025-05-01,E-Commerce,Blida,Ingénieur d'État,19,Alternance,5,,0,1,84000
+76,Medical Technologist,Clinical Researcher,2025-04-14,2025-04-19,2025-05-19,Healthcare,Algiers,Master,17,Freelance,9,,6,9,80000
+77,Irrigation Specialist,Agronomist,2025-04-14,2025-05-10,2025-06-09,Agriculture,Tiaret,No Formal Education,0,Freelance,4,"Aquaponics, Agricultural Robotics, Remote Sensing, Precision Agriculture, GIS Applications",0,1,24000
+78,Procurement Officer,Digital Services Manager,2025-04-20,2025-05-02,2025-06-01,Public Sector,Medea,Doctorat,20,CDI,2,,8,10,70000
+79,Policy Analyst,Procurement Officer,2025-04-22,2025-05-08,2025-06-07,Public Sector,Constantine,Ingénieur d'État,19,Internship,1,,0,1,59000
+80,Quality Assurance Officer,Aquaculture Technician,2025-02-17,2025-03-03,2025-04-02,Fisheries,Tiaret,Licence,15,Freelance,1,"Stock Modeling, Value Addition, Algae Cultivation, Fisheries Technology, Navigation, Coastal Management",2,4,40000
+81,Procurement Officer,Procurement Officer,2025-03-21,2025-03-28,2025-04-27,Public Sector,Algiers,Master,17,CDI,5,,6,8,70000
+82,Store Manager,Merchandiser,2025-03-23,2025-03-23,2025-04-22,Retail,Mostaganem,Ingénieur d'État,19,Internship,7,"Consumer Behavior, Retail KPIs, Retail Sustainability, Retail Security",0,1,50000
+83,VFX Artist,Content Producer,2025-04-18,2025-04-30,2025-05-30,Media & Entertainment,Sétif,Licence,15,CDI,2,"Programmatic Advertising, Interactive Storytelling, Music Production, Makeup Artistry, AR/VR Development, Podcast Production",2,4,62000
+84,E-Commerce Manager,UX/UI Designer,2025-03-27,2025-04-04,2025-05-04,E-Commerce,Sétif,Master,17,CDD,1,,6,7,100000
+85,Quantity Surveyor,Safety Officer,2025-03-28,2025-04-02,2025-05-02,Construction,Biskra,Doctorat,20,Freelance,4,,8,14,90000
+86,VFX Artist,Content Producer,2025-05-02,2025-05-16,2025-06-15,Media & Entertainment,M’sila,No Formal Education,0,Freelance,6,"Digital Rights Management, Virtual Production, Event Production, Public Relations",0,1,36000
+87,Project Engineer,Safety Officer,2025-04-29,2025-05-23,2025-06-22,Construction,Algiers,Licence,15,Alternance,10,,0,1,66000
+88,Mine Engineer,Geologist,2025-04-07,2025-04-16,2025-05-16,Mining,Biskra,Doctorat,20,CDI,8,,8,10,160000
+89,Sound Designer,Content Producer,2025-02-21,2025-03-11,2025-04-10,Media & Entertainment,Batna,Baccalaureate,12,Freelance,10,"Entertainment Law, Color Grading, Digital Rights Management, Social Media Management",0,1,46000
+90,Video Editor,Sound Designer,2025-04-22,2025-04-29,2025-05-29,Media & Entertainment,Annaba,Master,17,Internship,10,"Virtual Production, Media Archiving, Music Production, DJing, AI in Media",0,1,71000
+91,Video Editor,Content Producer,2025-03-31,2025-04-25,2025-05-25,Media & Entertainment,M’sila,Ingénieur d'État,19,Internship,8,"Virtual Production, Color Grading, AI in Media, Storyboarding",0,1,66000
+92,Farm Manager,Irrigation Specialist,2025-05-07,2025-05-07,2025-06-06,Agriculture,Blida,Ingénieur d'État,19,CDI,5,"Agricultural Law, Agronomy, Silviculture, Agricultural Waste Management",4,6,48000
+93,Agri-Tech Developer,Agri-Tech Developer,2025-04-06,2025-04-21,2025-05-21,Agriculture,Biskra,Ingénieur d'État,19,CDI,2,"Fertilizer Technology, Water Management, Regenerative Agriculture, Aquaponics",4,6,48000
+94,Quantity Surveyor,Quantity Surveyor,2025-03-26,2025-03-26,2025-04-25,Construction,El Oued,Licence,15,CDI,7,,2,4,72000
+95,Marine Biologist,Marine Biologist,2025-02-17,2025-03-06,2025-04-05,Fisheries,Sétif,Baccalaureate,12,CDD,10,"Aquaculture, GIS Applications, Quality Control, Food Safety, Marine Protected Areas, Disease Management",0,1,30000
+96,Agronomist,Irrigation Specialist,2025-05-03,2025-05-17,2025-06-16,Agriculture,Biskra,Baccalaureate,12,Internship,10,"Vertical Farming, Livestock Management, Commodity Trading, Agricultural Biotechnology",0,1,30000
+97,Network Engineer,Billing Specialist,2025-03-02,2025-03-04,2025-04-03,Telecommunications,Biskra,Baccalaureate,12,Alternance,8,,0,1,73000
+98,Registered Nurse,Health Informatics Specialist,2025-03-02,2025-03-29,2025-04-28,Healthcare,Biskra,Master,17,CDD,7,,6,10,80000
+99,Energy Auditor,Energy Auditor,2025-02-14,2025-02-18,2025-03-20,Renewable Energy,Batna,Doctorat,20,CDD,4,,8,10,130000
+100,Marketplace Coordinator,E-Commerce Manager,2025-04-19,2025-05-12,2025-06-11,E-Commerce,Skikda,Ingénieur d'État,19,Freelance,8,,4,7,98000
+101,Instructional Designer,Academic Advisor,2025-04-27,2025-04-30,2025-05-30,Education,Tipaza,Baccalaureate,12,CDD,1,"Data-Driven Instruction, Teacher Training, Classroom Management, Gamification",0,2,40000
+102,Geologist,Mine Engineer,2025-04-21,2025-05-16,2025-06-15,Mining,Constantine,Ingénieur d'État,19,CDD,1,,4,6,155000
+103,Flight Test Engineer,Systems Engineer,2025-04-22,2025-04-28,2025-05-28,Aerospace & Defense,Oran,Master,17,CDD,8,,6,7,180000
+104,RF Technician,Network Engineer,2025-02-19,2025-03-14,2025-04-13,Telecommunications,Batna,Master,17,CDD,8,,6,9,120000
+105,Maintenance Engineer,Quality Control Inspector,2025-04-01,2025-04-09,2025-05-09,Manufacturing,Annaba,Baccalaureate,12,Internship,3,"Robotics, PLC Programming, SCADA, 3D Printing, Lean Six Sigma",0,1,46000
+106,Agri-Tech Developer,Irrigation Specialist,2025-03-04,2025-03-29,2025-04-28,Agriculture,Algiers,Master,17,CDI,1,"Agricultural Biotechnology, Farm Management Software, Agri-Fintech, Agricultural Data Science, Drone Technology",6,8,50000
+107,Safety Officer,Safety Officer,2025-05-02,2025-05-31,2025-06-30,Construction,Algiers,Master,17,Internship,5,,0,1,81000
+108,VFX Artist,Video Editor,2025-03-20,2025-03-30,2025-04-29,Media & Entertainment,Sétif,Ingénieur d'État,19,CDD,3,"Public Relations, Media Buying, Game Development, Film Financing",4,8,80000
+109,Software Engineer,Software Engineer,2025-03-31,2025-04-09,2025-05-09,Information Technology,Sétif,Ingénieur d'État,19,Alternance,7,"C, Python, Cybersecurity, Kubernetes, Web Development",0,1,125000
+110,Clinical Trials Manager,Regulatory Affairs Specialist,2025-04-17,2025-05-02,2025-06-01,Pharmaceuticals,Annaba,Licence,15,CDI,10,,2,5,114000
+111,DevOps Engineer,DevOps Engineer,2025-03-17,2025-04-04,2025-05-04,Information Technology,Blida,Licence,15,CDD,9,"Computer Vision, PowerShell, Kotlin, C++, Bash, Python",2,4,118000
+112,Marine Biologist,Quality Assurance Officer,2025-03-21,2025-04-15,2025-05-15,Fisheries,Tlemcen,Baccalaureate,12,Freelance,7,"Feed Formulation, Quality Control, Market Analysis, Stock Enhancement, Fisheries Education, Water Quality",0,1,30000
+113,Agronomist,Agri-Tech Developer,2025-03-22,2025-03-27,2025-04-26,Agriculture,Blida,Licence,15,CDD,6,"Remote Sensing, Livestock Management, Agricultural Extension, Organic Farming, Pest Management, Silviculture",2,4,40000
+114,Medical Technologist,Health Informatics Specialist,2025-03-03,2025-03-13,2025-04-12,Healthcare,Annaba,Ingénieur d'État,19,Freelance,1,,4,5,77000
+115,Flight Test Engineer,Flight Test Engineer,2025-02-13,2025-03-01,2025-03-31,Aerospace & Defense,Batna,Master,17,Alternance,8,,0,2,165000
+116,Grid Integration Specialist,Energy Auditor,2025-02-09,2025-03-09,2025-04-08,Renewable Energy,Constantine,Ingénieur d'État,19,Freelance,4,,4,8,130000
+117,Farm Manager,Farm Manager,2025-04-01,2025-04-12,2025-05-12,Agriculture,Algiers,No Formal Education,0,Internship,3,"Hydroponics, Agri-Fintech, Bioenergy, Farm Management Software",0,1,24000
+118,Guest Services Manager,Guest Services Manager,2025-04-05,2025-04-15,2025-05-15,Tourism & Hospitality,Algiers,No Formal Education,0,Alternance,9,,0,1,29000
+119,Regulatory Affairs Specialist,Clinical Trials Manager,2025-02-07,2025-02-10,2025-03-12,Pharmaceuticals,Oran,Doctorat,20,CDD,4,,8,15,140000
+120,Policy Analyst,Policy Analyst,2025-04-16,2025-04-18,2025-05-18,Public Sector,Constantine,Baccalaureate,12,Internship,7,,0,1,43000
+121,Store Manager,Sales Associate,2025-03-01,2025-03-04,2025-04-03,Retail,Biskra,No Formal Education,0,CDD,10,"Visual Merchandising, Retail Media Networks, Omnichannel Retail, Customer Experience, Merchandising, Augmented Reality Shopping",0,1,29000
+122,Energy Auditor,Grid Integration Specialist,2025-05-05,2025-05-06,2025-06-05,Renewable Energy,Oran,Licence,15,Alternance,6,,0,2,94000
+123,DevOps Engineer,Cybersecurity Analyst,2025-05-01,2025-05-17,2025-06-16,Information Technology,Mostaganem,Baccalaureate,12,Alternance,7,"Microservices, Bash, RESTful APIs, Web Development, C++, PowerShell",0,1,89000
+124,Telecom Analyst,Network Engineer,2025-02-13,2025-03-09,2025-04-08,Telecommunications,Oran,Baccalaureate,12,Freelance,8,,0,1,73000
+125,Sound Designer,Video Editor,2025-03-02,2025-03-15,2025-04-14,Media & Entertainment,Bejaïa,Ingénieur d'État,19,CDI,5,"Screenwriting, Music Production, Media Distribution, Media Planning",4,5,76000
+126,Inventory Coordinator,Merchandiser,2025-04-12,2025-05-05,2025-06-04,Retail,Adrar,No Formal Education,0,Freelance,5,"Retail Digital Transformation, Retail IoT, Retail Store Design, Circular Economy",0,1,29000
+127,Billing Specialist,Telecom Analyst,2025-02-27,2025-03-25,2025-04-24,Telecommunications,M’sila,Ingénieur d'État,19,Internship,10,,0,1,101000
+128,DevOps Engineer,Cybersecurity Analyst,2025-02-19,2025-03-18,2025-04-17,Information Technology,Batna,Ingénieur d'État,19,Freelance,2,"UI/UX Design, Functional Programming, C#, Computer Vision",4,6,146000
+129,DevOps Engineer,Data Scientist,2025-04-03,2025-04-25,2025-05-25,Information Technology,Jijel,Ingénieur d'État,19,CDI,8,"Scrum, Docker, SQL, Cybersecurity, Java, C++",4,8,150000
+130,Environmental Compliance Officer,Blasting Technician,2025-03-02,2025-03-24,2025-04-23,Mining,Mostaganem,No Formal Education,0,CDI,2,,0,1,72000
+131,Reservoir Engineer,Petroleum Engineer,2025-04-26,2025-05-15,2025-06-14,Energy & Petroleum,Sétif,Doctorat,20,CDI,2,"GIS Applications, Process Safety, Petroleum Economics, Well Logging, Risk Assessment, Energy Transition",8,11,200000
+132,HSE Specialist,Petroleum Engineer,2025-02-25,2025-03-01,2025-03-31,Energy & Petroleum,Constantine,Ingénieur d'État,19,Alternance,3,"SCADA Systems, Supply Chain Management, Hydraulic Fracturing, GIS Applications",0,2,168000
+133,Tour Guide,Guest Services Manager,2025-02-16,2025-03-08,2025-04-07,Tourism & Hospitality,Jijel,Ingénieur d'État,19,CDI,4,,4,5,57000
+134,Guest Services Manager,Hotel Manager,2025-03-13,2025-04-02,2025-05-02,Tourism & Hospitality,Skikda,Licence,15,Internship,10,,0,1,43000
+135,Curriculum Developer,Academic Advisor,2025-03-18,2025-04-09,2025-05-09,Education,Constantine,Doctorat,20,Internship,7,"Andragogy, Flipped Classroom, Learning Analytics, Special Education, Education Advocacy, Robotics Education",0,1,58000
+136,Auditor,Portfolio Manager,2025-05-01,2025-05-03,2025-06-02,Finance,Algiers,Ingénieur d'État,19,CDI,8,"SQL, Blockchain, QuickBooks, Risk Analysis Tools",4,8,120000
+137,Production Supervisor,Maintenance Engineer,2025-04-13,2025-04-17,2025-05-17,Manufacturing,Annaba,Master,17,Freelance,3,"Python, PLC Programming, Digital Twin, 3D Printing, CAD Software",6,7,80000
+138,Flight Test Engineer,Flight Test Engineer,2025-02-12,2025-03-03,2025-04-02,Aerospace & Defense,Oran,Doctorat,20,CDI,4,,8,15,180000
+139,Maintenance Engineer,Maintenance Engineer,2025-04-18,2025-05-04,2025-06-03,Manufacturing,Chlef,Doctorat,20,CDI,3,"SCADA, MES, ERP, Robotics, CAD Software, Digital Twin",8,11,80000
+140,VFX Artist,Sound Designer,2025-04-25,2025-04-30,2025-05-30,Media & Entertainment,Sétif,Ingénieur d'État,19,Internship,6,"Digital Rights Management, Set Design, Music Production, Visual Effects",0,1,66000
+141,Health Informatics Specialist,Clinical Researcher,2025-03-03,2025-03-12,2025-04-11,Healthcare,Bejaïa,Ingénieur d'État,19,Freelance,9,,4,8,80000
+142,Medical Technologist,Clinical Researcher,2025-02-25,2025-03-23,2025-04-22,Healthcare,Constantine,Ingénieur d'État,19,CDI,6,,4,7,79000
+143,Policy Analyst,Procurement Officer,2025-03-22,2025-03-28,2025-04-27,Public Sector,Annaba,Doctorat,20,Internship,1,,0,1,67000
+144,Fleet Coordinator,Supply Chain Analyst,2025-03-19,2025-03-27,2025-04-26,Transport & Logistics,Béjaïa,Baccalaureate,12,CDD,2,,0,1,53000
+145,Curriculum Developer,Teacher,2025-03-06,2025-03-28,2025-04-27,Education,Tiaret,Ingénieur d'État,19,Internship,6,"Learning Analytics, AR/VR in Education, Data-Driven Instruction, Inquiry-Based Learning, School Administration, STEM Education",0,1,52000
+146,Production Supervisor,Quality Control Inspector,2025-03-03,2025-03-06,2025-04-05,Manufacturing,Laghouat,Ingénieur d'État,19,CDI,4,"MES, Python, Robotics, ERP",4,5,76000
+147,Mine Engineer,Mine Engineer,2025-03-22,2025-04-17,2025-05-17,Mining,Batna,Baccalaureate,12,CDI,1,,0,2,95000
+148,Quantity Surveyor,Safety Officer,2025-02-16,2025-02-18,2025-03-20,Construction,Algiers,Licence,15,Internship,4,,0,1,66000
+149,Financial Analyst,Financial Analyst,2025-04-11,2025-05-07,2025-06-06,Finance,Oran,Baccalaureate,12,CDD,8,"Excel, Risk Analysis Tools, Python, SQL, QuickBooks, Blockchain",0,1,73000
+150,Formulation Scientist,Clinical Trials Manager,2025-04-29,2025-04-29,2025-05-29,Pharmaceuticals,Batna,Doctorat,20,Alternance,2,,0,2,136000
+151,E-Commerce Manager,SEO Specialist,2025-02-16,2025-02-27,2025-03-29,E-Commerce,Algiers,Ingénieur d'État,19,Freelance,7,,4,5,96000
+152,SEO Specialist,SEO Specialist,2025-02-23,2025-03-14,2025-04-13,E-Commerce,Saïda,No Formal Education,0,Internship,2,,0,1,48000
+153,Clinical Researcher,Clinical Researcher,2025-03-26,2025-04-18,2025-05-18,Healthcare,Blida,Master,17,Freelance,10,,6,8,80000
+154,QA Analyst,Clinical Trials Manager,2025-02-27,2025-03-18,2025-04-17,Pharmaceuticals,Constantine,Doctorat,20,Freelance,2,,8,15,140000
+155,Maintenance Engineer,Maintenance Engineer,2025-05-05,2025-05-07,2025-06-06,Manufacturing,Tizi Ouzou,Doctorat,20,Freelance,6,"SCADA, Digital Twin, Python, 3D Printing, Lean Six Sigma",8,10,80000
+156,Process Technician,Maintenance Engineer,2025-02-22,2025-03-12,2025-04-11,Manufacturing,Oran,No Formal Education,0,CDD,5,"SCADA, Digital Twin, MES, 3D Printing, CAD Software",0,1,36000
+157,DevOps Engineer,Cybersecurity Analyst,2025-02-07,2025-02-25,2025-03-27,Information Technology,Chlef,No Formal Education,0,Freelance,5,"JavaScript, Kubernetes, TypeScript, Debugging, Ruby, R",0,1,71000
+158,Curriculum Developer,Teacher,2025-03-04,2025-03-26,2025-04-25,Education,Algiers,Baccalaureate,12,CDD,3,"Academic Research, IB Program, Grant Writing, Flipped Classroom, Career Counseling, Pedagogy",0,2,40000
+159,Network Engineer,Network Engineer,2025-03-06,2025-03-26,2025-04-25,Telecommunications,Ghardaïa,Baccalaureate,12,CDD,10,,0,2,74000
+160,Site Manager,Project Engineer,2025-04-15,2025-05-11,2025-06-10,Construction,Sétif,Ingénieur d'État,19,Internship,9,,0,1,76000
+161,Marine Biologist,Quality Assurance Officer,2025-04-12,2025-05-05,2025-06-04,Fisheries,Bouira,Licence,15,Alternance,9,"Processing Technology, Aquaculture, Export Compliance, Fish Husbandry",0,2,36000
+162,Irrigation Specialist,Agronomist,2025-02-22,2025-03-03,2025-04-02,Agriculture,Constantine,No Formal Education,0,CDD,4,"Precision Agriculture, Agroforestry, Aquaponics, Post-Harvest Technology, Regenerative Agriculture",0,1,24000
+163,DevOps Engineer,DevOps Engineer,2025-03-07,2025-03-17,2025-04-16,Information Technology,Algiers,Doctorat,20,Freelance,10,"Cybersecurity, UI/UX Design, Machine Learning, C#, Big Data",8,13,150000
+164,Tour Guide,Tour Guide,2025-02-12,2025-03-12,2025-04-11,Tourism & Hospitality,Skikda,Doctorat,20,CDD,6,,8,10,60000
+165,QA Analyst,Formulation Scientist,2025-04-19,2025-05-15,2025-06-14,Pharmaceuticals,Constantine,Doctorat,20,Alternance,10,,0,1,134000
+166,Auditor,Risk Manager,2025-02-12,2025-02-27,2025-03-29,Finance,Oran,Master,17,CDD,6,"Financial Modeling, Blockchain, Python, R, Excel, QuickBooks",6,9,120000
+167,Teacher,Teacher,2025-02-12,2025-02-14,2025-03-16,Education,Tiaret,Master,17,Internship,3,"Data-Driven Instruction, Special Education, Standardized Testing, Teacher Training",0,1,55000
+168,Video Editor,Sound Designer,2025-04-04,2025-04-27,2025-05-27,Media & Entertainment,Algiers,Licence,15,Freelance,2,"Screenwriting, Cinematography, AI in Media, Social Media Management, Content Strategy, Festival Management",2,3,61000
+169,Regulatory Affairs Specialist,QA Analyst,2025-03-27,2025-04-21,2025-05-21,Pharmaceuticals,Constantine,Licence,15,CDI,6,,2,4,112000
+170,Logistics Manager,Customs Compliance Officer,2025-02-22,2025-02-24,2025-03-26,Transport & Logistics,Oran,Licence,15,Alternance,8,,0,1,64000
+171,Quality Assurance Officer,Quality Assurance Officer,2025-03-28,2025-03-31,2025-04-30,Fisheries,Batna,No Formal Education,0,Alternance,7,"Supply Chain, Community Fisheries, Cold Storage, Marine Safety",0,2,24000
+172,Sales Associate,Merchandiser,2025-04-30,2025-05-09,2025-06-08,Retail,Algiers,Baccalaureate,12,CDI,2,"Retail Store Design, Retail Expansion, Merchandising, Retail Media Networks",0,1,36000
+173,Urban Planner,Policy Analyst,2025-02-13,2025-03-13,2025-04-12,Public Sector,Tizi Ouzou,Baccalaureate,12,Alternance,10,,0,1,43000
+174,VFX Artist,Content Producer,2025-02-13,2025-02-24,2025-03-26,Media & Entertainment,Constantine,Master,17,Freelance,6,"Media Planning, NFTs in Entertainment, Storyboarding, Content Licensing, Cinematography",6,10,80000
+175,Mine Engineer,Mine Engineer,2025-03-18,2025-03-23,2025-04-22,Mining,Oran,Licence,15,Alternance,6,,0,2,115000
+176,UX/UI Designer,Marketplace Coordinator,2025-05-04,2025-05-31,2025-06-30,E-Commerce,Blida,No Formal Education,0,Internship,5,,0,1,48000
+177,Quantity Surveyor,Safety Officer,2025-03-02,2025-03-30,2025-04-29,Construction,Bejaïa,Licence,15,Internship,10,,0,1,66000
+178,Financial Analyst,Auditor,2025-04-05,2025-04-06,2025-05-06,Finance,Souk Ahras,Master,17,CDD,9,"Python, Financial Modeling, R, Excel, SQL, Blockchain",6,8,120000
+179,Drilling Supervisor,HSE Specialist,2025-04-08,2025-04-11,2025-05-11,Energy & Petroleum,Bouira,Doctorat,20,CDD,8,"HSE Management, Petroleum Accounting, Well Logging, Rotating Equipment, Digital Oilfield",8,11,200000
+180,Petroleum Engineer,Reservoir Engineer,2025-03-19,2025-04-16,2025-05-16,Energy & Petroleum,Oran,Ingénieur d'État,19,Alternance,1,"Artificial Lift Systems, Seismic Interpretation, Directional Drilling, Reservoir Engineering, Formation Evaluation, HSE Management",0,2,168000
+181,Teacher,Academic Advisor,2025-04-02,2025-04-27,2025-05-27,Education,Sétif,Ingénieur d'État,19,CDI,8,"Literacy Instruction, Bloom's Taxonomy, Classroom Technology, STEM Education, Teacher Training, Maker Education",4,7,59000
+182,Site Manager,Safety Officer,2025-03-09,2025-03-21,2025-04-20,Construction,Sétif,Licence,15,Internship,7,,0,1,66000
+183,Wind Turbine Engineer,Energy Auditor,2025-02-26,2025-03-13,2025-04-12,Renewable Energy,Oran,Doctorat,20,CDD,5,,8,14,130000
+184,Mine Engineer,Environmental Compliance Officer,2025-03-02,2025-03-14,2025-04-13,Mining,Annaba,Master,17,CDI,7,,6,10,160000
+185,E-Commerce Manager,UX/UI Designer,2025-03-17,2025-03-23,2025-04-22,E-Commerce,Batna,Baccalaureate,12,CDD,10,,0,1,60000
+186,Wind Turbine Engineer,Energy Auditor,2025-04-13,2025-04-27,2025-05-27,Renewable Energy,Algiers,Master,17,Alternance,4,,0,1,116000
+187,Marketplace Coordinator,Marketplace Coordinator,2025-03-23,2025-04-07,2025-05-07,E-Commerce,Tébessa,Doctorat,20,Alternance,10,,0,2,97000
+188,Registered Nurse,Medical Technologist,2025-04-20,2025-04-23,2025-05-23,Healthcare,Oran,Ingénieur d'État,19,CDI,7,,4,5,77000
+189,Procurement Officer,Procurement Officer,2025-02-07,2025-03-01,2025-03-31,Public Sector,Algiers,Ingénieur d'État,19,Internship,2,,0,1,59000
+190,Medical Technologist,Clinical Researcher,2025-04-08,2025-05-05,2025-06-04,Healthcare,Saïda,Licence,15,Freelance,7,,2,3,65000
+191,Instructional Designer,Curriculum Developer,2025-02-16,2025-02-19,2025-03-21,Education,Oran,Doctorat,20,CDI,2,"AR/VR in Education, Gamification, Literacy Instruction, Faculty Development, Robotics Education, Pedagogy",8,12,60000
+192,Drilling Supervisor,Drilling Supervisor,2025-03-31,2025-04-10,2025-05-10,Energy & Petroleum,Bejaïa,Master,17,Internship,10,"Reservoir Engineering, Core Analysis, Production Engineering, Offshore Drilling, Asset Integrity",0,1,177000
+193,Digital Services Manager,Procurement Officer,2025-03-28,2025-04-09,2025-05-09,Public Sector,Oran,Licence,15,CDI,3,,2,5,57000
+194,Instructional Designer,Instructional Designer,2025-02-19,2025-03-07,2025-04-06,Education,Algiers,Baccalaureate,12,Freelance,6,"Pedagogy, Inquiry-Based Learning, Project-Based Learning, Classroom Management, Gamification",0,2,40000
+195,Drilling Supervisor,Reservoir Engineer,2025-05-03,2025-05-06,2025-06-05,Energy & Petroleum,Laghouat,Ingénieur d'État,19,CDI,8,"Completion Design, Workover Operations, Midstream Operations, Energy Transition",4,7,197000
+196,Flight Test Engineer,Avionics Engineer,2025-05-03,2025-05-14,2025-06-13,Aerospace & Defense,Laghouat,Licence,15,CDI,7,,2,5,148000
+197,Flight Test Engineer,Defense Analyst,2025-03-14,2025-03-27,2025-04-26,Aerospace & Defense,Sétif,Doctorat,20,CDI,2,,8,11,180000
+198,Instructional Designer,Curriculum Developer,2025-02-22,2025-03-15,2025-04-14,Education,Tébessa,Licence,15,Freelance,2,"AR/VR in Education, Gamification, Education Advocacy, Flipped Classroom",2,5,50000
+199,Environmental Compliance Officer,Geologist,2025-04-28,2025-05-24,2025-06-23,Mining,Constantine,Doctorat,20,CDD,2,,8,13,160000
+200,Medical Technologist,Clinical Researcher,2025-04-16,2025-04-30,2025-05-30,Healthcare,Skikda,Licence,15,CDD,9,,2,5,67000
+201,Farm Manager,Farm Manager,2025-04-07,2025-05-02,2025-06-01,Agriculture,Béjaïa,Baccalaureate,12,CDI,1,"Regenerative Agriculture, Agricultural Marketing, GIS Applications, Food Processing, Agricultural Data Science",0,1,30000
+202,Curriculum Developer,Instructional Designer,2025-02-07,2025-03-05,2025-04-04,Education,Blida,Doctorat,20,Freelance,1,"Literacy Instruction, Python, Educational Technology, Educational Psychology, Special Education, Pedagogy",8,12,60000
+203,Clinical Researcher,Health Informatics Specialist,2025-03-08,2025-03-13,2025-04-12,Healthcare,Constantine,Baccalaureate,12,CDD,3,,0,2,54000
+204,Systems Engineer,Avionics Engineer,2025-05-03,2025-05-09,2025-06-08,Aerospace & Defense,Constantine,Master,17,Alternance,1,,0,2,165000
+205,QA Analyst,Clinical Trials Manager,2025-03-04,2025-03-09,2025-04-08,Pharmaceuticals,Skikda,Licence,15,CDD,6,,2,4,112000
+206,Aquaculture Technician,Quality Assurance Officer,2025-05-04,2025-05-09,2025-06-08,Fisheries,Blida,Master,17,Freelance,1,"Fisheries Technology, Fishing Gear, Processing Technology, Market Analysis, Food Safety, Traceability",6,10,50000
+207,Curriculum Developer,Instructional Designer,2025-04-20,2025-05-16,2025-06-15,Education,Algiers,Licence,15,CDI,8,"Standardized Testing, Gifted Education, Differentiated Instruction, STEM Education, Inquiry-Based Learning",2,3,49000
+208,Quality Assurance Officer,Marine Biologist,2025-02-22,2025-03-07,2025-04-06,Fisheries,Algiers,Ingénieur d'État,19,CDI,9,"Feed Formulation, Marine Conservation, Stock Enhancement, Supply Chain, Ecosystem Management, Fisheries Policy",4,5,48000
+209,Reservoir Engineer,Drilling Supervisor,2025-03-06,2025-04-04,2025-05-04,Energy & Petroleum,Annaba,Ingénieur d'État,19,Internship,9,"Refinery Operations, Well Testing, Computational Fluid Dynamics, Pipeline Engineering",0,1,164000
+210,Environmental Compliance Officer,Mine Engineer,2025-02-27,2025-03-15,2025-04-14,Mining,Biskra,Baccalaureate,12,Freelance,4,,0,1,92000
+211,Solar PV Technician,Energy Auditor,2025-02-26,2025-03-10,2025-04-09,Renewable Energy,Algiers,Master,17,CDI,4,,6,9,130000
+212,Billing Specialist,RF Technician,2025-03-28,2025-04-20,2025-05-20,Telecommunications,Algiers,Ingénieur d'État,19,CDD,4,,4,7,118000
+213,Wind Turbine Engineer,Energy Auditor,2025-03-03,2025-03-05,2025-04-04,Renewable Energy,Algiers,Licence,15,CDI,9,,2,5,104000
+214,Quality Control Inspector,Process Technician,2025-02-15,2025-03-07,2025-04-06,Manufacturing,Souk Ahras,Master,17,CDI,7,"3D Printing, PLC Programming, ERP, Lean Six Sigma, Digital Twin, Python",6,8,80000
+215,Procurement Officer,Policy Analyst,2025-04-28,2025-05-11,2025-06-10,Public Sector,Batna,Ingénieur d'État,19,CDD,1,,4,8,70000
+216,Mine Engineer,Blasting Technician,2025-02-11,2025-02-11,2025-03-13,Mining,Béjaïa,Baccalaureate,12,Alternance,7,,0,2,95000
+217,Medical Technologist,Medical Technologist,2025-03-11,2025-03-17,2025-04-16,Healthcare,Constantine,Ingénieur d'État,19,Alternance,2,,0,2,70000
+218,Drilling Supervisor,Petroleum Engineer,2025-04-09,2025-04-21,2025-05-21,Energy & Petroleum,Oran,Ingénieur d'État,19,CDD,9,"Petroleum Data Science, Petrophysics, Energy Policy, Production Engineering",4,5,190000
+219,Cybersecurity Analyst,Data Scientist,2025-02-22,2025-03-15,2025-04-14,Information Technology,Constantine,Master,17,Alternance,5,"Linux, Data Structures, Mobile Development, Agile Methodologies, Swift",0,2,136000
+220,Agri-Tech Developer,Agronomist,2025-04-01,2025-04-21,2025-05-21,Agriculture,Oran,Baccalaureate,12,Internship,10,"Agricultural Marketing, Bioenergy, Fisheries Management, Agricultural Biotechnology, Agronomy",0,1,30000
+221,QA Analyst,Formulation Scientist,2025-04-02,2025-04-02,2025-05-02,Pharmaceuticals,Algiers,Doctorat,20,Alternance,7,,0,2,136000
+222,Guest Services Manager,Event Coordinator,2025-02-17,2025-02-20,2025-03-22,Tourism & Hospitality,Annaba,No Formal Education,0,CDI,10,,0,1,29000
+223,Safety Officer,Quantity Surveyor,2025-05-03,2025-05-10,2025-06-09,Construction,Batna,Master,17,Internship,10,,0,1,81000
+224,Blasting Technician,Environmental Compliance Officer,2025-03-31,2025-04-01,2025-05-01,Mining,Oran,Doctorat,20,CDI,4,,8,9,160000
+225,Video Editor,VFX Artist,2025-04-29,2025-05-16,2025-06-15,Media & Entertainment,El Oued,Master,17,Alternance,5,"Virtual Production, Metaverse Development, Audio Engineering, Public Relations",0,1,71000
+226,Tour Guide,Tour Guide,2025-04-04,2025-04-30,2025-05-30,Tourism & Hospitality,Algiers,Licence,15,CDD,1,,2,4,48000
+227,Energy Auditor,Energy Auditor,2025-02-21,2025-03-13,2025-04-12,Renewable Energy,Skikda,Master,17,CDD,10,,6,10,130000
+228,Defense Analyst,Defense Analyst,2025-02-19,2025-02-21,2025-03-23,Aerospace & Defense,Blida,Master,17,Internship,8,,0,1,162000
+229,Billing Specialist,Telecom Analyst,2025-03-08,2025-03-25,2025-04-24,Telecommunications,Saïda,Doctorat,20,CDI,5,,8,9,120000
+230,Sales Associate,Sales Associate,2025-05-05,2025-05-06,2025-06-05,Retail,Annaba,Baccalaureate,12,Alternance,6,"Retail IoT, Retail Expansion, Retail Analytics, RFID Systems",0,1,36000
+231,Urban Planner,Urban Planner,2025-05-05,2025-05-22,2025-06-21,Public Sector,Laghouat,Doctorat,20,Freelance,8,,8,12,70000
+232,Drilling Supervisor,Reservoir Engineer,2025-02-27,2025-03-11,2025-04-10,Energy & Petroleum,Oran,Master,17,Freelance,10,"Petroleum Economics, Computational Fluid Dynamics, Downstream Operations, Petrophysics, Offshore Drilling, Renewable Integration",6,9,200000
+233,Risk Manager,Risk Manager,2025-04-12,2025-04-16,2025-05-16,Finance,Oran,Ingénieur d'État,19,CDD,9,"Risk Analysis Tools, Excel, Python, Financial Modeling, Blockchain, Tableau",4,6,116000
+234,Store Manager,Inventory Coordinator,2025-03-13,2025-04-09,2025-05-09,Retail,Oran,Doctorat,20,CDD,1,"Retail Technology, Merchandising, Retail Banking, Pricing Strategy",8,12,60000
+235,Tour Guide,Tour Guide,2025-05-03,2025-05-22,2025-06-21,Tourism & Hospitality,Sétif,Licence,15,Freelance,9,,2,3,47000
+236,Content Producer,Sound Designer,2025-04-08,2025-04-15,2025-05-15,Media & Entertainment,Blida,Licence,15,Freelance,5,"Cinematography, Color Grading, Audience Analytics, Set Design",2,4,62000
+237,Content Producer,Content Producer,2025-05-07,2025-05-18,2025-06-17,Media & Entertainment,Tizi Ouzou,No Formal Education,0,CDI,2,"Motion Graphics, AI in Media, Media Buying, Public Relations, Influencer Marketing",0,1,36000
+238,Tour Guide,Hotel Manager,2025-05-01,2025-05-08,2025-06-07,Tourism & Hospitality,Tiaret,Licence,15,CDD,4,,2,5,49000
+239,Inventory Coordinator,Sales Associate,2025-04-25,2025-05-03,2025-06-02,Retail,Constantine,Master,17,Alternance,8,"Retail Technology, Retail KPIs, Shopper Marketing, Retail Data Privacy",0,2,55000
+240,Quantity Surveyor,Site Manager,2025-05-03,2025-05-23,2025-06-22,Construction,Algiers,Master,17,CDD,6,,6,7,90000
+241,Grid Integration Specialist,Grid Integration Specialist,2025-02-09,2025-02-17,2025-03-19,Renewable Energy,Blida,Ingénieur d'État,19,Internship,7,,0,1,108000
+242,Content Producer,Content Producer,2025-04-19,2025-05-05,2025-06-04,Media & Entertainment,Sétif,No Formal Education,0,Internship,10,"Entertainment Law, OTT Platforms, Virtual Production, AR/VR Development, Screenwriting",0,1,36000
+243,E-Commerce Manager,SEO Specialist,2025-04-23,2025-05-12,2025-06-11,E-Commerce,Oran,Licence,15,Freelance,3,,2,3,78000
+244,Marketplace Coordinator,E-Commerce Manager,2025-04-25,2025-05-07,2025-06-06,E-Commerce,Constantine,No Formal Education,0,Freelance,7,,0,1,48000
+245,Cybersecurity Analyst,Cybersecurity Analyst,2025-03-04,2025-03-11,2025-04-10,Information Technology,Blida,Doctorat,20,CDI,4,"JavaScript, CI/CD, Python, Frontend Development, TypeScript, PowerShell",8,13,150000
+246,Quality Control Inspector,Maintenance Engineer,2025-04-24,2025-04-29,2025-05-29,Manufacturing,Algiers,Doctorat,20,CDD,2,"3D Printing, MES, PLC Programming, CAD Software, Python, Lean Six Sigma",8,11,80000
+247,Policy Analyst,Urban Planner,2025-03-16,2025-03-17,2025-04-16,Public Sector,Algiers,Baccalaureate,12,Freelance,3,,0,1,43000
+248,Marine Biologist,Fishery Inspector,2025-05-01,2025-05-23,2025-06-22,Fisheries,Blida,No Formal Education,0,Internship,8,"Hatchery Management, Fisheries Extension, Stock Enhancement, Vessel Operations",0,1,24000
+249,Billing Specialist,Telecom Analyst,2025-02-28,2025-03-09,2025-04-08,Telecommunications,Constantine,Baccalaureate,12,Alternance,3,,0,2,74000
+250,Tour Guide,Event Coordinator,2025-04-27,2025-05-19,2025-06-18,Tourism & Hospitality,Algiers,Doctorat,20,Alternance,7,,0,1,57000
+251,Financial Analyst,Risk Manager,2025-03-12,2025-03-26,2025-04-25,Finance,Oran,Master,17,CDD,2,"Python, Power BI, Excel, QuickBooks, Tableau, R",6,10,120000
+252,Marketplace Coordinator,E-Commerce Manager,2025-04-27,2025-05-08,2025-06-07,E-Commerce,Algiers,Licence,15,CDI,4,,2,3,78000
+253,Blasting Technician,Environmental Compliance Officer,2025-02-28,2025-03-01,2025-03-31,Mining,Jijel,No Formal Education,0,CDD,3,,0,1,72000
+254,Telecom Analyst,Billing Specialist,2025-04-12,2025-04-21,2025-05-21,Telecommunications,Mostaganem,Ingénieur d'État,19,Alternance,4,,0,2,102000
+255,Hotel Manager,Tour Guide,2025-03-17,2025-04-01,2025-05-01,Tourism & Hospitality,Sétif,No Formal Education,0,Freelance,4,,0,1,29000
+256,Flight Test Engineer,Systems Engineer,2025-03-06,2025-03-09,2025-04-08,Aerospace & Defense,Oran,Master,17,Freelance,10,,6,9,180000
+257,Telecom Analyst,Billing Specialist,2025-04-23,2025-05-06,2025-06-05,Telecommunications,Khenchela,Baccalaureate,12,CDD,10,,0,1,73000
+258,Quality Assurance Officer,Aquaculture Technician,2025-03-13,2025-04-06,2025-05-06,Fisheries,Annaba,Ingénieur d'État,19,Freelance,7,"GIS Applications, Fish Health, Fisheries Biology, Small-Scale Fisheries, Market Analysis, Aquaponics",4,7,49000
+259,Geologist,Geologist,2025-03-17,2025-04-12,2025-05-12,Mining,Blida,No Formal Education,0,Freelance,7,,0,1,72000
+260,Logistics Manager,Fleet Coordinator,2025-03-11,2025-03-12,2025-04-11,Transport & Logistics,Constantine,Licence,15,Alternance,8,,0,2,65000
+261,SEO Specialist,SEO Specialist,2025-02-18,2025-03-02,2025-04-01,E-Commerce,Sétif,No Formal Education,0,Freelance,2,,0,1,48000
+262,Grid Integration Specialist,Wind Turbine Engineer,2025-02-24,2025-03-24,2025-04-23,Renewable Energy,Algiers,Doctorat,20,Alternance,9,,0,1,124000
+263,Merchandiser,Store Manager,2025-03-04,2025-03-05,2025-04-04,Retail,Algiers,Licence,15,Internship,4,"Last-Mile Delivery, Retail IoT, Pricing Strategy, Consumer Behavior, Retail Analytics, Loyalty Programs",0,1,43000
+264,Agri-Tech Developer,Farm Manager,2025-02-17,2025-03-17,2025-04-16,Agriculture,Algiers,Baccalaureate,12,Alternance,5,"Regenerative Agriculture, Climate-Smart Agriculture, Blockchain in Agriculture, Animal Nutrition, Vertical Farming",0,2,30000
+265,Marketplace Coordinator,UX/UI Designer,2025-03-21,2025-04-06,2025-05-06,E-Commerce,Algiers,Master,17,Freelance,4,,6,10,100000
+266,Project Engineer,Project Engineer,2025-04-18,2025-05-03,2025-06-02,Construction,Biskra,Doctorat,20,Alternance,3,,0,1,86000
+267,Formulation Scientist,QA Analyst,2025-03-21,2025-04-19,2025-05-19,Pharmaceuticals,Batna,Licence,15,CDD,2,,2,3,110000
+268,Safety Officer,Quantity Surveyor,2025-03-28,2025-04-02,2025-05-02,Construction,Constantine,Ingénieur d'État,19,Internship,8,,0,1,76000
+269,Medical Technologist,Registered Nurse,2025-03-16,2025-04-12,2025-05-12,Healthcare,Constantine,Master,17,Alternance,8,,0,1,73000
+270,Farm Manager,Agri-Tech Developer,2025-02-25,2025-03-09,2025-04-08,Agriculture,Tébessa,No Formal Education,0,CDD,9,"Agricultural Waste Management, Climate-Smart Agriculture, Agricultural Law, Poultry Science",0,1,24000
+271,Defense Analyst,Flight Test Engineer,2025-02-11,2025-03-04,2025-04-03,Aerospace & Defense,Sétif,Doctorat,20,CDD,7,,8,14,180000
+272,Systems Engineer,Defense Analyst,2025-02-07,2025-03-04,2025-04-03,Aerospace & Defense,Oran,Master,17,Freelance,3,,6,7,180000
+273,RF Technician,RF Technician,2025-05-07,2025-06-02,2025-07-02,Telecommunications,Constantine,Licence,15,CDI,7,,2,5,97000
+274,Digital Services Manager,Policy Analyst,2025-04-14,2025-04-23,2025-05-23,Public Sector,Laghouat,Licence,15,CDD,10,,2,4,56000
+275,Site Manager,Quantity Surveyor,2025-03-14,2025-04-03,2025-05-03,Construction,Algiers,Baccalaureate,12,CDI,10,,0,2,58000
+276,Blasting Technician,Mine Engineer,2025-02-13,2025-03-01,2025-03-31,Mining,Oran,Licence,15,Freelance,6,,2,4,125000
+277,Registered Nurse,Registered Nurse,2025-04-08,2025-04-23,2025-05-23,Healthcare,Oran,Master,17,Alternance,5,,0,2,74000
+278,Tour Guide,Event Coordinator,2025-04-12,2025-04-18,2025-05-18,Tourism & Hospitality,Annaba,No Formal Education,0,CDI,1,,0,1,29000
+279,Supply Chain Analyst,Logistics Manager,2025-04-17,2025-05-01,2025-05-31,Transport & Logistics,Annaba,Doctorat,20,Freelance,5,,8,11,90000
+280,SEO Specialist,UX/UI Designer,2025-03-28,2025-04-12,2025-05-12,E-Commerce,Constantine,Doctorat,20,Internship,9,,0,1,96000
+281,Quantity Surveyor,Site Manager,2025-04-12,2025-05-01,2025-05-31,Construction,Skikda,Ingénieur d'État,19,Alternance,3,,0,1,76000
+282,Flight Test Engineer,Systems Engineer,2025-03-10,2025-03-29,2025-04-28,Aerospace & Defense,Sétif,Ingénieur d'État,19,CDI,6,,4,5,172000
+283,Agronomist,Agronomist,2025-04-15,2025-04-29,2025-05-29,Agriculture,Algiers,Ingénieur d'État,19,Internship,9,"Livestock Management, Land Use Planning, Agricultural Extension, Commodity Trading",0,1,42000
+284,HSE Specialist,Drilling Supervisor,2025-04-01,2025-04-07,2025-05-07,Energy & Petroleum,Bejaïa,Ingénieur d'État,19,CDD,5,"Drilling Engineering, Rotating Equipment, Well Intervention, Process Safety, Production Engineering",4,8,200000
+285,Quality Control Inspector,Quality Control Inspector,2025-02-25,2025-03-17,2025-04-16,Manufacturing,Algiers,Licence,15,Alternance,6,"Lean Six Sigma, PLC Programming, ERP, SCADA, Digital Twin",0,1,56000
+286,QA Analyst,Regulatory Affairs Specialist,2025-04-12,2025-04-30,2025-05-30,Pharmaceuticals,Medea,Doctorat,20,Freelance,5,,8,14,140000
+287,Event Coordinator,Event Coordinator,2025-04-13,2025-04-21,2025-05-21,Tourism & Hospitality,Tizi Ouzou,Baccalaureate,12,Freelance,6,,0,1,36000
+288,Supply Chain Analyst,Logistics Manager,2025-04-07,2025-05-04,2025-06-03,Transport & Logistics,El Oued,Doctorat,20,CDI,6,,8,15,90000
+289,Wind Turbine Engineer,Wind Turbine Engineer,2025-03-08,2025-03-27,2025-04-26,Renewable Energy,Algiers,Doctorat,20,CDI,10,,8,11,130000
+290,Site Manager,Project Engineer,2025-04-01,2025-04-01,2025-05-01,Construction,Constantine,Ingénieur d'État,19,Alternance,5,,0,1,76000
+291,Guest Services Manager,Tour Guide,2025-03-08,2025-03-21,2025-04-20,Tourism & Hospitality,Sétif,No Formal Education,0,Freelance,9,,0,1,29000
+292,Environmental Compliance Officer,Blasting Technician,2025-02-27,2025-03-19,2025-04-18,Mining,Béjaïa,Ingénieur d'État,19,Internship,7,,0,1,132000
+293,Project Engineer,Site Manager,2025-04-24,2025-05-22,2025-06-21,Construction,Algiers,Doctorat,20,CDI,3,,8,10,90000
+294,Data Scientist,Cybersecurity Analyst,2025-04-06,2025-04-21,2025-05-21,Information Technology,Algiers,Master,17,Internship,4,"Database Design, Python, Linux, Java, Ruby, Object-Oriented Programming",0,1,134000
+295,Content Producer,Sound Designer,2025-03-24,2025-04-14,2025-05-14,Media & Entertainment,Ghardaïa,Master,17,CDI,9,"DJing, Storyboarding, Stunt Coordination, Public Relations, Motion Graphics",6,8,80000
+296,Maintenance Engineer,Quality Control Inspector,2025-03-21,2025-03-31,2025-04-30,Manufacturing,Algiers,Doctorat,20,Alternance,5,"ERP, Robotics, Python, MES, PLC Programming",0,1,76000
+297,Content Producer,Video Editor,2025-03-28,2025-04-19,2025-05-19,Media & Entertainment,Batna,Licence,15,CDD,10,"Film Financing, Public Relations, Broadcast Engineering, Content Strategy, OTT Platforms",2,4,62000
+298,Cybersecurity Analyst,Data Scientist,2025-04-25,2025-05-03,2025-06-02,Information Technology,Algiers,Licence,15,CDI,3,"Agile Methodologies, DevOps, C#, Java",2,4,118000
+299,Teacher,Curriculum Developer,2025-04-11,2025-04-15,2025-05-15,Education,Ghardaïa,Master,17,Internship,5,"Python, Grant Writing, ESL Instruction, Gifted Education, Differentiated Instruction",0,1,55000
+300,Network Engineer,Network Engineer,2025-03-06,2025-03-31,2025-04-30,Telecommunications,Sétif,Master,17,Alternance,5,,0,2,110000
+301,Auditor,Financial Analyst,2025-04-12,2025-04-28,2025-05-28,Finance,Algiers,Baccalaureate,12,CDI,7,"SQL, QuickBooks, Tableau, Financial Modeling, Risk Analysis Tools, Power BI",0,2,74000
+302,Hotel Manager,Hotel Manager,2025-02-16,2025-02-27,2025-03-29,Tourism & Hospitality,Oran,Master,17,CDD,7,,6,7,60000
+303,UX/UI Designer,UX/UI Designer,2025-04-13,2025-04-28,2025-05-28,E-Commerce,Bejaïa,No Formal Education,0,Freelance,5,,0,1,48000
+304,Curriculum Developer,Instructional Designer,2025-02-28,2025-03-09,2025-04-08,Education,Annaba,Doctorat,20,CDI,8,"Educational Technology, 3D Printing, Gifted Education, Andragogy, AR/VR in Education, School Administration",8,9,60000
+305,Agri-Tech Developer,Agri-Tech Developer,2025-02-21,2025-02-22,2025-03-24,Agriculture,Mostaganem,Ingénieur d'État,19,CDI,9,"Drone Technology, Poultry Science, Supply Chain, Animal Nutrition, Livestock Management, Regenerative Agriculture",4,8,50000
+306,Quality Control Inspector,Quality Control Inspector,2025-02-11,2025-02-22,2025-03-24,Manufacturing,Algiers,Ingénieur d'État,19,CDD,5,"CAD Software, Digital Twin, ERP, Lean Six Sigma, Robotics, Python",4,7,79000
+307,Energy Auditor,Grid Integration Specialist,2025-03-25,2025-04-23,2025-05-23,Renewable Energy,Medea,Licence,15,CDI,6,,2,5,104000
+308,Safety Officer,Site Manager,2025-04-30,2025-05-03,2025-06-02,Construction,Tipaza,Master,17,CDI,4,,6,8,90000
+309,Health Informatics Specialist,Clinical Researcher,2025-03-23,2025-04-12,2025-05-12,Healthcare,El Oued,Ingénieur d'État,19,CDI,10,,4,7,79000
+310,Supply Chain Analyst,Customs Compliance Officer,2025-05-04,2025-05-31,2025-06-30,Transport & Logistics,Blida,Master,17,CDI,3,,6,8,90000
+311,Quantity Surveyor,Safety Officer,2025-02-25,2025-03-15,2025-04-14,Construction,Tlemcen,Baccalaureate,12,CDD,10,,0,2,58000
+312,Farm Manager,Irrigation Specialist,2025-03-26,2025-04-14,2025-05-14,Agriculture,Souk Ahras,Baccalaureate,12,Internship,4,"Bioenergy, Farm Machinery, Agri-Fintech, Food Processing",0,1,30000
+313,Marketplace Coordinator,Marketplace Coordinator,2025-03-02,2025-03-09,2025-04-08,E-Commerce,Annaba,Ingénieur d'État,19,Freelance,6,,4,5,96000
+314,Regulatory Affairs Specialist,Formulation Scientist,2025-04-11,2025-04-11,2025-05-11,Pharmaceuticals,Blida,Licence,15,Freelance,4,,2,5,114000
+315,Guest Services Manager,Tour Guide,2025-05-04,2025-05-09,2025-06-08,Tourism & Hospitality,Tiaret,Licence,15,CDD,8,,2,4,48000
+316,RF Technician,Telecom Analyst,2025-04-23,2025-05-13,2025-06-12,Telecommunications,Constantine,Doctorat,20,CDD,10,,8,9,120000
+317,Mine Engineer,Environmental Compliance Officer,2025-02-28,2025-03-08,2025-04-07,Mining,Algiers,No Formal Education,0,Internship,9,,0,1,72000
+318,Software Engineer,Software Engineer,2025-04-26,2025-05-21,2025-06-20,Information Technology,Tlemcen,Baccalaureate,12,CDD,6,"Database Design, Linux, Agile Methodologies, Frontend Development, Python",0,1,89000
+319,Systems Engineer,Defense Analyst,2025-03-24,2025-03-26,2025-04-25,Aerospace & Defense,Constantine,Master,17,Internship,1,,0,1,162000
+320,Event Coordinator,Hotel Manager,2025-04-02,2025-04-14,2025-05-14,Tourism & Hospitality,Chlef,Doctorat,20,Freelance,1,,8,11,60000
+321,Geologist,Geologist,2025-05-07,2025-05-12,2025-06-11,Mining,Bejaïa,Licence,15,Freelance,9,,2,3,122000
+322,Event Coordinator,Hotel Manager,2025-03-23,2025-03-29,2025-04-28,Tourism & Hospitality,Annaba,Ingénieur d'État,19,CDI,2,,4,7,59000
+323,Wind Turbine Engineer,Grid Integration Specialist,2025-04-25,2025-05-17,2025-06-16,Renewable Energy,Skikda,Doctorat,20,Internship,1,,0,1,124000
+324,Flight Test Engineer,Systems Engineer,2025-04-12,2025-05-07,2025-06-06,Aerospace & Defense,Biskra,Ingénieur d'État,19,Freelance,4,,4,7,178000
+325,Risk Manager,Financial Analyst,2025-04-02,2025-04-30,2025-05-30,Finance,Algiers,Ingénieur d'État,19,Alternance,3,"Power BI, QuickBooks, Financial Modeling, Blockchain",0,2,102000
+326,Production Supervisor,Production Supervisor,2025-03-09,2025-03-30,2025-04-29,Manufacturing,El Oued,Ingénieur d'État,19,CDD,8,"MES, CAD Software, Digital Twin, 3D Printing",4,5,76000
+327,Policy Analyst,Procurement Officer,2025-04-07,2025-05-01,2025-05-31,Public Sector,Oran,Ingénieur d'État,19,CDI,7,,4,8,70000
+328,Health Informatics Specialist,Clinical Researcher,2025-03-20,2025-04-15,2025-05-15,Healthcare,Chlef,Baccalaureate,12,Freelance,7,,0,2,54000
+329,Defense Analyst,Defense Analyst,2025-03-22,2025-03-29,2025-04-28,Aerospace & Defense,Sétif,Ingénieur d'État,19,Internship,7,,0,1,152000
+330,Formulation Scientist,QA Analyst,2025-04-20,2025-05-13,2025-06-12,Pharmaceuticals,Constantine,Doctorat,20,Internship,10,,0,1,134000
+331,Software Engineer,Software Engineer,2025-03-22,2025-04-03,2025-05-03,Information Technology,Constantine,Licence,15,Freelance,8,"JavaScript, TypeScript, Machine Learning, Artificial Intelligence",2,4,118000
+332,Environmental Compliance Officer,Environmental Compliance Officer,2025-04-20,2025-05-02,2025-06-01,Mining,Batna,Doctorat,20,Internship,2,,0,1,152000
+333,Merchandiser,Inventory Coordinator,2025-04-29,2025-05-12,2025-06-11,Retail,Sétif,No Formal Education,0,Freelance,5,"Retail Analytics, Category Management, Augmented Reality Shopping, Retail Marketing",0,1,29000
+334,Energy Auditor,Energy Auditor,2025-04-22,2025-05-17,2025-06-16,Renewable Energy,Sétif,Master,17,Freelance,2,,6,8,130000
+335,Solar PV Technician,Grid Integration Specialist,2025-03-26,2025-04-06,2025-05-06,Renewable Energy,Tébessa,Licence,15,CDI,3,,2,4,102000
+336,Project Engineer,Quantity Surveyor,2025-03-05,2025-03-26,2025-04-25,Construction,Oran,Baccalaureate,12,CDD,2,,0,1,56000
+337,Policy Analyst,Urban Planner,2025-02-14,2025-02-27,2025-03-29,Public Sector,Algiers,Baccalaureate,12,Freelance,1,,0,1,43000
+338,Blasting Technician,Blasting Technician,2025-03-01,2025-03-14,2025-04-13,Mining,Constantine,Master,17,Alternance,4,,0,1,142000
+339,Health Informatics Specialist,Clinical Researcher,2025-03-11,2025-03-26,2025-04-25,Healthcare,Constantine,Master,17,CDI,3,,6,10,80000
+340,Policy Analyst,Digital Services Manager,2025-05-04,2025-05-30,2025-06-29,Public Sector,Sétif,Master,17,Alternance,5,,0,2,64000
+341,Instructional Designer,Instructional Designer,2025-02-14,2025-02-20,2025-03-22,Education,Saïda,Baccalaureate,12,CDI,3,"Scratch, Bloom's Taxonomy, 3D Printing, Curriculum Development, AP Instruction",0,1,40000
+342,QA Analyst,Formulation Scientist,2025-02-21,2025-03-04,2025-04-03,Pharmaceuticals,Batna,Doctorat,20,Internship,6,,0,1,134000
+343,Site Manager,Site Manager,2025-03-16,2025-03-23,2025-04-22,Construction,Algiers,No Formal Education,0,Internship,1,,0,1,46000
+344,Systems Engineer,Flight Test Engineer,2025-04-16,2025-04-26,2025-05-26,Aerospace & Defense,Laghouat,Doctorat,20,Alternance,5,,0,1,172000
+345,SEO Specialist,Marketplace Coordinator,2025-02-13,2025-03-05,2025-04-04,E-Commerce,Constantine,Ingénieur d'État,19,Internship,3,,0,1,84000
+346,Digital Services Manager,Urban Planner,2025-03-18,2025-04-03,2025-05-03,Public Sector,Sétif,Ingénieur d'État,19,CDI,1,,4,6,68000
+347,Production Supervisor,Production Supervisor,2025-03-31,2025-04-22,2025-05-22,Manufacturing,Biskra,No Formal Education,0,Freelance,3,"PLC Programming, MES, Digital Twin, Robotics",0,1,36000
+348,Reservoir Engineer,Petroleum Engineer,2025-03-19,2025-03-22,2025-04-21,Energy & Petroleum,Biskra,Doctorat,20,Alternance,7,"Renewable Integration, Formation Evaluation, Upstream Operations, Well Testing, Subsea Engineering",0,2,194000
+349,Content Producer,Sound Designer,2025-02-27,2025-03-19,2025-04-18,Media & Entertainment,Batna,No Formal Education,0,Freelance,10,"Copyright Law, Entertainment Law, OTT Platforms, Audience Analytics",0,1,36000
+350,Regulatory Affairs Specialist,Formulation Scientist,2025-03-16,2025-04-13,2025-05-13,Pharmaceuticals,Algiers,Doctorat,20,Freelance,9,,8,14,140000
+351,Health Informatics Specialist,Clinical Researcher,2025-04-15,2025-04-15,2025-05-15,Healthcare,Mostaganem,Doctorat,20,CDI,9,,8,12,80000
+352,Fishery Inspector,Aquaculture Technician,2025-05-01,2025-05-28,2025-06-27,Fisheries,Constantine,Baccalaureate,12,CDI,4,"Navigation, Market Analysis, Climate Adaptation, Algae Cultivation, Stock Modeling, Supply Chain",0,2,30000
+353,Merchandiser,Sales Associate,2025-03-15,2025-04-07,2025-05-07,Retail,Algiers,Doctorat,20,Internship,1,"Retail Digital Transformation, Shopper Marketing, Store Operations, Assortment Planning",0,1,57000
+354,Project Engineer,Site Manager,2025-02-07,2025-02-24,2025-03-26,Construction,Souk Ahras,No Formal Education,0,Alternance,10,,0,2,48000
+355,Cybersecurity Analyst,Data Scientist,2025-03-07,2025-03-25,2025-04-24,Information Technology,Constantine,No Formal Education,0,CDD,4,"Agile Methodologies, R, Frontend Development, JavaScript",0,1,71000
+356,Academic Advisor,Instructional Designer,2025-04-30,2025-05-20,2025-06-19,Education,Tipaza,Licence,15,Freelance,3,"Standardized Testing, Pedagogy, AR/VR in Education, Robotics Education, Montessori Methods, Faculty Development",2,5,50000
+357,Curriculum Developer,Instructional Designer,2025-03-31,2025-04-26,2025-05-26,Education,Tiaret,Baccalaureate,12,Internship,5,"Early Childhood Education, Montessori Methods, LMS Administration, Data-Driven Instruction, Educational Leadership",0,1,40000
+358,VFX Artist,VFX Artist,2025-04-25,2025-05-24,2025-06-23,Media & Entertainment,Tlemcen,Licence,15,Internship,2,"Talent Management, Media Planning, AI in Media, Screenwriting",0,1,56000
+359,SEO Specialist,UX/UI Designer,2025-05-05,2025-05-15,2025-06-14,E-Commerce,Oran,No Formal Education,0,Internship,4,,0,1,48000
+360,Agronomist,Agri-Tech Developer,2025-03-26,2025-04-05,2025-05-05,Agriculture,Biskra,Ingénieur d'État,19,Internship,3,"Agroforestry, Farm Management Software, Agricultural Extension, Poultry Science, Climate-Smart Agriculture, Fertilizer Technology",0,1,42000
+361,Fishery Inspector,Aquaculture Technician,2025-03-05,2025-03-26,2025-04-25,Fisheries,Algiers,Master,17,Alternance,4,"Stock Assessment, Processing Technology, Marine Safety, Coastal Management, Stock Enhancement, Remote Sensing",0,1,45000
+362,Supply Chain Analyst,Logistics Manager,2025-03-26,2025-03-27,2025-04-26,Transport & Logistics,Algiers,Doctorat,20,Alternance,7,,0,1,86000
+363,Medical Technologist,Clinical Researcher,2025-03-16,2025-04-01,2025-05-01,Healthcare,Annaba,Master,17,CDD,7,,6,9,80000
+364,Health Informatics Specialist,Health Informatics Specialist,2025-04-12,2025-05-01,2025-05-31,Healthcare,Blida,Baccalaureate,12,CDI,9,,0,2,54000
+365,Agri-Tech Developer,Irrigation Specialist,2025-04-18,2025-04-26,2025-05-26,Agriculture,Tizi Ouzou,Doctorat,20,Freelance,3,"Blockchain in Agriculture, Fertilizer Technology, Commodity Trading, Bioenergy, Agronomy, Food Processing",8,13,50000
+366,SEO Specialist,UX/UI Designer,2025-04-29,2025-05-21,2025-06-20,E-Commerce,Batna,Doctorat,20,Freelance,7,,8,13,100000
+367,SEO Specialist,SEO Specialist,2025-05-07,2025-05-13,2025-06-12,E-Commerce,Algiers,Ingénieur d'État,19,Freelance,3,,4,5,96000
+368,Logistics Manager,Supply Chain Analyst,2025-04-08,2025-05-03,2025-06-02,Transport & Logistics,Sétif,Baccalaureate,12,CDD,9,,0,1,53000
+369,HSE Specialist,Petroleum Engineer,2025-02-09,2025-02-28,2025-03-30,Energy & Petroleum,Tizi Ouzou,Master,17,Alternance,2,"Artificial Lift Systems, Well Intervention, Downstream Operations, Subsea Engineering",0,1,177000
+370,RF Technician,RF Technician,2025-04-05,2025-05-02,2025-06-01,Telecommunications,Algiers,Ingénieur d'État,19,Freelance,1,,4,5,115000
+371,Process Technician,Process Technician,2025-04-12,2025-04-13,2025-05-13,Manufacturing,Biskra,Doctorat,20,Alternance,3,"Python, 3D Printing, Lean Six Sigma, Digital Twin",0,2,78000
+372,Supply Chain Analyst,Customs Compliance Officer,2025-02-15,2025-03-07,2025-04-06,Transport & Logistics,Jijel,No Formal Education,0,CDI,9,,0,1,42000
+373,Clinical Trials Manager,QA Analyst,2025-02-20,2025-03-14,2025-04-13,Pharmaceuticals,Sétif,Licence,15,CDD,5,,2,4,112000
+374,Blasting Technician,Blasting Technician,2025-02-24,2025-02-26,2025-03-28,Mining,Blida,Master,17,CDI,9,,6,10,160000
+375,Sound Designer,Video Editor,2025-03-04,2025-03-22,2025-04-21,Media & Entertainment,Mostaganem,Master,17,CDI,1,"Influencer Marketing, AI in Media, Media Planning, Storyboarding, Festival Management",6,7,80000
+376,Production Supervisor,Quality Control Inspector,2025-03-10,2025-03-20,2025-04-19,Manufacturing,Oran,No Formal Education,0,CDD,2,"Digital Twin, 3D Printing, PLC Programming, CAD Software",0,1,36000
+377,Regulatory Affairs Specialist,Clinical Trials Manager,2025-03-23,2025-04-07,2025-05-07,Pharmaceuticals,Sétif,Master,17,CDD,8,,6,7,140000
+378,Petroleum Engineer,Reservoir Engineer,2025-03-11,2025-03-29,2025-04-28,Energy & Petroleum,Khenchela,Doctorat,20,Alternance,10,"Reliability Engineering, Directional Drilling, Refinery Operations, Enhanced Oil Recovery",0,1,190000
+379,Sound Designer,VFX Artist,2025-03-06,2025-03-26,2025-04-25,Media & Entertainment,Tipaza,No Formal Education,0,Internship,10,"Social Media Management, Media Distribution, Event Production, Programmatic Advertising, 3D Animation",0,1,36000
+380,Customs Compliance Officer,Supply Chain Analyst,2025-03-03,2025-03-06,2025-04-05,Transport & Logistics,Souk Ahras,Baccalaureate,12,Alternance,6,,0,1,53000
+381,Production Supervisor,Process Technician,2025-03-24,2025-03-24,2025-04-23,Manufacturing,Oran,Baccalaureate,12,CDD,3,"Digital Twin, Python, Robotics, 3D Printing",0,1,46000
+382,Merchandiser,Sales Associate,2025-04-20,2025-05-16,2025-06-15,Retail,Constantine,Master,17,CDI,2,"Retail Marketing, Retail Buying, Circular Economy, Customer Experience, Dark Store Operations",6,7,60000
+383,Defense Analyst,Avionics Engineer,2025-02-12,2025-02-28,2025-03-30,Aerospace & Defense,Oran,Licence,15,Alternance,1,,0,1,132000
+384,Curriculum Developer,Academic Advisor,2025-02-28,2025-03-03,2025-04-02,Education,Bejaïa,Licence,15,CDI,4,"Maker Education, Learning Analytics, Lesson Planning, Bloom's Taxonomy, Career Counseling",2,3,49000
+385,Data Scientist,Cybersecurity Analyst,2025-04-23,2025-04-24,2025-05-24,Information Technology,Blida,Baccalaureate,12,Internship,7,"Kubernetes, Java, Software Testing, UI/UX Design, System Design, C#",0,1,89000
+386,Sound Designer,Sound Designer,2025-04-21,2025-04-22,2025-05-22,Media & Entertainment,El Oued,Baccalaureate,12,Internship,1,"Audio Engineering, Motion Graphics, Digital Rights Management, Content Licensing, Storyboarding, Stunt Coordination",0,1,46000
+387,Logistics Manager,Fleet Coordinator,2025-03-03,2025-03-12,2025-04-11,Transport & Logistics,Constantine,Doctorat,20,Internship,8,,0,1,86000
+388,Energy Auditor,Wind Turbine Engineer,2025-04-29,2025-04-29,2025-05-29,Renewable Energy,Oran,Master,17,Alternance,6,,0,1,116000
+389,Fleet Coordinator,Fleet Coordinator,2025-04-08,2025-04-15,2025-05-15,Transport & Logistics,Oran,No Formal Education,0,CDI,8,,0,1,42000
+390,Quality Control Inspector,Process Technician,2025-03-02,2025-03-08,2025-04-07,Manufacturing,Saïda,Doctorat,20,CDD,2,"MES, ERP, Lean Six Sigma, 3D Printing, Robotics",8,15,80000
+391,Agri-Tech Developer,Agri-Tech Developer,2025-03-24,2025-03-29,2025-04-28,Agriculture,Batna,Master,17,Internship,7,"Aquaponics, Commodity Trading, Farm Automation, Bioenergy, Poultry Science, Livestock Management",0,1,45000
+392,Farm Manager,Agronomist,2025-04-02,2025-04-12,2025-05-12,Agriculture,Tébessa,Ingénieur d'État,19,CDI,3,"Commodity Trading, IoT in Agriculture, Irrigation Systems, Silviculture, Seed Technology",4,5,48000
+393,Maintenance Engineer,Process Technician,2025-03-24,2025-04-05,2025-05-05,Manufacturing,Algiers,Baccalaureate,12,CDD,10,"CAD Software, Robotics, SCADA, Lean Six Sigma, Digital Twin, Python",0,2,48000
+394,Video Editor,VFX Artist,2025-04-22,2025-05-09,2025-06-08,Media & Entertainment,Adrar,Master,17,Freelance,10,"Makeup Artistry, Motion Graphics, Audio Engineering, Screenwriting",6,10,80000
+395,Marine Biologist,Aquaculture Technician,2025-02-23,2025-03-24,2025-04-23,Fisheries,M’sila,Doctorat,20,Freelance,2,"Value Addition, Fisheries Extension, Processing Technology, Export Compliance, Mariculture",8,13,50000
+396,HSE Specialist,Drilling Supervisor,2025-04-06,2025-04-11,2025-05-11,Energy & Petroleum,Blida,Doctorat,20,CDI,9,"Corrosion Engineering, LNG Technology, Reservoir Engineering, Process Optimization, Petroleum Accounting, HSE Management",8,12,200000
+397,Wind Turbine Engineer,Energy Auditor,2025-04-23,2025-04-30,2025-05-30,Renewable Energy,Constantine,Ingénieur d'État,19,Freelance,2,,4,8,130000
+398,Teacher,Curriculum Developer,2025-03-09,2025-03-14,2025-04-13,Education,Blida,Doctorat,20,Alternance,4,"Curriculum Development, Student Assessment, LMS Administration, Andragogy",0,1,58000
+399,Store Manager,Sales Associate,2025-04-04,2025-04-05,2025-05-05,Retail,Oran,Licence,15,Alternance,7,"Category Management, Retail Technology, Retail Compliance, Retail Workforce Management, Pricing Strategy, Retail Expansion",0,1,43000
+400,E-Commerce Manager,UX/UI Designer,2025-03-09,2025-04-05,2025-05-05,E-Commerce,Sétif,Doctorat,20,CDD,1,,8,11,100000
+401,Regulatory Affairs Specialist,Formulation Scientist,2025-04-13,2025-05-01,2025-05-31,Pharmaceuticals,Skikda,Doctorat,20,Freelance,8,,8,14,140000
+402,Grid Integration Specialist,Grid Integration Specialist,2025-03-17,2025-03-26,2025-04-25,Renewable Energy,Oran,Licence,15,Alternance,1,,0,2,94000
+403,Drilling Supervisor,Petroleum Engineer,2025-02-14,2025-03-14,2025-04-13,Energy & Petroleum,Batna,Master,17,CDD,2,"Process Optimization, Well Testing, GIS Applications, Digital Oilfield, Energy Policy",6,8,200000
+404,Geologist,Mine Engineer,2025-04-15,2025-04-26,2025-05-26,Mining,Oran,Doctorat,20,CDI,3,,8,13,160000
+405,Agri-Tech Developer,Agri-Tech Developer,2025-02-16,2025-03-02,2025-04-01,Agriculture,Sétif,Master,17,CDI,4,"Water Management, Farm Automation, Organic Farming, Soil Science, Agricultural Biotechnology",6,10,50000
+406,Production Supervisor,Production Supervisor,2025-04-30,2025-05-29,2025-06-28,Manufacturing,Algiers,Ingénieur d'État,19,Internship,1,"Lean Six Sigma, CAD Software, Digital Twin, 3D Printing, SCADA, Python",0,1,66000
+407,Agronomist,Farm Manager,2025-04-26,2025-05-01,2025-05-31,Agriculture,M’sila,No Formal Education,0,Internship,10,"Agricultural Waste Management, Land Use Planning, Weather Forecasting, Commodity Risk Management, Climate-Smart Agriculture",0,1,24000
+408,UX/UI Designer,E-Commerce Manager,2025-04-25,2025-05-22,2025-06-21,E-Commerce,Sétif,Master,17,Internship,2,,0,1,90000
+409,Defense Analyst,Defense Analyst,2025-04-23,2025-04-24,2025-05-24,Aerospace & Defense,Jijel,Licence,15,Freelance,1,,2,5,148000
+410,Customs Compliance Officer,Customs Compliance Officer,2025-03-12,2025-04-06,2025-05-06,Transport & Logistics,M’sila,Baccalaureate,12,CDD,3,,0,1,53000
+411,Maintenance Engineer,Maintenance Engineer,2025-03-20,2025-04-06,2025-05-06,Manufacturing,Sétif,No Formal Education,0,Alternance,10,"Python, ERP, CAD Software, MES, Robotics",0,1,36000
+412,Supply Chain Analyst,Supply Chain Analyst,2025-02-13,2025-03-09,2025-04-08,Transport & Logistics,Annaba,No Formal Education,0,Freelance,4,,0,1,42000
+413,Financial Analyst,Portfolio Manager,2025-04-10,2025-04-26,2025-05-26,Finance,Algiers,Master,17,CDD,1,"Excel, R, QuickBooks, Python, Blockchain, Power BI",6,10,120000
+414,Logistics Manager,Logistics Manager,2025-02-08,2025-02-28,2025-03-30,Transport & Logistics,Constantine,Licence,15,Internship,4,,0,1,64000
+415,Auditor,Risk Manager,2025-04-27,2025-05-20,2025-06-19,Finance,Constantine,Licence,15,CDI,3,"Blockchain, Excel, Tableau, Financial Modeling, R",2,3,94000
+416,Supply Chain Analyst,Customs Compliance Officer,2025-02-17,2025-03-10,2025-04-09,Transport & Logistics,Algiers,No Formal Education,0,CDD,3,,0,1,42000
+417,Energy Auditor,Wind Turbine Engineer,2025-03-14,2025-04-05,2025-05-05,Renewable Energy,Bejaïa,Ingénieur d'État,19,CDI,5,,4,6,126000
+418,Customs Compliance Officer,Customs Compliance Officer,2025-04-16,2025-04-23,2025-05-23,Transport & Logistics,Tipaza,Licence,15,Alternance,7,,0,1,64000
+419,Geologist,Blasting Technician,2025-03-21,2025-03-29,2025-04-28,Mining,Blida,Master,17,CDI,3,,6,10,160000
+420,Drilling Supervisor,Reservoir Engineer,2025-04-19,2025-05-14,2025-06-13,Energy & Petroleum,Blida,Master,17,CDI,6,"Drilling Engineering, Enhanced Oil Recovery, Artificial Lift Systems, Supply Chain Management, Computational Fluid Dynamics",6,7,200000
+421,Tour Guide,Event Coordinator,2025-04-11,2025-04-24,2025-05-24,Tourism & Hospitality,Algiers,Licence,15,Freelance,6,,2,5,49000
+422,Cybersecurity Analyst,Cybersecurity Analyst,2025-04-07,2025-05-03,2025-06-02,Information Technology,Skikda,No Formal Education,0,Freelance,4,"PHP, PowerShell, Linux, Bash, Database Design, Software Testing",0,1,71000
+423,Project Engineer,Quantity Surveyor,2025-04-23,2025-05-16,2025-06-15,Construction,Algiers,Ingénieur d'État,19,Freelance,6,,4,8,90000
+424,Aquaculture Technician,Quality Assurance Officer,2025-03-24,2025-04-14,2025-05-14,Fisheries,Annaba,Ingénieur d'État,19,CDI,6,"Food Safety, Value Addition, Hatchery Management, Water Quality, Stock Modeling, Climate Adaptation",4,7,49000
+425,Quality Control Inspector,Quality Control Inspector,2025-04-28,2025-05-26,2025-06-25,Manufacturing,Sétif,Doctorat,20,Alternance,2,"Robotics, Digital Twin, SCADA, PLC Programming, MES, CAD Software",0,2,78000
+426,Fishery Inspector,Fishery Inspector,2025-03-05,2025-03-20,2025-04-19,Fisheries,Annaba,Licence,15,Internship,8,"Fisheries Policy, Food Safety, Market Analysis, Fisheries Extension",0,1,36000
+427,Avionics Engineer,Defense Analyst,2025-04-30,2025-05-11,2025-06-10,Aerospace & Defense,Blida,Master,17,Alternance,8,,0,1,162000
+428,Data Scientist,Cybersecurity Analyst,2025-04-28,2025-05-02,2025-06-01,Information Technology,Tébessa,Ingénieur d'État,19,CDD,10,"Git, Debugging, TypeScript, Rust",4,5,143000
+429,Academic Advisor,Teacher,2025-03-06,2025-03-27,2025-04-26,Education,Oran,Doctorat,20,Freelance,7,"Special Needs Education, Scratch, Teacher Training, Project-Based Learning",8,11,60000
+430,E-Commerce Manager,Marketplace Coordinator,2025-03-02,2025-03-24,2025-04-23,E-Commerce,Oran,Doctorat,20,CDD,6,,8,12,100000
+431,Instructional Designer,Curriculum Developer,2025-04-03,2025-05-02,2025-06-01,Education,Algiers,Baccalaureate,12,Freelance,3,"Instructional Design, Collaborative Learning, Faculty Development, Special Needs Education, ESL Instruction, Montessori Methods",0,1,40000
+432,Avionics Engineer,Avionics Engineer,2025-04-12,2025-04-30,2025-05-30,Aerospace & Defense,Algiers,Doctorat,20,CDD,4,,8,10,180000
+433,UX/UI Designer,E-Commerce Manager,2025-03-11,2025-03-12,2025-04-11,E-Commerce,Bejaïa,Licence,15,Alternance,4,,0,2,73000
+434,Marine Biologist,Aquaculture Technician,2025-03-26,2025-04-10,2025-05-10,Fisheries,Tiaret,Baccalaureate,12,Internship,4,"Vessel Operations, Fisheries Economics, Water Quality, Small-Scale Fisheries",0,1,30000
+435,Wind Turbine Engineer,Energy Auditor,2025-02-24,2025-03-19,2025-04-18,Renewable Energy,Oran,Master,17,Internship,3,,0,1,116000
+436,Software Engineer,Data Scientist,2025-02-27,2025-03-16,2025-04-15,Information Technology,Algiers,Master,17,CDI,5,"Big Data, Ruby, Bash, Kotlin, Rust, HTML",6,8,150000
+437,Quantity Surveyor,Quantity Surveyor,2025-04-25,2025-05-07,2025-06-06,Construction,Algiers,Master,17,Internship,5,,0,1,81000
+438,Guest Services Manager,Event Coordinator,2025-03-12,2025-03-25,2025-04-24,Tourism & Hospitality,Constantine,Ingénieur d'État,19,CDI,2,,4,6,58000
+439,Risk Manager,Risk Manager,2025-05-03,2025-05-31,2025-06-30,Finance,Jijel,Licence,15,Alternance,4,"Risk Analysis Tools, Tableau, R, Power BI, QuickBooks, Python",0,2,88000
+440,Defense Analyst,Defense Analyst,2025-04-16,2025-04-29,2025-05-29,Aerospace & Defense,Constantine,Doctorat,20,CDI,7,,8,15,180000
+441,Medical Technologist,Medical Technologist,2025-04-01,2025-04-01,2025-05-01,Healthcare,Algiers,Baccalaureate,12,Alternance,6,,0,2,54000
+442,Instructional Designer,Curriculum Developer,2025-03-29,2025-04-07,2025-05-07,Education,Annaba,Master,17,Freelance,6,"Educational Technology, Project-Based Learning, Learning Analytics, Education Nonprofits, Bloom's Taxonomy",6,9,60000
+443,Quantity Surveyor,Project Engineer,2025-02-15,2025-02-26,2025-03-28,Construction,Constantine,No Formal Education,0,CDI,2,,0,1,46000
+444,Merchandiser,Inventory Coordinator,2025-04-17,2025-05-06,2025-06-05,Retail,Biskra,Doctorat,20,Internship,2,"Retail Buying, Social Commerce, Supply Chain, Retail Technology, Assortment Planning, Private Label Development",0,1,57000
+445,Policy Analyst,Policy Analyst,2025-03-26,2025-04-21,2025-05-21,Public Sector,Algiers,Master,17,Alternance,7,,0,1,63000
+446,Risk Manager,Financial Analyst,2025-04-21,2025-05-02,2025-06-01,Finance,Constantine,Licence,15,Freelance,7,"SQL, Tableau, Power BI, Risk Analysis Tools",2,5,97000
+447,Digital Services Manager,Policy Analyst,2025-04-15,2025-05-08,2025-06-07,Public Sector,Algiers,Baccalaureate,12,Freelance,1,,0,1,43000
+448,Guest Services Manager,Event Coordinator,2025-04-10,2025-05-03,2025-06-02,Tourism & Hospitality,Sétif,Doctorat,20,Freelance,6,,8,14,60000
+449,Defense Analyst,Defense Analyst,2025-03-22,2025-03-22,2025-04-21,Aerospace & Defense,Annaba,Licence,15,Freelance,1,,2,5,148000
+450,Instructional Designer,Academic Advisor,2025-02-16,2025-03-02,2025-04-01,Education,Annaba,Licence,15,Alternance,10,"Robotics Education, Education Policy, Grant Writing, Bloom's Taxonomy, Andragogy",0,1,46000
+451,Wind Turbine Engineer,Wind Turbine Engineer,2025-02-28,2025-03-19,2025-04-18,Renewable Energy,Annaba,Ingénieur d'État,19,CDI,2,,4,6,126000
+452,Software Engineer,DevOps Engineer,2025-04-15,2025-04-26,2025-05-26,Information Technology,Béjaïa,Doctorat,20,Internship,9,"R, HTML, UI/UX Design, Linux, Artificial Intelligence",0,1,143000
+453,Blasting Technician,Geologist,2025-03-08,2025-04-05,2025-05-05,Mining,Biskra,Ingénieur d'État,19,Alternance,1,,0,1,132000
+454,Reservoir Engineer,HSE Specialist,2025-03-14,2025-04-05,2025-05-05,Energy & Petroleum,Constantine,Master,17,CDD,8,"Upstream Operations, Energy Policy, Energy Transition, Oilfield Chemicals, Asset Integrity, GIS Applications",6,9,200000
+455,Medical Technologist,Registered Nurse,2025-04-01,2025-04-26,2025-05-26,Healthcare,Constantine,Master,17,Internship,5,,0,1,73000
+456,Irrigation Specialist,Irrigation Specialist,2025-03-12,2025-04-01,2025-05-01,Agriculture,Annaba,Doctorat,20,Alternance,7,"Vertical Farming, Regenerative Agriculture, Agronomy, Agricultural Economics, Weather Forecasting, Crop Modeling",0,2,48000
+457,Medical Technologist,Medical Technologist,2025-04-20,2025-05-16,2025-06-15,Healthcare,Algiers,Ingénieur d'État,19,Alternance,2,,0,2,70000
+458,Irrigation Specialist,Agri-Tech Developer,2025-03-11,2025-03-28,2025-04-27,Agriculture,Constantine,Doctorat,20,Internship,4,"Seed Technology, Drone Technology, Food Safety, Organic Farming, Fisheries Management",0,1,48000
+459,Inventory Coordinator,Merchandiser,2025-04-16,2025-05-08,2025-06-07,Retail,Algiers,No Formal Education,0,CDI,2,"Loyalty Programs, Retail IoT, Retail KPIs, Visual Merchandising, Store Operations",0,1,29000
+460,Portfolio Manager,Portfolio Manager,2025-03-05,2025-03-19,2025-04-18,Finance,Mostaganem,Ingénieur d'État,19,Alternance,3,"R, QuickBooks, Financial Modeling, Blockchain, Risk Analysis Tools, Excel",0,1,101000
+461,Registered Nurse,Medical Technologist,2025-03-03,2025-03-14,2025-04-13,Healthcare,Constantine,Baccalaureate,12,Alternance,8,,0,1,53000
+462,Academic Advisor,Academic Advisor,2025-02-18,2025-02-27,2025-03-29,Education,Constantine,Master,17,CDI,4,"Early Childhood Education, Teacher Training, School Administration, Classroom Management, STEM Education, Andragogy",6,9,60000
+463,Medical Technologist,Clinical Researcher,2025-03-09,2025-03-14,2025-04-13,Healthcare,Annaba,Licence,15,Alternance,9,,0,2,62000
+464,Portfolio Manager,Portfolio Manager,2025-04-20,2025-05-16,2025-06-15,Finance,Oran,Ingénieur d'État,19,Internship,3,"Excel, QuickBooks, R, Blockchain, Power BI, Python",0,1,101000
+465,Billing Specialist,Billing Specialist,2025-04-22,2025-04-30,2025-05-30,Telecommunications,Algiers,Doctorat,20,CDD,2,,8,13,120000
+466,Teacher,Curriculum Developer,2025-02-25,2025-03-07,2025-04-06,Education,Biskra,Doctorat,20,Internship,2,"Collaborative Learning, Inquiry-Based Learning, Teacher Training, Data-Driven Instruction, Multicultural Education",0,1,58000
+467,Grid Integration Specialist,Grid Integration Specialist,2025-04-19,2025-05-12,2025-06-11,Renewable Energy,Oran,Master,17,CDI,9,,6,8,130000
+468,Maintenance Engineer,Process Technician,2025-03-05,2025-04-02,2025-05-02,Manufacturing,Saïda,Doctorat,20,CDD,5,"Digital Twin, Lean Six Sigma, MES, Python",8,12,80000
+469,Agronomist,Agri-Tech Developer,2025-04-21,2025-05-16,2025-06-15,Agriculture,Laghouat,Master,17,Alternance,2,"Agricultural Data Science, Silviculture, Seed Technology, Agricultural Policy, Agroforestry, Agricultural Economics",0,1,45000
+470,Risk Manager,Risk Manager,2025-04-05,2025-04-18,2025-05-18,Finance,Algiers,Ingénieur d'État,19,CDD,9,"QuickBooks, SQL, Python, Risk Analysis Tools",4,8,120000
+471,Registered Nurse,Health Informatics Specialist,2025-02-16,2025-02-25,2025-03-27,Healthcare,Annaba,Ingénieur d'État,19,Alternance,1,,0,1,69000
+472,Supply Chain Analyst,Customs Compliance Officer,2025-03-07,2025-03-18,2025-04-17,Transport & Logistics,Sétif,No Formal Education,0,CDI,7,,0,1,42000
+473,Drilling Supervisor,HSE Specialist,2025-03-14,2025-03-22,2025-04-21,Energy & Petroleum,Annaba,Doctorat,20,Internship,6,"Hydraulic Fracturing, Computational Fluid Dynamics, Carbon Capture, Supply Chain Management, Directional Drilling, Enhanced Oil Recovery",0,1,190000
+474,Clinical Trials Manager,Formulation Scientist,2025-03-08,2025-03-08,2025-04-07,Pharmaceuticals,Annaba,Licence,15,CDD,5,,2,4,112000
+475,Procurement Officer,Urban Planner,2025-04-16,2025-05-11,2025-06-10,Public Sector,El Oued,Doctorat,20,Internship,3,,0,1,67000
+476,Clinical Trials Manager,QA Analyst,2025-02-19,2025-03-04,2025-04-03,Pharmaceuticals,Adrar,Master,17,Freelance,8,,6,8,140000
+477,Medical Technologist,Medical Technologist,2025-02-11,2025-02-13,2025-03-15,Healthcare,Oran,Licence,15,Internship,1,,0,1,61000
+478,Quality Assurance Officer,Marine Biologist,2025-04-01,2025-04-15,2025-05-15,Fisheries,Blida,Baccalaureate,12,Freelance,7,"Mariculture, Fishing Gear, GIS Applications, Value Addition, Market Analysis",0,2,30000
+479,SEO Specialist,E-Commerce Manager,2025-04-15,2025-04-21,2025-05-21,E-Commerce,Algiers,No Formal Education,0,Freelance,4,,0,1,48000
+480,Telecom Analyst,Network Engineer,2025-04-09,2025-05-02,2025-06-01,Telecommunications,Oran,Baccalaureate,12,Alternance,3,,0,2,74000
+481,Site Manager,Site Manager,2025-02-16,2025-02-16,2025-03-18,Construction,Annaba,Baccalaureate,12,Internship,2,,0,1,56000
+482,Energy Auditor,Energy Auditor,2025-04-03,2025-04-16,2025-05-16,Renewable Energy,Sétif,Doctorat,20,CDI,7,,8,12,130000
+483,Agri-Tech Developer,Agri-Tech Developer,2025-03-24,2025-04-16,2025-05-16,Agriculture,El Oued,Master,17,Freelance,4,"Food Safety, Soil Science, Farm Automation, Livestock Management",6,8,50000
+484,Software Engineer,Data Scientist,2025-03-21,2025-04-06,2025-05-06,Information Technology,Sétif,No Formal Education,0,CDD,5,"Rust, CI/CD, Web Development, R, MATLAB",0,1,71000
+485,Event Coordinator,Event Coordinator,2025-02-24,2025-02-26,2025-03-28,Tourism & Hospitality,Oran,Doctorat,20,Alternance,5,,0,2,58000
+486,Marine Biologist,Fishery Inspector,2025-03-03,2025-03-26,2025-04-25,Fisheries,M’sila,Baccalaureate,12,Freelance,5,"Seafood Marketing, Aquaculture, Supply Chain, Marine Protected Areas, Fish Husbandry, Navigation",0,1,30000
+487,Portfolio Manager,Risk Manager,2025-02-18,2025-02-21,2025-03-23,Finance,Constantine,Licence,15,Alternance,8,"Excel, Blockchain, QuickBooks, Financial Modeling, R",0,1,87000
+488,VFX Artist,Content Producer,2025-03-17,2025-04-09,2025-05-09,Media & Entertainment,Tébessa,Doctorat,20,Internship,2,"Motion Graphics, Entertainment Law, Broadcast Engineering, Social Media Management, Audience Analytics",0,1,76000
+489,Sound Designer,Content Producer,2025-02-14,2025-03-14,2025-04-13,Media & Entertainment,Algiers,No Formal Education,0,CDI,9,"Stunt Coordination, Sound Design, Media Distribution, Film Financing",0,1,36000
+490,Billing Specialist,RF Technician,2025-04-09,2025-04-11,2025-05-11,Telecommunications,Blida,Baccalaureate,12,Alternance,5,,0,1,73000
+491,Software Engineer,Data Scientist,2025-02-21,2025-02-28,2025-03-30,Information Technology,Jijel,Ingénieur d'État,19,CDD,6,"Cybersecurity, R, Database Design, Blockchain, Java",4,8,150000
+492,Tour Guide,Tour Guide,2025-04-26,2025-05-23,2025-06-22,Tourism & Hospitality,Jijel,Master,17,Freelance,10,,6,8,60000
+493,Quality Assurance Officer,Quality Assurance Officer,2025-03-08,2025-03-12,2025-04-11,Fisheries,Algiers,No Formal Education,0,Alternance,7,"Ecosystem Management, Vessel Operations, Regulatory Compliance, Community Fisheries, Traceability, Aquaponics",0,1,24000
+494,Digital Services Manager,Digital Services Manager,2025-03-03,2025-03-08,2025-04-07,Public Sector,Tlemcen,Doctorat,20,Freelance,3,,8,12,70000
+495,HSE Specialist,Reservoir Engineer,2025-04-02,2025-04-22,2025-05-22,Energy & Petroleum,Oran,Licence,15,CDI,6,"Process Safety, Workover Operations, Completion Design, Directional Drilling",2,4,154000
+496,Aquaculture Technician,Quality Assurance Officer,2025-04-06,2025-05-04,2025-06-03,Fisheries,Sétif,No Formal Education,0,CDI,10,"Fisheries Technology, Mariculture, Marine Ecology, Shellfish Farming",0,1,24000
+497,Software Engineer,Software Engineer,2025-04-24,2025-05-04,2025-06-03,Information Technology,Khenchela,Baccalaureate,12,CDD,8,"Bash, CI/CD, Web Development, PowerShell, Object-Oriented Programming",0,2,92000
+498,E-Commerce Manager,SEO Specialist,2025-04-23,2025-05-18,2025-06-17,E-Commerce,Souk Ahras,Baccalaureate,12,CDI,7,,0,2,61000
+499,Project Engineer,Safety Officer,2025-03-15,2025-04-05,2025-05-05,Construction,Algiers,Baccalaureate,12,Internship,3,,0,1,56000
+500,Customs Compliance Officer,Supply Chain Analyst,2025-05-06,2025-05-27,2025-06-26,Transport & Logistics,Batna,No Formal Education,0,CDI,2,,0,1,42000
+501,Hotel Manager,Event Coordinator,2025-03-07,2025-04-04,2025-05-04,Tourism & Hospitality,Annaba,Master,17,CDD,1,,6,7,60000
+502,Supply Chain Analyst,Logistics Manager,2025-03-20,2025-04-03,2025-05-03,Transport & Logistics,Bejaïa,Ingénieur d'État,19,Alternance,2,,0,1,75000
+503,Data Scientist,Data Scientist,2025-04-03,2025-04-05,2025-05-05,Information Technology,Constantine,Master,17,Alternance,10,"PowerShell, MATLAB, PHP, UI/UX Design",0,2,136000
+504,Hotel Manager,Tour Guide,2025-04-07,2025-04-11,2025-05-11,Tourism & Hospitality,Laghouat,No Formal Education,0,CDI,3,,0,1,29000
+505,Financial Analyst,Auditor,2025-04-22,2025-05-02,2025-06-01,Finance,Sétif,Ingénieur d'État,19,CDI,2,"Tableau, R, Python, Power BI, Excel",4,7,118000
+506,Safety Officer,Quantity Surveyor,2025-04-08,2025-04-18,2025-05-18,Construction,Chlef,Master,17,Freelance,6,,6,10,90000
+507,Quality Assurance Officer,Aquaculture Technician,2025-03-04,2025-03-07,2025-04-06,Fisheries,Skikda,Ingénieur d'État,19,Internship,9,"Fish Husbandry, Vessel Operations, Fisheries Policy, Algae Cultivation, Bycatch Reduction",0,1,42000
+508,Billing Specialist,RF Technician,2025-02-22,2025-03-05,2025-04-04,Telecommunications,Tipaza,Baccalaureate,12,Freelance,8,,0,2,74000
+509,Registered Nurse,Medical Technologist,2025-02-23,2025-03-21,2025-04-20,Healthcare,Algiers,Master,17,Freelance,5,,6,8,80000
+510,Risk Manager,Auditor,2025-02-14,2025-02-21,2025-03-23,Finance,Khenchela,Master,17,Internship,9,"R, Blockchain, SQL, QuickBooks, Python, Excel",0,1,108000
+511,Geologist,Blasting Technician,2025-02-07,2025-02-26,2025-03-28,Mining,Biskra,No Formal Education,0,CDD,8,,0,1,72000
+512,Avionics Engineer,Avionics Engineer,2025-03-22,2025-04-19,2025-05-19,Aerospace & Defense,Annaba,Ingénieur d'État,19,Internship,9,,0,1,152000
+513,Production Supervisor,Process Technician,2025-03-24,2025-04-07,2025-05-07,Manufacturing,Tébessa,Ingénieur d'État,19,Internship,6,"Python, ERP, MES, CAD Software, Digital Twin",0,1,66000
+514,Tour Guide,Guest Services Manager,2025-02-10,2025-02-21,2025-03-23,Tourism & Hospitality,Béjaïa,Licence,15,Internship,5,,0,1,43000
+515,Avionics Engineer,Flight Test Engineer,2025-03-06,2025-03-19,2025-04-18,Aerospace & Defense,Khenchela,Ingénieur d'État,19,CDD,8,,4,5,172000
+516,Maintenance Engineer,Maintenance Engineer,2025-04-16,2025-05-08,2025-06-07,Manufacturing,Biskra,Ingénieur d'État,19,CDD,1,"Digital Twin, MES, Python, CAD Software",4,5,76000
+517,Fishery Inspector,Quality Assurance Officer,2025-02-13,2025-02-24,2025-03-26,Fisheries,Algiers,Master,17,Internship,3,"Catch Handling, Bycatch Reduction, Cold Storage, Coastal Management, Sustainable Fishing",0,1,45000
+518,Environmental Compliance Officer,Blasting Technician,2025-05-07,2025-05-19,2025-06-18,Mining,Constantine,Licence,15,CDD,2,,2,4,125000
+519,Risk Manager,Risk Manager,2025-04-24,2025-05-22,2025-06-21,Finance,Sétif,Licence,15,Alternance,4,"Blockchain, SQL, Python, Risk Analysis Tools",0,1,87000
+520,Hotel Manager,Hotel Manager,2025-04-12,2025-04-21,2025-05-21,Tourism & Hospitality,Constantine,Licence,15,Freelance,3,,2,4,48000
+521,QA Analyst,Formulation Scientist,2025-03-20,2025-03-25,2025-04-24,Pharmaceuticals,Medea,Licence,15,CDD,5,,2,5,114000
+522,Irrigation Specialist,Farm Manager,2025-03-31,2025-04-10,2025-05-10,Agriculture,Annaba,Master,17,CDI,9,"Crop Science, Agricultural Policy, Agricultural Biotechnology, Water Management",6,8,50000
+523,Energy Auditor,Grid Integration Specialist,2025-04-10,2025-04-17,2025-05-17,Renewable Energy,Laghouat,Doctorat,20,Alternance,7,,0,1,124000
+524,Formulation Scientist,Formulation Scientist,2025-05-06,2025-05-18,2025-06-17,Pharmaceuticals,Oran,Doctorat,20,Internship,7,,0,1,134000
+525,Irrigation Specialist,Agri-Tech Developer,2025-04-28,2025-05-04,2025-06-03,Agriculture,Algiers,No Formal Education,0,CDD,6,"Regenerative Agriculture, Weather Forecasting, Agricultural Extension, Irrigation Systems",0,1,24000
+526,Network Engineer,Network Engineer,2025-02-13,2025-02-15,2025-03-17,Telecommunications,Biskra,Baccalaureate,12,Freelance,4,,0,1,73000
+527,Energy Auditor,Solar PV Technician,2025-02-23,2025-03-09,2025-04-08,Renewable Energy,Khenchela,Doctorat,20,Freelance,6,,8,9,130000
+528,Mine Engineer,Environmental Compliance Officer,2025-04-05,2025-05-02,2025-06-01,Mining,Sétif,Baccalaureate,12,Internship,1,,0,1,92000
+529,Telecom Analyst,Billing Specialist,2025-05-07,2025-05-21,2025-06-20,Telecommunications,Oran,Doctorat,20,Freelance,8,,8,12,120000
+530,Content Producer,Sound Designer,2025-03-21,2025-03-27,2025-04-26,Media & Entertainment,Algiers,Doctorat,20,CDI,5,"Talent Management, Virtual Production, OTT Platforms, Lighting Design",8,9,80000
+531,RF Technician,Billing Specialist,2025-03-24,2025-04-07,2025-05-07,Telecommunications,Medea,Baccalaureate,12,Alternance,9,,0,2,74000
+532,Wind Turbine Engineer,Wind Turbine Engineer,2025-04-15,2025-05-04,2025-06-03,Renewable Energy,Algiers,Licence,15,Internship,1,,0,1,92000
+533,Irrigation Specialist,Irrigation Specialist,2025-03-05,2025-03-29,2025-04-28,Agriculture,Tébessa,Doctorat,20,CDD,9,"Seed Technology, Crop Science, Drone Technology, Agroforestry, Remote Sensing",8,10,50000
+534,Teacher,Curriculum Developer,2025-03-31,2025-04-23,2025-05-23,Education,Algiers,Master,17,CDD,5,"Educational Leadership, Differentiated Instruction, Python, Bloom's Taxonomy",6,10,60000
+535,UX/UI Designer,UX/UI Designer,2025-03-21,2025-03-24,2025-04-23,E-Commerce,Annaba,Licence,15,CDD,7,,2,5,80000
+536,Blasting Technician,Geologist,2025-04-06,2025-04-07,2025-05-07,Mining,Algiers,Master,17,CDI,5,,6,10,160000
+537,Data Scientist,DevOps Engineer,2025-05-04,2025-05-24,2025-06-23,Information Technology,Algiers,Baccalaureate,12,CDD,6,"Cybersecurity, DevOps, Microservices, C#",0,1,89000
+538,HSE Specialist,Reservoir Engineer,2025-04-19,2025-05-04,2025-06-03,Energy & Petroleum,Algiers,Doctorat,20,CDD,8,"Energy Trading, Energy Storage, Energy Policy, Energy Transition",8,15,200000
+539,Inventory Coordinator,Merchandiser,2025-04-06,2025-04-18,2025-05-18,Retail,Sétif,Ingénieur d'État,19,CDI,6,"Category Management, Self-Checkout, Live Commerce, Retail Compliance, Retail Expansion",4,8,60000
+540,Environmental Compliance Officer,Blasting Technician,2025-02-09,2025-02-13,2025-03-15,Mining,Annaba,Doctorat,20,CDI,4,,8,11,160000
+541,Hotel Manager,Guest Services Manager,2025-03-01,2025-03-28,2025-04-27,Tourism & Hospitality,Tébessa,Master,17,Freelance,5,,6,10,60000
+542,SEO Specialist,Marketplace Coordinator,2025-04-05,2025-04-06,2025-05-06,E-Commerce,Oran,No Formal Education,0,Internship,5,,0,1,48000
+543,Quality Control Inspector,Production Supervisor,2025-04-22,2025-05-05,2025-06-04,Manufacturing,Batna,Baccalaureate,12,CDD,7,"Python, 3D Printing, Digital Twin, Lean Six Sigma",0,2,48000
+544,Academic Advisor,Academic Advisor,2025-04-03,2025-04-04,2025-05-04,Education,Biskra,Licence,15,Alternance,7,"Multicultural Education, Bloom's Taxonomy, Classroom Technology, ESL Instruction, Learning Analytics",0,1,46000
+545,Environmental Compliance Officer,Geologist,2025-04-22,2025-04-30,2025-05-30,Mining,Béjaïa,Ingénieur d'État,19,CDI,3,,4,7,158000
+546,Event Coordinator,Tour Guide,2025-03-24,2025-04-18,2025-05-18,Tourism & Hospitality,Chlef,Licence,15,CDD,10,,2,3,47000
+547,Marketplace Coordinator,E-Commerce Manager,2025-04-11,2025-05-02,2025-06-01,E-Commerce,Bejaïa,Master,17,CDI,5,,6,9,100000
+548,Procurement Officer,Policy Analyst,2025-05-06,2025-05-19,2025-06-18,Public Sector,Algiers,Baccalaureate,12,CDD,10,,0,1,43000
+549,Process Technician,Process Technician,2025-02-24,2025-03-24,2025-04-23,Manufacturing,Constantine,Baccalaureate,12,Alternance,5,"Python, PLC Programming, Digital Twin, Lean Six Sigma, SCADA",0,1,46000
+550,Digital Services Manager,Urban Planner,2025-03-21,2025-04-13,2025-05-13,Public Sector,Sétif,Baccalaureate,12,Alternance,8,,0,2,44000
+551,Environmental Compliance Officer,Mine Engineer,2025-02-15,2025-03-09,2025-04-08,Mining,Sétif,No Formal Education,0,Alternance,8,,0,1,72000
+552,Supply Chain Analyst,Fleet Coordinator,2025-03-12,2025-03-31,2025-04-30,Transport & Logistics,Tiaret,Master,17,CDI,3,,6,9,90000
+553,Environmental Compliance Officer,Mine Engineer,2025-03-11,2025-03-26,2025-04-25,Mining,Algiers,No Formal Education,0,CDD,4,,0,1,72000
+554,Quality Assurance Officer,Aquaculture Technician,2025-04-13,2025-04-18,2025-05-18,Fisheries,Algiers,Master,17,Freelance,2,"HACCP, Cold Storage, Regulatory Compliance, Disease Management",6,10,50000
+555,Quality Control Inspector,Quality Control Inspector,2025-05-01,2025-05-08,2025-06-07,Manufacturing,Constantine,Ingénieur d'État,19,Alternance,4,"Digital Twin, Python, ERP, PLC Programming",0,1,66000
+556,Agri-Tech Developer,Agronomist,2025-03-11,2025-03-30,2025-04-29,Agriculture,Annaba,Master,17,Internship,9,"Climate-Smart Agriculture, Agricultural Policy, Irrigation Systems, Seed Technology, Blockchain in Agriculture, GIS Applications",0,1,45000
+557,Content Producer,Sound Designer,2025-04-15,2025-05-09,2025-06-08,Media & Entertainment,Oran,No Formal Education,0,Internship,4,"Festival Management, NFTs in Entertainment, Media Archiving, Entertainment Law",0,1,36000
+558,Logistics Manager,Supply Chain Analyst,2025-03-06,2025-03-25,2025-04-24,Transport & Logistics,Sétif,No Formal Education,0,Alternance,10,,0,2,43000
+559,Marketplace Coordinator,UX/UI Designer,2025-04-26,2025-05-22,2025-06-21,E-Commerce,Batna,Baccalaureate,12,Freelance,1,,0,2,61000
+560,Procurement Officer,Urban Planner,2025-02-10,2025-03-04,2025-04-03,Public Sector,Algiers,Baccalaureate,12,CDI,8,,0,2,44000
+561,Grid Integration Specialist,Solar PV Technician,2025-02-15,2025-03-02,2025-04-01,Renewable Energy,Adrar,Licence,15,Internship,7,,0,1,92000
+562,Billing Specialist,Network Engineer,2025-03-03,2025-03-18,2025-04-17,Telecommunications,Blida,Licence,15,CDI,10,,2,4,96000
+563,Auditor,Financial Analyst,2025-02-18,2025-03-09,2025-04-08,Finance,Biskra,Ingénieur d'État,19,Alternance,4,"SQL, QuickBooks, Power BI, R, Blockchain, Financial Modeling",0,2,102000
+564,Maintenance Engineer,Maintenance Engineer,2025-05-01,2025-05-25,2025-06-24,Manufacturing,Blida,Master,17,Freelance,6,"Digital Twin, CAD Software, ERP, 3D Printing, MES",6,7,80000
+565,Site Manager,Project Engineer,2025-04-28,2025-04-28,2025-05-28,Construction,M’sila,Doctorat,20,Internship,2,,0,1,86000
+566,Reservoir Engineer,Reservoir Engineer,2025-04-11,2025-05-07,2025-06-06,Energy & Petroleum,M’sila,Licence,15,CDD,4,"Process Optimization, Oilfield Chemicals, Subsea Engineering, Drilling Engineering, Seismic Interpretation, Petroleum Geology",2,5,158000
+567,Billing Specialist,Billing Specialist,2025-03-23,2025-04-12,2025-05-12,Telecommunications,Algiers,Baccalaureate,12,Alternance,7,,0,2,74000
+568,Merchandiser,Store Manager,2025-02-12,2025-02-21,2025-03-23,Retail,Blida,Master,17,Freelance,6,"Planogramming, Retail Compliance, E-Commerce, Private Label Development, Category Management, Dark Store Operations",6,7,60000
+569,Avionics Engineer,Defense Analyst,2025-03-29,2025-04-15,2025-05-15,Aerospace & Defense,Algiers,Doctorat,20,CDI,6,,8,12,180000
+570,Hotel Manager,Tour Guide,2025-04-08,2025-05-02,2025-06-01,Tourism & Hospitality,Oran,Doctorat,20,CDI,3,,8,13,60000
+571,Agri-Tech Developer,Farm Manager,2025-04-08,2025-04-29,2025-05-29,Agriculture,Chlef,No Formal Education,0,CDD,4,"Livestock Management, Farm Management Software, Dairy Science, Water Management",0,1,24000
+572,Telecom Analyst,Telecom Analyst,2025-04-21,2025-04-23,2025-05-23,Telecommunications,Tlemcen,Ingénieur d'État,19,Internship,5,,0,1,101000
+573,Tour Guide,Event Coordinator,2025-02-26,2025-03-10,2025-04-09,Tourism & Hospitality,Chlef,Doctorat,20,Alternance,10,,0,2,58000
+574,Farm Manager,Agri-Tech Developer,2025-04-01,2025-04-07,2025-05-07,Agriculture,Saïda,Ingénieur d'État,19,Freelance,5,"Aquaponics, Regenerative Agriculture, Hydroponics, Agricultural Policy, Livestock Management",4,6,48000
+575,Solar PV Technician,Energy Auditor,2025-03-06,2025-03-27,2025-04-26,Renewable Energy,Adrar,Ingénieur d'État,19,Internship,7,,0,1,108000
+576,VFX Artist,VFX Artist,2025-05-03,2025-05-26,2025-06-25,Media & Entertainment,Souk Ahras,Baccalaureate,12,Alternance,8,"Event Production, Color Grading, Makeup Artistry, 3D Animation",0,2,48000
+577,Site Manager,Safety Officer,2025-02-18,2025-02-19,2025-03-21,Construction,Algiers,Doctorat,20,CDD,2,,8,12,90000
+578,Defense Analyst,Defense Analyst,2025-04-09,2025-05-08,2025-06-07,Aerospace & Defense,Mostaganem,Master,17,Internship,3,,0,1,162000
+579,Curriculum Developer,Academic Advisor,2025-04-25,2025-05-06,2025-06-05,Education,Laghouat,Ingénieur d'État,19,CDI,10,"Instructional Design, Educational Technology, Scratch, Academic Research",4,7,59000
+580,Academic Advisor,Academic Advisor,2025-04-16,2025-04-23,2025-05-23,Education,Constantine,Baccalaureate,12,Freelance,5,"Special Needs Education, Project-Based Learning, 3D Printing, Student Assessment, Pedagogy, Lesson Planning",0,1,40000
+581,Medical Technologist,Registered Nurse,2025-03-09,2025-04-04,2025-05-04,Healthcare,Algiers,Doctorat,20,Alternance,4,,0,1,77000
+582,Production Supervisor,Production Supervisor,2025-02-08,2025-03-06,2025-04-05,Manufacturing,M’sila,Ingénieur d'État,19,Internship,5,"Lean Six Sigma, SCADA, CAD Software, PLC Programming",0,1,66000
+583,RF Technician,Telecom Analyst,2025-03-18,2025-03-22,2025-04-21,Telecommunications,Batna,Master,17,Alternance,2,,0,2,110000
+584,Environmental Compliance Officer,Geologist,2025-02-28,2025-03-05,2025-04-04,Mining,Annaba,Licence,15,Internship,3,,0,1,112000
+585,VFX Artist,Content Producer,2025-03-23,2025-03-28,2025-04-27,Media & Entertainment,Constantine,No Formal Education,0,Internship,5,"DJing, Cinematography, Virtual Production, 3D Animation",0,1,36000
+586,Process Technician,Process Technician,2025-04-10,2025-04-17,2025-05-17,Manufacturing,Tizi Ouzou,Master,17,Freelance,9,"PLC Programming, 3D Printing, MES, SCADA, Lean Six Sigma, Robotics",6,7,80000
+587,Fishery Inspector,Quality Assurance Officer,2025-03-27,2025-04-10,2025-05-10,Fisheries,Bouira,Master,17,Internship,4,"Marine Safety, Food Safety, Export Compliance, Regulatory Compliance, Quality Control, Fisheries Extension",0,1,45000
+588,Billing Specialist,Billing Specialist,2025-03-28,2025-04-10,2025-05-10,Telecommunications,M’sila,Master,17,Internship,5,,0,1,108000
+589,Wind Turbine Engineer,Solar PV Technician,2025-03-19,2025-04-11,2025-05-11,Renewable Energy,Bejaïa,Ingénieur d'État,19,Alternance,9,,0,2,110000
+590,DevOps Engineer,Data Scientist,2025-03-24,2025-04-04,2025-05-04,Information Technology,Sétif,Licence,15,Internship,4,"R, Python, C++, HTML, Linux",0,1,107000
+591,Auditor,Auditor,2025-03-23,2025-04-18,2025-05-18,Finance,Algiers,Licence,15,CDD,1,"Excel, SQL, Power BI, Tableau",2,4,96000
+592,Wind Turbine Engineer,Solar PV Technician,2025-02-21,2025-03-11,2025-04-10,Renewable Energy,Tizi Ouzou,Ingénieur d'État,19,Alternance,5,,0,1,108000
+593,Clinical Trials Manager,Regulatory Affairs Specialist,2025-02-25,2025-03-26,2025-04-25,Pharmaceuticals,Tlemcen,Doctorat,20,Freelance,8,,8,12,140000
+594,RF Technician,Network Engineer,2025-03-28,2025-04-03,2025-05-03,Telecommunications,Oran,Doctorat,20,CDD,4,,8,9,120000
+595,Health Informatics Specialist,Health Informatics Specialist,2025-05-01,2025-05-04,2025-06-03,Healthcare,Biskra,Licence,15,Freelance,8,,2,3,65000
+596,Avionics Engineer,Avionics Engineer,2025-03-05,2025-03-25,2025-04-24,Aerospace & Defense,Jijel,Doctorat,20,CDD,9,,8,14,180000
+597,Agronomist,Irrigation Specialist,2025-03-11,2025-04-04,2025-05-04,Agriculture,Saïda,Master,17,Freelance,8,"Supply Chain, Agronomy, Agri-Fintech, Weather Forecasting",6,9,50000
+598,Instructional Designer,Academic Advisor,2025-03-04,2025-03-04,2025-04-03,Education,Oran,Baccalaureate,12,Alternance,8,"AP Instruction, Faculty Development, Special Education, Inquiry-Based Learning, LMS Administration",0,1,40000
+599,Blasting Technician,Blasting Technician,2025-03-06,2025-03-20,2025-04-19,Mining,El Oued,Licence,15,Alternance,9,,0,1,112000
+600,Agri-Tech Developer,Irrigation Specialist,2025-04-29,2025-05-27,2025-06-26,Agriculture,Batna,Doctorat,20,Alternance,8,"Agroforestry, Rural Development, Commodity Risk Management, Regenerative Agriculture",0,1,48000
+601,Safety Officer,Safety Officer,2025-04-04,2025-04-27,2025-05-27,Construction,Tipaza,Licence,15,Freelance,9,,2,5,74000
+602,Auditor,Risk Manager,2025-05-02,2025-05-09,2025-06-08,Finance,Mostaganem,Doctorat,20,Internship,8,"Power BI, Excel, Blockchain, Python",0,1,115000
+603,Medical Technologist,Health Informatics Specialist,2025-03-22,2025-04-17,2025-05-17,Healthcare,Sétif,Licence,15,CDI,4,,2,5,67000
+604,Marketplace Coordinator,UX/UI Designer,2025-03-26,2025-04-11,2025-05-11,E-Commerce,Tizi Ouzou,No Formal Education,0,Freelance,5,,0,1,48000
+605,Logistics Manager,Supply Chain Analyst,2025-03-11,2025-04-06,2025-05-06,Transport & Logistics,Constantine,Baccalaureate,12,CDI,7,,0,2,54000
+606,Auditor,Financial Analyst,2025-04-22,2025-05-18,2025-06-17,Finance,El Oued,Master,17,CDI,2,"Excel, SQL, QuickBooks, Python, Power BI, Blockchain",6,9,120000
+607,Billing Specialist,Network Engineer,2025-03-15,2025-04-06,2025-05-06,Telecommunications,Ghardaïa,Baccalaureate,12,CDI,2,,0,1,73000
+608,DevOps Engineer,Data Scientist,2025-03-10,2025-03-19,2025-04-18,Information Technology,Oran,Licence,15,CDI,7,"PHP, C, Functional Programming, Data Structures",2,4,118000
+609,Flight Test Engineer,Avionics Engineer,2025-04-15,2025-04-26,2025-05-26,Aerospace & Defense,Bouira,Master,17,Alternance,6,,0,1,162000
+610,Telecom Analyst,Network Engineer,2025-04-03,2025-04-21,2025-05-21,Telecommunications,Chlef,Licence,15,Freelance,4,,2,3,94000
+611,Mine Engineer,Blasting Technician,2025-03-01,2025-03-20,2025-04-19,Mining,Oran,Doctorat,20,Freelance,1,,8,12,160000
+612,Procurement Officer,Urban Planner,2025-02-11,2025-02-26,2025-03-28,Public Sector,Sétif,Doctorat,20,Freelance,8,,8,9,70000
+613,Quantity Surveyor,Site Manager,2025-04-20,2025-05-12,2025-06-11,Construction,Oran,Licence,15,CDD,6,,2,3,71000
+614,Data Scientist,Cybersecurity Analyst,2025-04-16,2025-05-04,2025-06-03,Information Technology,Oran,Doctorat,20,CDD,3,"C, Blockchain, Java, Data Analysis",8,9,150000
+615,Quantity Surveyor,Project Engineer,2025-03-16,2025-03-23,2025-04-22,Construction,El Oued,Licence,15,Freelance,7,,2,5,74000
+616,Fleet Coordinator,Logistics Manager,2025-03-27,2025-03-28,2025-04-27,Transport & Logistics,Tizi Ouzou,No Formal Education,0,CDD,3,,0,1,42000
+617,Fishery Inspector,Quality Assurance Officer,2025-02-19,2025-03-15,2025-04-14,Fisheries,Constantine,Licence,15,Freelance,7,"Fish Husbandry, Feed Formulation, Water Quality, Traceability, Fisheries Biology",2,4,40000
+618,Drilling Supervisor,HSE Specialist,2025-04-05,2025-04-21,2025-05-21,Energy & Petroleum,Oran,Doctorat,20,Internship,1,"Carbon Capture, Petroleum Accounting, Digital Oilfield, Workover Operations, Supply Chain Management",0,1,190000
+619,Telecom Analyst,Network Engineer,2025-05-02,2025-05-06,2025-06-05,Telecommunications,Constantine,Master,17,Alternance,7,,0,1,108000
+620,Instructional Designer,Instructional Designer,2025-05-02,2025-05-23,2025-06-22,Education,Sétif,Baccalaureate,12,Alternance,6,"Educational Leadership, Flipped Classroom, Classroom Technology, Project-Based Learning, IB Program, Pedagogy",0,2,40000
+621,Telecom Analyst,Network Engineer,2025-02-16,2025-03-13,2025-04-12,Telecommunications,Oran,Ingénieur d'État,19,CDI,9,,4,6,116000
+622,Telecom Analyst,Network Engineer,2025-05-06,2025-05-28,2025-06-27,Telecommunications,Constantine,Doctorat,20,CDI,7,,8,11,120000
+623,Marketplace Coordinator,UX/UI Designer,2025-02-08,2025-02-14,2025-03-16,E-Commerce,Annaba,Ingénieur d'État,19,Freelance,3,,4,8,100000
+624,Data Scientist,Software Engineer,2025-03-18,2025-03-25,2025-04-24,Information Technology,Bejaïa,Baccalaureate,12,CDI,10,"Python, C++, C#, SQL, Mobile Development",0,2,92000
+625,Telecom Analyst,Telecom Analyst,2025-02-14,2025-03-08,2025-04-07,Telecommunications,M’sila,Licence,15,Internship,8,,0,1,87000
+626,Clinical Researcher,Clinical Researcher,2025-04-23,2025-05-05,2025-06-04,Healthcare,Sétif,Ingénieur d'État,19,Internship,8,,0,1,69000
+627,Grid Integration Specialist,Wind Turbine Engineer,2025-03-11,2025-03-30,2025-04-29,Renewable Energy,Béjaïa,Ingénieur d'État,19,Internship,10,,0,1,108000
+628,Grid Integration Specialist,Energy Auditor,2025-04-11,2025-04-14,2025-05-14,Renewable Energy,Annaba,Doctorat,20,Alternance,5,,0,1,124000
+629,Risk Manager,Portfolio Manager,2025-04-30,2025-05-15,2025-06-14,Finance,Sétif,Baccalaureate,12,Alternance,6,"QuickBooks, Tableau, Financial Modeling, Blockchain, Risk Analysis Tools, Power BI",0,1,73000
+630,Site Manager,Safety Officer,2025-04-30,2025-05-25,2025-06-24,Construction,Algiers,Licence,15,Alternance,4,,0,1,66000
+631,Supply Chain Analyst,Supply Chain Analyst,2025-03-15,2025-03-30,2025-04-29,Transport & Logistics,Tipaza,Doctorat,20,CDD,6,,8,9,90000
+632,Avionics Engineer,Avionics Engineer,2025-04-08,2025-05-01,2025-05-31,Aerospace & Defense,Algiers,Doctorat,20,Alternance,8,,0,2,175000
+633,Marketplace Coordinator,UX/UI Designer,2025-05-02,2025-05-28,2025-06-27,E-Commerce,Chlef,Doctorat,20,Internship,7,,0,1,96000
+634,Clinical Researcher,Registered Nurse,2025-02-10,2025-03-11,2025-04-10,Healthcare,Bejaïa,Baccalaureate,12,Internship,8,,0,1,53000
+635,Hotel Manager,Tour Guide,2025-02-13,2025-02-24,2025-03-26,Tourism & Hospitality,Constantine,Master,17,Freelance,1,,6,9,60000
+636,Software Engineer,Data Scientist,2025-04-09,2025-04-22,2025-05-22,Information Technology,Sétif,Baccalaureate,12,Alternance,1,"PHP, Go, Git, Functional Programming",0,2,92000
+637,Quality Assurance Officer,Fishery Inspector,2025-03-01,2025-03-05,2025-04-04,Fisheries,Adrar,Baccalaureate,12,Internship,7,"HACCP, Marine Safety, Seafood Marketing, Community Fisheries",0,1,30000
+638,Clinical Researcher,Health Informatics Specialist,2025-03-21,2025-03-25,2025-04-24,Healthcare,Tébessa,Doctorat,20,CDI,9,,8,11,80000
+639,Risk Manager,Risk Manager,2025-04-21,2025-04-25,2025-05-25,Finance,Tébessa,Licence,15,CDI,10,"Python, Excel, Power BI, Risk Analysis Tools, SQL, Financial Modeling",2,3,94000
+640,Avionics Engineer,Avionics Engineer,2025-03-22,2025-03-30,2025-04-29,Aerospace & Defense,Biskra,Licence,15,CDD,8,,2,3,142000
+641,Health Informatics Specialist,Registered Nurse,2025-04-15,2025-04-29,2025-05-29,Healthcare,Blida,Master,17,Alternance,5,,0,2,74000
+642,Merchandiser,Inventory Coordinator,2025-05-05,2025-05-06,2025-06-05,Retail,Oran,Baccalaureate,12,Internship,1,"Retail Finance, Demand Forecasting, Retail AI Applications, Retail Media Networks, Pricing Strategy, Shopper Marketing",0,1,36000
+643,RF Technician,RF Technician,2025-02-11,2025-02-26,2025-03-28,Telecommunications,Oran,Licence,15,CDD,5,,2,4,96000
+644,Fishery Inspector,Fishery Inspector,2025-04-25,2025-04-27,2025-05-27,Fisheries,Constantine,Licence,15,Alternance,8,"Shellfish Farming, Marine Ecology, Sustainable Fishing, Remote Sensing",0,2,36000
+645,Billing Specialist,Telecom Analyst,2025-03-07,2025-03-24,2025-04-23,Telecommunications,Jijel,Doctorat,20,Internship,7,,0,1,115000
+646,Maintenance Engineer,Production Supervisor,2025-03-15,2025-04-04,2025-05-04,Manufacturing,Bejaïa,Ingénieur d'État,19,Internship,6,"Robotics, ERP, 3D Printing, MES, CAD Software, Digital Twin",0,1,66000
+647,Auditor,Portfolio Manager,2025-02-21,2025-03-04,2025-04-03,Finance,Tipaza,Baccalaureate,12,Internship,8,"R, QuickBooks, Excel, Power BI, Risk Analysis Tools",0,1,73000
+648,Production Supervisor,Process Technician,2025-03-30,2025-04-19,2025-05-19,Manufacturing,Oran,Doctorat,20,CDI,6,"SCADA, CAD Software, ERP, Python, Lean Six Sigma",8,15,80000
+649,Telecom Analyst,Billing Specialist,2025-04-02,2025-04-10,2025-05-10,Telecommunications,Annaba,Licence,15,Freelance,8,,2,4,96000
+650,E-Commerce Manager,Marketplace Coordinator,2025-02-23,2025-03-03,2025-04-02,E-Commerce,Algiers,Master,17,Internship,1,,0,1,90000
+651,Farm Manager,Agri-Tech Developer,2025-02-14,2025-03-15,2025-04-14,Agriculture,Annaba,No Formal Education,0,Internship,5,"Supply Chain, Agricultural Law, Hydroponics, Food Processing",0,1,24000
+652,Defense Analyst,Avionics Engineer,2025-05-02,2025-05-20,2025-06-19,Aerospace & Defense,El Oued,Master,17,CDI,10,,6,7,180000
+653,Medical Technologist,Medical Technologist,2025-04-08,2025-04-19,2025-05-19,Healthcare,Biskra,Licence,15,CDI,1,,2,3,65000
+654,Portfolio Manager,Auditor,2025-03-27,2025-04-24,2025-05-24,Finance,Blida,Licence,15,Freelance,1,"R, Tableau, QuickBooks, Power BI, Excel",2,3,94000
+655,Defense Analyst,Systems Engineer,2025-02-20,2025-03-03,2025-04-02,Aerospace & Defense,Annaba,Doctorat,20,Alternance,2,,0,1,172000
+656,Sound Designer,VFX Artist,2025-03-23,2025-04-04,2025-05-04,Media & Entertainment,Blida,Master,17,CDI,8,"Content Strategy, Audience Analytics, NFTs in Entertainment, Content Licensing",6,10,80000
+657,Network Engineer,RF Technician,2025-03-23,2025-04-04,2025-05-04,Telecommunications,Blida,Licence,15,Alternance,1,,0,1,87000
+658,Risk Manager,Risk Manager,2025-04-12,2025-04-12,2025-05-12,Finance,Constantine,Ingénieur d'État,19,CDI,3,"Tableau, Blockchain, Power BI, R, QuickBooks, SQL",4,6,116000
+659,Safety Officer,Site Manager,2025-05-05,2025-05-27,2025-06-26,Construction,Béjaïa,Master,17,Alternance,3,,0,1,81000
+660,Systems Engineer,Avionics Engineer,2025-05-05,2025-05-18,2025-06-17,Aerospace & Defense,Biskra,Doctorat,20,Internship,5,,0,1,172000
+661,Data Scientist,Data Scientist,2025-04-13,2025-05-09,2025-06-08,Information Technology,Annaba,Doctorat,20,CDI,2,"Cybersecurity, Machine Learning, Bash, Rust",8,13,150000
+662,Formulation Scientist,Regulatory Affairs Specialist,2025-02-22,2025-02-25,2025-03-27,Pharmaceuticals,Algiers,Doctorat,20,Internship,1,,0,1,134000
+663,Health Informatics Specialist,Health Informatics Specialist,2025-03-21,2025-04-06,2025-05-06,Healthcare,Annaba,Master,17,Alternance,5,,0,1,73000
+664,Billing Specialist,Billing Specialist,2025-04-05,2025-04-19,2025-05-19,Telecommunications,Oran,Ingénieur d'État,19,Alternance,5,,0,2,102000
+665,Quantity Surveyor,Quantity Surveyor,2025-04-10,2025-04-30,2025-05-30,Construction,Medea,Ingénieur d'État,19,Alternance,2,,0,2,78000
+666,Mine Engineer,Blasting Technician,2025-04-15,2025-04-27,2025-05-27,Mining,Blida,Doctorat,20,Alternance,3,,0,1,152000
+667,QA Analyst,QA Analyst,2025-03-23,2025-04-06,2025-05-06,Pharmaceuticals,Bejaïa,Licence,15,Freelance,1,,2,5,114000
+668,Fishery Inspector,Quality Assurance Officer,2025-02-26,2025-03-16,2025-04-15,Fisheries,Tizi Ouzou,Master,17,CDD,4,"Fisheries Technology, GIS Applications, Fisheries Policy, Fishing Gear, Cold Storage, Catch Handling",6,8,50000
+669,Guest Services Manager,Tour Guide,2025-04-30,2025-05-23,2025-06-22,Tourism & Hospitality,M’sila,Licence,15,CDI,9,,2,3,47000
+670,Urban Planner,Procurement Officer,2025-02-17,2025-02-28,2025-03-30,Public Sector,Saïda,Baccalaureate,12,CDI,10,,0,1,43000
+671,Irrigation Specialist,Agri-Tech Developer,2025-03-16,2025-04-12,2025-05-12,Agriculture,Blida,Licence,15,CDI,1,"Land Use Planning, Agricultural Extension, Regenerative Agriculture, Seed Technology",2,3,39000
+672,Agri-Tech Developer,Farm Manager,2025-03-13,2025-04-09,2025-05-09,Agriculture,Oran,Master,17,CDI,10,"Agricultural Law, Aquaponics, Agronomy, Climate-Smart Agriculture, Fertilizer Technology",6,8,50000
+673,Medical Technologist,Registered Nurse,2025-03-07,2025-03-21,2025-04-20,Healthcare,Bejaïa,Baccalaureate,12,Freelance,7,,0,2,54000
+674,Flight Test Engineer,Systems Engineer,2025-02-09,2025-02-28,2025-03-30,Aerospace & Defense,Annaba,Master,17,Internship,6,,0,1,162000
+675,Marine Biologist,Quality Assurance Officer,2025-03-05,2025-03-05,2025-04-04,Fisheries,Constantine,Ingénieur d'État,19,CDD,5,"Sustainable Fishing, Aquaculture, Fisheries Biology, Bycatch Reduction, Aquaponics",4,7,49000
+676,Hotel Manager,Tour Guide,2025-04-02,2025-04-04,2025-05-04,Tourism & Hospitality,Oran,No Formal Education,0,Alternance,7,,0,2,30000
+677,Production Supervisor,Maintenance Engineer,2025-05-06,2025-06-04,2025-07-04,Manufacturing,Annaba,Ingénieur d'État,19,CDI,4,"CAD Software, ERP, Python, MES, Digital Twin, Lean Six Sigma",4,7,79000
+678,Software Engineer,Cybersecurity Analyst,2025-04-20,2025-05-14,2025-06-13,Information Technology,M’sila,Ingénieur d'État,19,Alternance,9,"PHP, RESTful APIs, Linux, Ruby, UI/UX Design, SQL",0,2,128000
+679,Formulation Scientist,Formulation Scientist,2025-04-28,2025-05-11,2025-06-10,Pharmaceuticals,Blida,Master,17,Alternance,6,,0,2,128000
+680,Wind Turbine Engineer,Grid Integration Specialist,2025-04-23,2025-05-04,2025-06-03,Renewable Energy,Batna,Licence,15,Internship,10,,0,1,92000
+681,Procurement Officer,Policy Analyst,2025-04-06,2025-04-23,2025-05-23,Public Sector,Sétif,Baccalaureate,12,Freelance,10,,0,2,44000
+682,Environmental Compliance Officer,Geologist,2025-02-28,2025-03-09,2025-04-08,Mining,Biskra,No Formal Education,0,Alternance,1,,0,1,72000
+683,Medical Technologist,Medical Technologist,2025-04-08,2025-04-20,2025-05-20,Healthcare,Constantine,Baccalaureate,12,Internship,2,,0,1,53000
+684,Procurement Officer,Urban Planner,2025-04-13,2025-04-19,2025-05-19,Public Sector,Constantine,Baccalaureate,12,Freelance,6,,0,2,44000
+685,Avionics Engineer,Flight Test Engineer,2025-04-08,2025-04-12,2025-05-12,Aerospace & Defense,Algiers,Licence,15,Alternance,1,,0,1,132000
+686,Blasting Technician,Mine Engineer,2025-05-05,2025-05-06,2025-06-05,Mining,Constantine,Baccalaureate,12,Alternance,8,,0,2,95000
+687,Avionics Engineer,Avionics Engineer,2025-03-08,2025-03-29,2025-04-28,Aerospace & Defense,Oran,Master,17,Freelance,2,,6,8,180000
+688,Project Engineer,Safety Officer,2025-02-10,2025-03-10,2025-04-09,Construction,Annaba,Ingénieur d'État,19,CDI,6,,4,5,86000
+689,QA Analyst,QA Analyst,2025-03-14,2025-03-20,2025-04-19,Pharmaceuticals,Béjaïa,Licence,15,Internship,1,,0,1,102000
+690,SEO Specialist,E-Commerce Manager,2025-02-15,2025-03-01,2025-03-31,E-Commerce,Biskra,Master,17,Alternance,9,,0,1,90000
+691,Agronomist,Irrigation Specialist,2025-03-10,2025-03-30,2025-04-29,Agriculture,Algiers,Baccalaureate,12,CDI,8,"Agronomy, IoT in Agriculture, Weather Forecasting, Poultry Science",0,2,30000
+692,Production Supervisor,Quality Control Inspector,2025-02-24,2025-03-05,2025-04-04,Manufacturing,Bejaïa,Baccalaureate,12,Internship,4,"ERP, CAD Software, PLC Programming, MES, Lean Six Sigma",0,1,46000
+693,Clinical Researcher,Health Informatics Specialist,2025-02-19,2025-03-17,2025-04-16,Healthcare,Algiers,Master,17,Internship,7,,0,1,73000
+694,Project Engineer,Site Manager,2025-05-03,2025-05-20,2025-06-19,Construction,Oran,No Formal Education,0,CDD,8,,0,1,46000
+695,Blasting Technician,Mine Engineer,2025-03-30,2025-04-23,2025-05-23,Mining,Oran,Ingénieur d'État,19,CDD,2,,4,6,155000
+696,Event Coordinator,Guest Services Manager,2025-05-06,2025-05-19,2025-06-18,Tourism & Hospitality,Constantine,Ingénieur d'État,19,Alternance,1,,0,1,50000
+697,Systems Engineer,Avionics Engineer,2025-04-28,2025-05-05,2025-06-04,Aerospace & Defense,Tizi Ouzou,Doctorat,20,CDD,5,,8,10,180000
+698,VFX Artist,Video Editor,2025-03-03,2025-03-26,2025-04-25,Media & Entertainment,Constantine,Doctorat,20,Freelance,6,"Film Financing, Digital Marketing, NFTs in Entertainment, Media Archiving, Digital Rights Management",8,9,80000
+699,Environmental Compliance Officer,Blasting Technician,2025-04-26,2025-05-10,2025-06-09,Mining,Tiaret,Ingénieur d'État,19,CDD,8,,4,7,158000
+700,Reservoir Engineer,HSE Specialist,2025-04-20,2025-05-06,2025-06-05,Energy & Petroleum,Constantine,Licence,15,Internship,7,"Reliability Engineering, Process Optimization, Renewable Integration, Oil & Gas Law",0,1,138000
+701,Defense Analyst,Defense Analyst,2025-04-26,2025-05-01,2025-05-31,Aerospace & Defense,Ghardaïa,Master,17,Freelance,6,,6,8,180000
+702,Flight Test Engineer,Defense Analyst,2025-03-24,2025-03-27,2025-04-26,Aerospace & Defense,Algiers,Ingénieur d'État,19,CDD,6,,4,8,180000
+703,Safety Officer,Quantity Surveyor,2025-02-20,2025-03-02,2025-04-01,Construction,Ghardaïa,Baccalaureate,12,CDD,8,,0,1,56000
+704,Sound Designer,Sound Designer,2025-05-01,2025-05-20,2025-06-19,Media & Entertainment,Annaba,Doctorat,20,CDD,4,"Live Streaming, Audio Engineering, Programmatic Advertising, Festival Management",8,11,80000
+705,Sales Associate,Store Manager,2025-04-30,2025-05-27,2025-06-26,Retail,Constantine,Ingénieur d'État,19,CDI,1,"Retail Banking, Retail Buying, Retail Expansion, Retail Data Privacy, Retail Analytics",4,8,60000
+706,Blasting Technician,Blasting Technician,2025-03-14,2025-03-18,2025-04-17,Mining,Oran,Licence,15,CDI,3,,2,5,128000
+707,Guest Services Manager,Tour Guide,2025-04-24,2025-05-13,2025-06-12,Tourism & Hospitality,Sétif,Licence,15,CDD,9,,2,4,48000
+708,Avionics Engineer,Flight Test Engineer,2025-02-08,2025-02-20,2025-03-22,Aerospace & Defense,Algiers,Ingénieur d'État,19,Alternance,1,,0,2,155000
+709,Customs Compliance Officer,Customs Compliance Officer,2025-03-31,2025-04-05,2025-05-05,Transport & Logistics,Skikda,Baccalaureate,12,Freelance,5,,0,2,54000
+710,Site Manager,Project Engineer,2025-03-23,2025-04-09,2025-05-09,Construction,Algiers,Baccalaureate,12,Freelance,2,,0,1,56000
+711,Network Engineer,Network Engineer,2025-04-13,2025-04-25,2025-05-25,Telecommunications,Algiers,Licence,15,CDD,2,,2,5,97000
+712,Health Informatics Specialist,Medical Technologist,2025-04-04,2025-04-22,2025-05-22,Healthcare,Tipaza,Ingénieur d'État,19,Alternance,1,,0,1,69000
+713,Content Producer,Content Producer,2025-04-27,2025-05-15,2025-06-14,Media & Entertainment,Bejaïa,Baccalaureate,12,CDD,7,"Storyboarding, Entertainment Law, Digital Marketing, Broadcast Engineering, Media Archiving",0,2,48000
+714,Merchandiser,Sales Associate,2025-02-17,2025-02-28,2025-03-30,Retail,Algiers,No Formal Education,0,CDI,8,"Circular Economy, Inventory Management, Store Layout, Pricing Strategy, Franchise Management",0,1,29000
+715,Telecom Analyst,Network Engineer,2025-03-24,2025-03-25,2025-04-24,Telecommunications,Batna,Ingénieur d'État,19,Internship,6,,0,1,101000
+716,Customs Compliance Officer,Customs Compliance Officer,2025-04-08,2025-05-05,2025-06-04,Transport & Logistics,Ghardaïa,Licence,15,Internship,8,,0,1,64000
+717,Fishery Inspector,Quality Assurance Officer,2025-03-10,2025-04-08,2025-05-08,Fisheries,Sétif,No Formal Education,0,Internship,3,"Fisheries Policy, Fish Husbandry, Cold Storage, Regulatory Compliance, Quality Control",0,1,24000
+718,Merchandiser,Sales Associate,2025-02-28,2025-03-03,2025-04-02,Retail,Algiers,Ingénieur d'État,19,Internship,3,"Category Management, Self-Checkout, Supply Chain, Retail Marketing, Shopper Marketing",0,1,50000
+719,Marketplace Coordinator,E-Commerce Manager,2025-04-09,2025-05-01,2025-05-31,E-Commerce,Algiers,Licence,15,Internship,10,,0,1,72000
+720,Auditor,Auditor,2025-05-06,2025-05-20,2025-06-19,Finance,Jijel,Doctorat,20,CDI,10,"Tableau, QuickBooks, Blockchain, R, Risk Analysis Tools, Power BI",8,11,120000
+721,Blasting Technician,Geologist,2025-04-11,2025-04-30,2025-05-30,Mining,Oran,Licence,15,Alternance,4,,0,1,112000
+722,Quantity Surveyor,Site Manager,2025-02-18,2025-02-24,2025-03-26,Construction,Bouira,Ingénieur d'État,19,Alternance,5,,0,2,78000
+723,HSE Specialist,HSE Specialist,2025-02-11,2025-02-12,2025-03-14,Energy & Petroleum,Adrar,Ingénieur d'État,19,Freelance,6,"Seismic Interpretation, Petroleum Geology, Enhanced Oil Recovery, Petroleum Economics, Artificial Lift Systems, Hydraulic Fracturing",4,6,194000
+724,Sales Associate,Sales Associate,2025-03-08,2025-03-31,2025-04-30,Retail,Sétif,No Formal Education,0,CDI,7,"Retail AI Applications, Retail Technology, Augmented Reality Shopping, Retail Analytics, Retail Sustainability, Customer Experience",0,1,29000
+725,Portfolio Manager,Auditor,2025-02-18,2025-02-22,2025-03-24,Finance,Oran,Ingénieur d'État,19,Internship,5,"Financial Modeling, Power BI, R, Excel, Tableau",0,1,101000
+726,Quantity Surveyor,Safety Officer,2025-03-01,2025-03-27,2025-04-26,Construction,Algiers,Doctorat,20,Internship,6,,0,1,86000
+727,Policy Analyst,Policy Analyst,2025-02-20,2025-03-10,2025-04-09,Public Sector,Oran,Licence,15,CDI,9,,2,3,55000
+728,UX/UI Designer,UX/UI Designer,2025-03-23,2025-04-10,2025-05-10,E-Commerce,Constantine,Master,17,CDI,4,,6,7,100000
+729,Irrigation Specialist,Irrigation Specialist,2025-04-13,2025-05-09,2025-06-08,Agriculture,Tiaret,Doctorat,20,Internship,1,"Agricultural Data Science, Crop Science, GIS Applications, Supply Chain",0,1,48000
+730,Environmental Compliance Officer,Mine Engineer,2025-03-19,2025-04-16,2025-05-16,Mining,Skikda,Doctorat,20,CDI,10,,8,12,160000
+731,Academic Advisor,Instructional Designer,2025-04-20,2025-04-27,2025-05-27,Education,Algiers,Master,17,Alternance,9,"Collaborative Learning, Data-Driven Instruction, Grant Writing, Student Assessment, ESL Instruction, Career Counseling",0,1,55000
+732,Blasting Technician,Blasting Technician,2025-05-03,2025-05-23,2025-06-22,Mining,Ghardaïa,No Formal Education,0,CDD,10,,0,1,72000
+733,Health Informatics Specialist,Health Informatics Specialist,2025-04-11,2025-04-15,2025-05-15,Healthcare,Bejaïa,Master,17,Internship,10,,0,1,73000
+734,Petroleum Engineer,Petroleum Engineer,2025-04-28,2025-05-21,2025-06-20,Energy & Petroleum,Algiers,Master,17,CDI,5,"Process Optimization, Corrosion Engineering, HSE Management, GIS Applications, Process Safety",6,8,200000
+735,Quality Control Inspector,Maintenance Engineer,2025-04-07,2025-04-26,2025-05-26,Manufacturing,Tébessa,Baccalaureate,12,CDI,1,"ERP, CAD Software, 3D Printing, MES, PLC Programming",0,1,46000
+736,Environmental Compliance Officer,Mine Engineer,2025-03-06,2025-03-07,2025-04-06,Mining,Constantine,Baccalaureate,12,CDI,7,,0,1,92000
+737,Merchandiser,Inventory Coordinator,2025-04-15,2025-05-02,2025-06-01,Retail,Annaba,Licence,15,CDI,5,"Retail Security, Retail Analytics, Live Commerce, Retail CRM",2,5,49000
+738,Maintenance Engineer,Production Supervisor,2025-02-28,2025-03-21,2025-04-20,Manufacturing,Sétif,Ingénieur d'État,19,Internship,9,"Lean Six Sigma, MES, ERP, 3D Printing",0,1,66000
+739,Portfolio Manager,Auditor,2025-03-22,2025-04-02,2025-05-02,Finance,Ghardaïa,Ingénieur d'État,19,Freelance,3,"Blockchain, QuickBooks, SQL, Financial Modeling, Excel, R",4,7,118000
+740,RF Technician,Telecom Analyst,2025-05-01,2025-05-18,2025-06-17,Telecommunications,Constantine,Doctorat,20,CDD,4,,8,15,120000
+741,Quality Assurance Officer,Fishery Inspector,2025-02-16,2025-03-05,2025-04-04,Fisheries,Skikda,Doctorat,20,Internship,2,"Fishing Gear, Coastal Management, Feed Formulation, Hatchery Management, Bycatch Reduction, Fish Husbandry",0,1,48000
+742,Quality Control Inspector,Production Supervisor,2025-03-31,2025-04-17,2025-05-17,Manufacturing,Annaba,No Formal Education,0,CDI,1,"ERP, CAD Software, SCADA, Robotics, Digital Twin, Python",0,1,36000
+743,Avionics Engineer,Defense Analyst,2025-02-12,2025-03-03,2025-04-02,Aerospace & Defense,Sétif,Doctorat,20,CDI,10,,8,12,180000
+744,Digital Services Manager,Policy Analyst,2025-03-05,2025-03-14,2025-04-13,Public Sector,Jijel,Doctorat,20,Alternance,6,,0,2,68000
+745,RF Technician,Billing Specialist,2025-02-18,2025-03-12,2025-04-11,Telecommunications,Algiers,Ingénieur d'État,19,Freelance,9,,4,8,120000
+746,Agri-Tech Developer,Agronomist,2025-02-15,2025-02-25,2025-03-27,Agriculture,Medea,Licence,15,CDD,1,"Climate-Smart Agriculture, Agricultural Economics, Blockchain in Agriculture, Food Processing, Aquaponics, Agricultural Extension",2,4,40000
+747,Quality Control Inspector,Quality Control Inspector,2025-04-10,2025-05-08,2025-06-07,Manufacturing,Skikda,Doctorat,20,Alternance,8,"Python, Lean Six Sigma, Robotics, SCADA",0,1,76000
+748,Clinical Trials Manager,Formulation Scientist,2025-02-09,2025-02-11,2025-03-13,Pharmaceuticals,Oran,Master,17,Internship,1,,0,1,126000
+749,Agronomist,Agronomist,2025-04-24,2025-05-10,2025-06-09,Agriculture,Oran,No Formal Education,0,CDD,2,"Agricultural Data Science, Agronomy, Post-Harvest Technology, Fertilizer Technology, GIS Applications, Fisheries Management",0,1,24000
+750,Portfolio Manager,Financial Analyst,2025-03-02,2025-03-08,2025-04-07,Finance,Algiers,Licence,15,CDD,3,"Tableau, Python, Power BI, Excel",2,5,97000
+751,Quality Control Inspector,Maintenance Engineer,2025-04-24,2025-05-21,2025-06-20,Manufacturing,Blida,Ingénieur d'État,19,CDD,4,"Robotics, ERP, Digital Twin, Python",4,8,80000
+752,Farm Manager,Agronomist,2025-02-26,2025-03-01,2025-03-31,Agriculture,Blida,Doctorat,20,Internship,6,"Poultry Science, Aquaponics, Commodity Risk Management, Agronomy",0,1,48000
+753,Quality Assurance Officer,Fishery Inspector,2025-04-28,2025-05-24,2025-06-23,Fisheries,Oran,Ingénieur d'État,19,Alternance,9,"Cold Storage, Aquaculture, Ecosystem Management, Quality Control",0,1,42000
+754,Video Editor,Content Producer,2025-02-27,2025-03-27,2025-04-26,Media & Entertainment,Algiers,Licence,15,Freelance,7,"Makeup Artistry, Visual Effects, Screenwriting, Broadcast Engineering",2,5,64000
