@@ -1,0 +1,34 @@
+{
+  "name": "Job Matching AI Platform",
+  "description": "AI-driven job matching platform using advanced search algorithms (A*, Greedy, GA, CSP)",
+  "repository": "https://github.com/HassaneAitAhmed/Job-Matching-AI-Platform",
+  "keywords": [
+    "ai",
+    "machine-learning",
+    "job-matching",
+    "flask",
+    "python",
+    "algorithms",
+    "search-algorithms"
+  ],
+  "image": "heroku/python",
+  "buildpacks": [
+    {
+      "url": "heroku/python"
+    }
+  ],
+  "env": {
+    "FLASK_DEBUG": {
+      "description": "Enable Flask debug mode (only for development)",
+      "value": "false",
+      "required": false
+    }
+  },
+  "formation": {
+    "web": {
+      "quantity": 1,
+      "size": "basic"
+    }
+  },
+  "stack": "heroku-22"
+}

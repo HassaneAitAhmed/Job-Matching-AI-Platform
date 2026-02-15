@@ -4,12 +4,22 @@
 
 ![Python](https://img.shields.io/badge/Python-3.9+-blue.svg)
 ![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-orange.svg)
+![Flask](https://img.shields.io/badge/Flask-3.0-green.svg)
+![Docker](https://img.shields.io/badge/Docker-Ready-blue.svg)
 ![License](https://img.shields.io/badge/License-Academic-green.svg)
 ![Status](https://img.shields.io/badge/Status-Completed-success.svg)
 
 **An AI-driven job matching platform using advanced search algorithms and constraint satisfaction techniques**
 
 *Spring 2025*
+
+### 🚀 Quick Deploy
+
+[![Deploy to Heroku](https://img.shields.io/badge/Deploy%20to-Heroku-purple?logo=heroku&style=for-the-badge)](https://heroku.com/deploy)
+[![Deploy to Render](https://img.shields.io/badge/Deploy%20to-Render-46E3B7?logo=render&style=for-the-badge)](https://render.com)
+[![Deploy with Docker](https://img.shields.io/badge/Deploy%20with-Docker-2496ED?logo=docker&style=for-the-badge)](#-deployment)
+
+**[📖 Full Deployment Guide](DEPLOYMENT.md)** | **[⚡ Quick Start](HOSTING.md)**
 
 </div>
 
