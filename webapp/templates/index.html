@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Matching AI Platform</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <i class="fas fa-robot"></i>
+                <h1>Job Matching AI Platform</h1>
+            </div>
+            <nav>
+                <a href="#home" class="nav-link active">Home</a>
+                <a href="#features" class="nav-link">Features</a>
+                <a href="#match" class="nav-link">Match</a>
+                <a href="#about" class="nav-link">About</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h2>AI-Powered Job Matching</h2>
+                <p>Connect the right talent with the right opportunities using advanced AI algorithms</p>
+                <div class="hero-stats">
+                    <div class="stat-card">
+                        <i class="fas fa-briefcase"></i>
+                        <h3 id="total-jobs">-</h3>
+                        <p>Jobs Available</p>
+                    </div>
+                    <div class="stat-card">
+                        <i class="fas fa-users"></i>
+                        <h3 id="total-seekers">-</h3>
+                        <p>Job Seekers</p>
+                    </div>
+                    <div class="stat-card">
+                        <i class="fas fa-industry"></i>
+                        <h3 id="total-sectors">-</h3>
+                        <p>Sectors</p>
+                    </div>
+                    <div class="stat-card">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <h3 id="total-cities">-</h3>
+                        <p>Cities</p>
+                    </div>
+                </div>
+                <div class="cta-buttons">
+                    <button class="btn btn-primary" onclick="showSection('seeker')">
+                        <i class="fas fa-user"></i> I'm a Job Seeker
+                    </button>
+                    <button class="btn btn-secondary" onclick="showSection('employer')">
+                        <i class="fas fa-building"></i> I'm an Employer
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="features">
+        <div class="container">
+            <h2 class="section-title">Our AI Algorithms</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-route"></i>
+                    </div>
+                    <h3>A* Search</h3>
+                    <p>Optimal path-finding algorithm with 92% accuracy</p>
+                    <div class="feature-stats">
+                        <span><i class="fas fa-clock"></i> ~0.0038s</span>
+                        <span><i class="fas fa-chart-line"></i> 92% accuracy</span>
+                    </div>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-bolt"></i>
+                    </div>
+                    <h3>Greedy Best-First</h3>
+                    <p>Fast heuristic-based search for quick results</p>
+                    <div class="feature-stats">
+                        <span><i class="fas fa-clock"></i> ~0.0010s</span>
+                        <span><i class="fas fa-chart-line"></i> 78% accuracy</span>
+                    </div>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-dna"></i>
+                    </div>
+                    <h3>Genetic Algorithm</h3>
+                    <p>Evolutionary optimization for best matches</p>
+                    <div class="feature-stats">
+                        <span><i class="fas fa-clock"></i> ~0.0006s</span>
+                        <span><i class="fas fa-chart-line"></i> 85% accuracy</span>
+                    </div>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-puzzle-piece"></i>
+                    </div>
+                    <h3>CSP Solver</h3>
+                    <p>Constraint satisfaction for precise matching</p>
+                    <div class="feature-stats">
+                        <span><i class="fas fa-clock"></i> ~0.0005s</span>
+                        <span><i class="fas fa-chart-line"></i> High accuracy</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Matching Section -->
+    <section id="match" class="matching">
+        <div class="container">
+            <!-- Job Seeker Form -->
+            <div id="seeker-form" class="form-container hidden">
+                <h2 class="section-title">
+                    <i class="fas fa-user"></i> Find Your Perfect Job
+                </h2>
+                <form id="seekerForm" class="match-form">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="seeker-skills">
+                                <i class="fas fa-code"></i> Technical Skills
+                            </label>
+                            <input type="text" id="seeker-skills" name="skills" 
+                                   placeholder="e.g., Python, JavaScript, SQL" required>
+                            <small>Separate multiple skills with commas</small>
+                        </div>
+                        <div class="form-group">
+                            <label for="seeker-experience">
+                                <i class="fas fa-briefcase"></i> Years of Experience
+                            </label>
+                            <input type="number" id="seeker-experience" name="experience" 
+                                   placeholder="e.g., 5" min="0" required>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="seeker-education">
+                                <i class="fas fa-graduation-cap"></i> Education Level
+                            </label>
+                            <select id="seeker-education" name="education" required>
+                                <option value="">Select...</option>
+                                <option value="9">BAC (9)</option>
+                                <option value="12">Licence (12)</option>
+                                <option value="14">Master (14)</option>
+                                <option value="16">Ingénieur d'État (16)</option>
+                                <option value="18">Doctorat (18)</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="seeker-city">
+                                <i class="fas fa-map-marker-alt"></i> Preferred City
+                            </label>
+                            <select id="seeker-city" name="city" required>
+                                <option value="">Select...</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="seeker-sector">
+                                <i class="fas fa-industry"></i> Sector
+                            </label>
+                            <select id="seeker-sector" name="sector">
+                                <option value="">Any Sector</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="seeker-contract">
+                                <i class="fas fa-file-contract"></i> Contract Type
+                            </label>
+                            <select id="seeker-contract" name="contract_type">
+                                <option value="">Any Type</option>
+                                <option value="CDI">CDI (Permanent)</option>
+                                <option value="CDD">CDD (Fixed-term)</option>
+                                <option value="Alternance">Alternance</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="seeker-salary">
+                                <i class="fas fa-money-bill-wave"></i> Expected Salary (DZD)
+                            </label>
+                            <input type="number" id="seeker-salary" name="salary" 
+                                   placeholder="e.g., 50000" min="0" required>
+                        </div>
+                    </div>
+                    <div class="form-actions">
+                        <button type="submit" class="btn btn-primary">
+                            <i class="fas fa-search"></i> Find Jobs
+                        </button>
+                        <button type="button" class="btn btn-secondary" onclick="resetForm('seekerForm')">
+                            <i class="fas fa-redo"></i> Reset
+                        </button>
+                    </div>
+                </form>
+            </div>
+
+            <!-- Employer Form -->
+            <div id="employer-form" class="form-container hidden">
+                <h2 class="section-title">
+                    <i class="fas fa-building"></i> Find Perfect Candidates
+                </h2>
+                <form id="employerForm" class="match-form">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="job-skills">
+                                <i class="fas fa-code"></i> Required Skills
+                            </label>
+                            <input type="text" id="job-skills" name="skills" 
+                                   placeholder="e.g., Python, JavaScript, SQL" required>
+                            <small>Separate multiple skills with commas</small>
+                        </div>
+                        <div class="form-group">
+                            <label for="job-experience-min">
+                                <i class="fas fa-briefcase"></i> Min Experience (years)
+                            </label>
+                            <input type="number" id="job-experience-min" name="experience_min" 
+                                   placeholder="e.g., 2" min="0" required>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="job-experience-max">
+                                <i class="fas fa-briefcase"></i> Max Experience (years)
+                            </label>
+                            <input type="number" id="job-experience-max" name="experience_max" 
+                                   placeholder="e.g., 10" min="0" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="job-education">
+                                <i class="fas fa-graduation-cap"></i> Required Education
+                            </label>
+                            <select id="job-education" name="education" required>
+                                <option value="">Select...</option>
+                                <option value="9">BAC (9)</option>
+                                <option value="12">Licence (12)</option>
+                                <option value="14">Master (14)</option>
+                                <option value="16">Ingénieur d'État (16)</option>
+                                <option value="18">Doctorat (18)</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="job-city">
+                                <i class="fas fa-map-marker-alt"></i> Job Location
+                            </label>
+                            <select id="job-city" name="city" required>
+                                <option value="">Select...</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="job-sector">
+                                <i class="fas fa-industry"></i> Sector
+                            </label>
+                            <select id="job-sector" name="sector">
+                                <option value="">Any Sector</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="job-contract">
+                                <i class="fas fa-file-contract"></i> Contract Type
+                            </label>
+                            <select id="job-contract" name="contract_type">
+                                <option value="">Any Type</option>
+                                <option value="CDI">CDI (Permanent)</option>
+                                <option value="CDD">CDD (Fixed-term)</option>
+                                <option value="Alternance">Alternance</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="job-salary">
+                                <i class="fas fa-money-bill-wave"></i> Offered Salary (DZD)
+                            </label>
+                            <input type="number" id="job-salary" name="salary" 
+                                   placeholder="e.g., 60000" min="0" required>
+                        </div>
+                    </div>
+                    <div class="form-actions">
+                        <button type="submit" class="btn btn-primary">
+                            <i class="fas fa-search"></i> Find Candidates
+                        </button>
+                        <button type="button" class="btn btn-secondary" onclick="resetForm('employerForm')">
+                            <i class="fas fa-redo"></i> Reset
+                        </button>
+                    </div>
+                </form>
+            </div>
+
+            <!-- Results Section -->
+            <div id="results" class="results-container hidden">
+                <div class="results-header">
+                    <h2>
+                        <i class="fas fa-chart-bar"></i> 
+                        <span id="results-title">Match Results</span>
+                    </h2>
+                    <p id="results-summary"></p>
+                </div>
+                <div id="results-list" class="results-list"></div>
+                <button class="btn btn-secondary" onclick="hideResults()">
+                    <i class="fas fa-arrow-left"></i> New Search
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About the Platform</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>AI-Driven Job Matching</h3>
+                    <p>
+                        This platform uses advanced artificial intelligence algorithms to match job seekers 
+                        with their ideal positions and help employers find the perfect candidates. Our system 
+                        evaluates multiple factors including:
+                    </p>
+                    <ul>
+                        <li><i class="fas fa-check"></i> Technical skills similarity (30% weight)</li>
+                        <li><i class="fas fa-check"></i> Location proximity (20% weight)</li>
+                        <li><i class="fas fa-check"></i> Experience requirements (20% weight)</li>
+                        <li><i class="fas fa-check"></i> Education level (15% weight)</li>
+                        <li><i class="fas fa-check"></i> Salary expectations (15% weight)</li>
+                    </ul>
+                </div>
+                <div class="about-stats">
+                    <div class="stat-item">
+                        <h3>92%</h3>
+                        <p>Match Accuracy</p>
+                    </div>
+                    <div class="stat-item">
+                        <h3>0.005s</h3>
+                        <p>Average Response Time</p>
+                    </div>
+                    <div class="stat-item">
+                        <h3>60%</h3>
+                        <p>Search Space Reduction</p>
+                    </div>
+                </div>
+            </div>
+            <div class="academic-info">
+                <h3>Academic Project</h3>
+                <p>
+                    <strong>Institution:</strong> The National Higher School of Artificial Intelligence (ENSIA), Algeria<br>
+                    <strong>Course:</strong> Introduction to Artificial Intelligence<br>
+                    <strong>Supervisor:</strong> Professor Ahmed Guessoum<br>
+                    <strong>Semester:</strong> Spring 2025
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Job Matching AI Platform - ENSIA Algeria</p>
+            <p>Developed for academic purposes</p>
+        </div>
+    </footer>
+
+    <!-- Loading Overlay -->
+    <div id="loading" class="loading-overlay hidden">
+        <div class="spinner"></div>
+        <p>Finding matches...</p>
+    </div>
+
+    <script src="{{ url_for('static', filename='js/main.js') }}"></script>
+</body>
+</html>
