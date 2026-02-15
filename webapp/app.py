@@ -126,6 +126,14 @@ def index():
     """Render the home page"""
     return render_template('index.html')
 
+@app.route('/health')
+def health():
+    """Health check endpoint for deployment platforms"""
+    return jsonify({
+        'status': 'healthy',
+        'data_loaded': jobs_df is not None and employees_df is not None
+    }), 200
+
 @app.route('/api/stats')
 def get_stats():
     """Get statistics about the dataset"""
@@ -273,6 +281,6 @@ if __name__ == '__main__':
     print("🚀 Starting Job Matching AI Platform...")
     load_data()
     # Note: Set debug=False in production. Debug mode is only for development.
-    import os
     debug_mode = os.environ.get('FLASK_DEBUG', 'False').lower() == 'true'
-    app.run(debug=debug_mode, host='0.0.0.0', port=5000)
+    port = int(os.environ.get('PORT', 5000))
+    app.run(debug=debug_mode, host='0.0.0.0', port=port)

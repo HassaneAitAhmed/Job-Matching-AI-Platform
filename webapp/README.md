@@ -125,23 +125,44 @@ The platform uses a weighted scoring system:
 
 ## Deployment
 
-### Local Deployment
+### Quick Deployment Options
 
-Simply run:
+This application can be easily deployed to various hosting platforms:
+
+**🚀 One-Click Deployment:**
+- **Heroku**: `git push heroku main`
+- **Railway**: Connect GitHub repo in dashboard
+- **Render**: Connect GitHub repo and auto-deploy
+
+**🐳 Docker Deployment:**
 ```bash
-python app.py
+# From project root
+docker-compose up -d
+# App available at http://localhost:8080
 ```
 
-The server will start on `http://0.0.0.0:5000`
+**📚 Detailed Instructions:**
 
-### Production Deployment
+See the comprehensive [DEPLOYMENT.md](../DEPLOYMENT.md) guide for:
+- Docker deployment
+- Heroku deployment
+- Railway deployment
+- Render deployment
+- Google Cloud Run
+- PythonAnywhere
+- VPS deployment
+- Environment configuration
+- Monitoring and troubleshooting
 
-For production deployment, consider using:
-- **Gunicorn** as the WSGI server
-- **Nginx** as a reverse proxy
-- **Docker** for containerization
+### Production Configuration
 
-Example with Gunicorn:
+For production deployment, the application uses:
+- **Gunicorn** as WSGI server (2 workers, 4 threads)
+- **Port** from environment variable (default: 5000)
+- **Debug mode** disabled by default
+- **Health check** endpoint at `/health`
+
+Example with gunicorn:
 ```bash
 pip install gunicorn
 gunicorn -w 4 -b 0.0.0.0:5000 app:app

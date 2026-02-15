@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: job-matching-ai-platform
+    env: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: gunicorn --bind :$PORT --workers 2 --threads 4 --timeout 60 --chdir webapp app:app
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.11.7
+      - key: FLASK_DEBUG
+        value: false
+    healthCheckPath: /health

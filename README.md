@@ -36,6 +36,7 @@
 - [Data Preprocessing](#-data-preprocessing)
 - [Installation](#-installation)
 - [Usage](#-usage)
+- [Deployment](#-deployment)
 - [Results & Performance](#-results--performance)
 - [Team Members & Contributions](#-team-members--contributions)
 - [References](#-references)
@@ -388,6 +389,68 @@ ga = PairGA(
     distance_file="data/algeria_distances.json"
 )
 _, matches = ga.match_custom_employee(employee, top_n=5)
+```
+
+---
+
+## 🚀 Deployment
+
+The web application can be easily deployed to various hosting platforms. Multiple deployment options are available:
+
+### Quick Deployment
+
+**🐳 Docker (Recommended):**
+```bash
+docker-compose up -d
+# Application available at http://localhost:8080
+```
+
+**☁️ Cloud Platforms:**
+
+| Platform | Difficulty | Free Tier | Deploy Command |
+|----------|-----------|-----------|----------------|
+| **Heroku** | ⭐ Easy | Yes (550 hrs/mo) | `git push heroku main` |
+| **Railway** | ⭐ Easy | $5 credit/mo | Connect GitHub repo |
+| **Render** | ⭐⭐ Medium | Yes (limited) | Connect GitHub repo |
+| **Google Cloud Run** | ⭐⭐⭐ Advanced | Yes (2M requests/mo) | `gcloud run deploy` |
+| **PythonAnywhere** | ⭐⭐ Medium | Yes (512MB) | Manual setup |
+
+### Deployment Files Included
+
+- ✅ `Dockerfile` - Container configuration
+- ✅ `docker-compose.yml` - Easy Docker setup
+- ✅ `Procfile` - Heroku/Railway configuration
+- ✅ `render.yaml` - Render.com configuration
+- ✅ `runtime.txt` - Python version specification
+- ✅ `requirements.txt` - All dependencies including gunicorn
+
+### Comprehensive Guide
+
+See **[DEPLOYMENT.md](DEPLOYMENT.md)** for detailed instructions including:
+
+- 📦 Docker deployment
+- ☁️ Cloud platform setup (Heroku, Railway, Render, Google Cloud)
+- 🖥️ VPS deployment with Nginx
+- 🔧 Environment configuration
+- 📊 Monitoring and logging
+- 🔐 Security best practices
+- 🐛 Troubleshooting guide
+
+### One-Line Deploy Examples
+
+**Heroku:**
+```bash
+heroku create && git push heroku main
+```
+
+**Docker:**
+```bash
+docker build -t job-matching-ai . && docker run -p 8080:8080 job-matching-ai
+```
+
+**Health Check:**
+```bash
+curl http://your-app-url/health
 ```
 
 ---
