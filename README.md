@@ -94,17 +94,27 @@ The Algerian job market faces significant challenges in efficiently connecting q
 ## 📁 Project Structure
 
 ```
-ff/
-├── 📓 finalversion.ipynb      # Main Jupyter notebook with all implementations
+Job-Matching-AI-Platform/
+├── 📓 finalversion.ipynb           # Main Jupyter notebook with all implementations
 ├── 📊 data/
-│   ├── jobs.csv               # Job postings dataset
-│   ├── emplo.csv              # Employee/seeker dataset
-│   └── algeria_distances.json # City distance matrix for Algeria
-├── 📄 job_transition_model.json      # Pre-built job clustering model
+│   ├── jobs.csv                    # Job postings dataset
+│   ├── emplo.csv                   # Employee/seeker dataset
+│   └── algeria_distances.json      # City distance matrix for Algeria
+├── 📄 job_transition_model.json    # Pre-built job clustering model
 ├── 📄 employee_transition_model.json # Pre-built employee clustering model
-├── 📑 report.pdf              # Detailed project report
-└── 📖 README.md               # This file
+├── 📑 report.pdf                   # Detailed project report
+├── 🌐 webapp/                      # Web application
+│   ├── app.py                      # Flask backend server
+│   ├── requirements.txt            # Python dependencies
+│   ├── templates/
+│   │   └── index.html              # Main web interface
+│   ├── static/
+│   │   ├── css/style.css          # Styling
+│   │   └── js/main.js             # Frontend JavaScript
+│   └── README.md                   # Web app documentation
+└── 📖 README.md                    # This file
 ```
+
 
 ---
 
@@ -217,9 +227,34 @@ Each cluster stores aggregated "expected values" for heuristic calculations:
 
 ### Prerequisites
 - Python 3.9 or higher
-- Jupyter Notebook
+- Jupyter Notebook (for notebook version)
+- Flask (for web application)
 
-### Setup
+### Option 1: Web Application (Recommended)
+
+The easiest way to use the platform is through our web interface:
+
+1. **Navigate to the webapp directory**
+```bash
+cd webapp
+```
+
+2. **Install dependencies**
+```bash
+pip install -r requirements.txt
+```
+
+3. **Run the web application**
+```bash
+python app.py
+```
+
+4. **Open your browser**
+Navigate to `http://localhost:5000`
+
+See [webapp/README.md](webapp/README.md) for detailed instructions.
+
+### Option 2: Jupyter Notebook
 
 1. **Clone/Download the repository**
 ```bash
@@ -240,7 +275,32 @@ jupyter notebook finalversion.ipynb
 
 ## 💻 Usage
 
-### Running the Main Program
+### Web Application Usage
+
+The web application provides an intuitive interface for both job seekers and employers:
+
+#### For Job Seekers:
+1. Click **"I'm a Job Seeker"** on the home page
+2. Fill in your details:
+   - Technical skills (e.g., "Python, Machine Learning, SQL")
+   - Years of experience
+   - Education level
+   - Preferred city
+   - Sector and contract type preferences (optional)
+   - Expected salary
+3. Click **"Find Jobs"** to see your top matches with percentage scores
+
+#### For Employers:
+1. Click **"I'm an Employer"** on the home page
+2. Fill in job requirements:
+   - Required technical skills
+   - Experience range (min-max years)
+   - Education level required
+   - Job location
+   - Offered salary
+3. Click **"Find Candidates"** to see top candidate matches
+
+### Jupyter Notebook Usage
 
 Execute all cells in the notebook, then run the final cell to access the interactive menu:
 
