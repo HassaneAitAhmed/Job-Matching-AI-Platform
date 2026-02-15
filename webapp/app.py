@@ -158,7 +158,7 @@ def get_skills():
                 parsed = literal_eval(skill_list)
                 if isinstance(parsed, list):
                     skills.update(parsed)
-        except:
+        except (ValueError, SyntaxError):
             pass
     return jsonify(sorted(list(skills)))
 
