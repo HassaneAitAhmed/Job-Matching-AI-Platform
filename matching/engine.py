@@ -17,8 +17,9 @@ from .normalize import (
     canonical_education,
     canonical_sector,
     education_label,
+    fold,
 )
-from .scoring import CRITERIA, JOB_TO_SEEKER, SEEKER_TO_JOB, ItemScorer, Query, breakdown
+from .scoring import CRITERIA, JOB_TO_SEEKER, SEEKER_TO_JOB, WEIGHTS, ItemScorer, Query, breakdown
 from .search import SearchStats, best_first, exhaustive
 from .skills import SkillVocab
 from .tree import ClusterTree
@@ -114,9 +115,16 @@ class Matcher:
         else:
             hits, stats = csp_mod.solve_with_relaxation(scorer, tree, pq, want, constraints or csp_mod.Constraints())
         hits = hits[offset:]
-        return MatchResult(query.direction, algorithm, [self._describe(query.direction, h, pq.weights) for h in hits], stats)
+        return MatchResult(query.direction, algorithm, [self._describe(query.direction, h, pq.weights, pq) for h in hits], stats)
 
-    def _describe(self, direction, hit, weights) -> dict:
+    def _matched_skills(self, pq, skills) -> list:
+        """The item's skills that (soft-)match the query's skills."""
+        if pq is None or not pq.query.skills:
+            return []
+        accept = pq.skill_match if pq.skill_match is not None else frozenset().union(*pq.skill_reqs)
+        return [s for s in skills if self.vocab.index.get(fold(s)) in accept]
+
+    def _describe(self, direction, hit, weights, pq=None) -> dict:
         if direction == SEEKER_TO_JOB:
             r = self.jobs.iloc[hit.row]
             d = {
@@ -145,6 +153,7 @@ class Matcher:
             "contract_type": r.contract_type,
             "city": r.city or r.city_raw,
             "skills": list(r.skills),
+            "matched_skills": self._matched_skills(pq, r.skills),
             "skills_listed": bool(r.skills_listed),
             "match_score": round(100 * (1 - hit.cost), 2),
             "breakdown": breakdown(hit.costs, weights),
@@ -227,6 +236,7 @@ class Matcher:
             "education_levels": [{"value": v, "label": l} for v, l in EDUCATION_LEVELS],
             "algorithms": list(ALGORITHMS),
             "criteria": list(CRITERIA),
+            "weights": {d: {c: round(100 * float(w[i]), 1) for i, c in enumerate(CRITERIA)} for d, w in WEIGHTS.items()},
         }
 
     def stats(self) -> dict:
