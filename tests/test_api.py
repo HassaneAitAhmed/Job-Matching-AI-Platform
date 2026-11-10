@@ -15,9 +15,20 @@ JOB = {"skills": "Risk Management", "experience_min": 2, "experience_max": 5, "e
        "city": "Oran", "salary": 80000, "sector": "Finance"}
 
 
-def test_index(client):
-    r = client.get("/")
-    assert r.status_code == 200 and b"Job Matching AI Platform" in r.data
+def test_frontend_is_served(matcher, tmp_path):
+    (tmp_path / "assets").mkdir()
+    (tmp_path / "index.html").write_text("<div id=root>Job Matching</div>")
+    (tmp_path / "assets" / "app.js").write_text("console.log(1)")
+    c = create_app(matcher, frontend_dist=tmp_path).test_client()
+    assert c.get("/").data == b"<div id=root>Job Matching</div>"
+    assert c.get("/assets/app.js").data == b"console.log(1)"
+    assert c.get("/some/client/route").data == b"<div id=root>Job Matching</div>"  # SPA fallback
+    assert b"[project]" not in c.get("/../pyproject.toml").data  # no path traversal out of dist
+
+
+def test_missing_frontend_build_explains_how_to_build(matcher, tmp_path):
+    r = create_app(matcher, frontend_dist=tmp_path / "nope").test_client().get("/")
+    assert r.status_code == 503 and b"npm run build" in r.data
 
 
 @pytest.mark.parametrize("path", ["/api/stats", "/api/options", "/api/sectors", "/api/cities",
@@ -36,6 +47,8 @@ def test_options_use_canonical_values(client):
     assert [e["value"] for e in opts["education_levels"]] == [0, 12, 15, 17, 19, 20]
     assert {c["value"] for c in opts["contract_types"]} == {"CDI", "CDD", "Internship", "Alternance", "Freelance"}
     assert "Finance" not in opts["sectors"] and "Banking & Finance" in opts["sectors"]
+    for weights in opts["weights"].values():
+        assert sum(weights.values()) == pytest.approx(100, abs=0.5)
 
 
 @pytest.mark.parametrize("algorithm", ["astar", "greedy", "csp", "exhaustive"])
@@ -46,6 +59,7 @@ def test_seeker_search_without_sector_works(client, algorithm):
     body = r.json
     assert body["algorithm"] == algorithm and len(body["matches"]) == 10
     m = body["matches"][0]
+    assert isinstance(m["matched_skills"], list)
     assert m["type"] == "job" and set(m["breakdown"]) == {
         "sector", "contract_type", "education", "location", "experience", "salary", "skills"}
 
