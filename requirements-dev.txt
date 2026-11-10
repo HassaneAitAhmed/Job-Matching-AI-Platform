@@ -1,0 +1,7 @@
+-r requirements.txt
+pytest==9.1.1
+# notebook / plots
+matplotlib==3.10.8
+nbformat==5.10.4
+nbconvert==7.17.0
+ipykernel
