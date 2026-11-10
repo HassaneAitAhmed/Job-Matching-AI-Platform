@@ -17,8 +17,9 @@
             </div>
             <nav>
                 <a href="#home" class="nav-link active">Home</a>
-                <a href="#features" class="nav-link">Features</a>
+                <a href="#features" class="nav-link">Algorithms</a>
                 <a href="#match" class="nav-link">Match</a>
+                <a href="#assign" class="nav-link">Batch</a>
                 <a href="#about" class="nav-link">About</a>
             </nav>
         </div>
@@ -29,12 +30,12 @@
         <div class="container">
             <div class="hero-content">
                 <h2>AI-Powered Job Matching</h2>
-                <p>Connect the right talent with the right opportunities using advanced AI algorithms</p>
+                <p>Match seekers and job postings with classical AI search, constraint satisfaction and evolutionary optimisation</p>
                 <div class="hero-stats">
                     <div class="stat-card">
                         <i class="fas fa-briefcase"></i>
                         <h3 id="total-jobs">-</h3>
-                        <p>Jobs Available</p>
+                        <p>Job Postings</p>
                     </div>
                     <div class="stat-card">
                         <i class="fas fa-users"></i>
@@ -60,58 +61,42 @@
                         <i class="fas fa-building"></i> I'm an Employer
                     </button>
                 </div>
+                <p class="data-note">
+                    <i class="fas fa-info-circle"></i>
+                    Demo data: the bundled datasets appear to be synthetic, so scores illustrate the algorithms rather than real hiring outcomes.
+                </p>
             </div>
         </div>
     </section>
 
-    <!-- Features Section -->
+    <!-- Algorithms Section -->
     <section id="features" class="features">
         <div class="container">
-            <h2 class="section-title">Our AI Algorithms</h2>
+            <h2 class="section-title">The Algorithms</h2>
             <div class="features-grid">
                 <div class="feature-card">
-                    <div class="feature-icon">
-                        <i class="fas fa-route"></i>
-                    </div>
+                    <div class="feature-icon"><i class="fas fa-route"></i></div>
                     <h3>A* Search</h3>
-                    <p>Optimal path-finding algorithm with 92% accuracy</p>
-                    <div class="feature-stats">
-                        <span><i class="fas fa-clock"></i> ~0.0038s</span>
-                        <span><i class="fas fa-chart-line"></i> 92% accuracy</span>
-                    </div>
+                    <p>Best-first search over a hierarchical cluster tree with an admissible heuristic. Returns exactly the same top results as scoring everything, while scoring only a fraction of the items.</p>
+                    <div class="feature-stats"><span><i class="fas fa-check"></i> Optimal top-k</span></div>
                 </div>
                 <div class="feature-card">
-                    <div class="feature-icon">
-                        <i class="fas fa-bolt"></i>
-                    </div>
+                    <div class="feature-icon"><i class="fas fa-bolt"></i></div>
                     <h3>Greedy Best-First</h3>
-                    <p>Fast heuristic-based search for quick results</p>
-                    <div class="feature-stats">
-                        <span><i class="fas fa-clock"></i> ~0.0010s</span>
-                        <span><i class="fas fa-chart-line"></i> 78% accuracy</span>
-                    </div>
+                    <p>Follows the heuristic only (f = h). Fewer expansions, but it can miss better matches in other branches.</p>
+                    <div class="feature-stats"><span><i class="fas fa-exclamation-triangle"></i> Not optimal</span></div>
                 </div>
                 <div class="feature-card">
-                    <div class="feature-icon">
-                        <i class="fas fa-dna"></i>
-                    </div>
-                    <h3>Genetic Algorithm</h3>
-                    <p>Evolutionary optimization for best matches</p>
-                    <div class="feature-stats">
-                        <span><i class="fas fa-clock"></i> ~0.0006s</span>
-                        <span><i class="fas fa-chart-line"></i> 85% accuracy</span>
-                    </div>
-                </div>
-                <div class="feature-card">
-                    <div class="feature-icon">
-                        <i class="fas fa-puzzle-piece"></i>
-                    </div>
+                    <div class="feature-icon"><i class="fas fa-puzzle-piece"></i></div>
                     <h3>CSP Solver</h3>
-                    <p>Constraint satisfaction for precise matching</p>
-                    <div class="feature-stats">
-                        <span><i class="fas fa-clock"></i> ~0.0005s</span>
-                        <span><i class="fas fa-chart-line"></i> High accuracy</span>
-                    </div>
+                    <p>Hard constraints (sector, contract, education, distance, salary, experience) with node consistency and forward checking. It relaxes constraints automatically when nothing fits.</p>
+                    <div class="feature-stats"><span><i class="fas fa-filter"></i> Strict filtering</span></div>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon"><i class="fas fa-dna"></i></div>
+                    <h3>Genetic Algorithm</h3>
+                    <p>Assigns a batch of seekers to job posts while respecting post capacities. It is benchmarked against the exact optimum (Hungarian algorithm).</p>
+                    <div class="feature-stats"><span><i class="fas fa-layer-group"></i> Batch assignment</span></div>
                 </div>
             </div>
         </div>
@@ -128,81 +113,60 @@
                 <form id="seekerForm" class="match-form">
                     <div class="form-row">
                         <div class="form-group">
-                            <label for="seeker-skills">
-                                <i class="fas fa-code"></i> Technical Skills
-                            </label>
-                            <input type="text" id="seeker-skills" name="skills" 
-                                   placeholder="e.g., Python, JavaScript, SQL" required>
+                            <label for="seeker-skills"><i class="fas fa-code"></i> Technical Skills</label>
+                            <input type="text" id="seeker-skills" name="skills" list="skill-list"
+                                   placeholder="e.g., Supply Chain Management, SQL, Data Analysis" required>
                             <small>Separate multiple skills with commas</small>
                         </div>
                         <div class="form-group">
-                            <label for="seeker-experience">
-                                <i class="fas fa-briefcase"></i> Years of Experience
-                            </label>
-                            <input type="number" id="seeker-experience" name="experience" 
-                                   placeholder="e.g., 5" min="0" required>
+                            <label for="seeker-experience"><i class="fas fa-briefcase"></i> Years of Experience</label>
+                            <input type="number" id="seeker-experience" name="experience"
+                                   placeholder="e.g., 5" min="0" max="60" required>
                         </div>
                     </div>
                     <div class="form-row">
                         <div class="form-group">
-                            <label for="seeker-education">
-                                <i class="fas fa-graduation-cap"></i> Education Level
-                            </label>
-                            <select id="seeker-education" name="education" required>
+                            <label for="seeker-education"><i class="fas fa-graduation-cap"></i> Education Level</label>
+                            <select id="seeker-education" name="education" class="edu-select" required>
                                 <option value="">Select...</option>
-                                <option value="9">BAC (9)</option>
-                                <option value="12">Licence (12)</option>
-                                <option value="14">Master (14)</option>
-                                <option value="16">Ingénieur d'État (16)</option>
-                                <option value="18">Doctorat (18)</option>
                             </select>
                         </div>
                         <div class="form-group">
-                            <label for="seeker-city">
-                                <i class="fas fa-map-marker-alt"></i> Preferred City
-                            </label>
-                            <select id="seeker-city" name="city" required>
+                            <label for="seeker-city"><i class="fas fa-map-marker-alt"></i> Preferred City</label>
+                            <select id="seeker-city" name="city" class="city-select" required>
                                 <option value="">Select...</option>
                             </select>
                         </div>
                     </div>
                     <div class="form-row">
                         <div class="form-group">
-                            <label for="seeker-sector">
-                                <i class="fas fa-industry"></i> Sector
-                            </label>
-                            <select id="seeker-sector" name="sector">
+                            <label for="seeker-sector"><i class="fas fa-industry"></i> Sector</label>
+                            <select id="seeker-sector" name="sector" class="sector-select">
                                 <option value="">Any Sector</option>
                             </select>
                         </div>
                         <div class="form-group">
-                            <label for="seeker-contract">
-                                <i class="fas fa-file-contract"></i> Contract Type
-                            </label>
-                            <select id="seeker-contract" name="contract_type">
+                            <label for="seeker-contract"><i class="fas fa-file-contract"></i> Contract Type</label>
+                            <select id="seeker-contract" name="contract_type" class="contract-select">
                                 <option value="">Any Type</option>
-                                <option value="CDI">CDI (Permanent)</option>
-                                <option value="CDD">CDD (Fixed-term)</option>
-                                <option value="Alternance">Alternance</option>
                             </select>
                         </div>
                     </div>
                     <div class="form-row">
                         <div class="form-group">
-                            <label for="seeker-salary">
-                                <i class="fas fa-money-bill-wave"></i> Expected Salary (DZD)
-                            </label>
-                            <input type="number" id="seeker-salary" name="salary" 
+                            <label for="seeker-salary"><i class="fas fa-money-bill-wave"></i> Expected Salary (DZD)</label>
+                            <input type="number" id="seeker-salary" name="salary"
                                    placeholder="e.g., 50000" min="0" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="seeker-algorithm"><i class="fas fa-microchip"></i> Algorithm</label>
+                            <select id="seeker-algorithm" name="algorithm" class="algorithm-select"></select>
+                            <small class="csp-hint">CSP keeps only jobs within <input type="number" class="inline-number" id="seeker-max-km" value="300" min="0" max="5000"> km</small>
                         </div>
                     </div>
                     <div class="form-actions">
-                        <button type="submit" class="btn btn-primary">
-                            <i class="fas fa-search"></i> Find Jobs
-                        </button>
-                        <button type="button" class="btn btn-secondary" onclick="resetForm('seekerForm')">
-                            <i class="fas fa-redo"></i> Reset
-                        </button>
+                        <button type="submit" class="btn btn-primary"><i class="fas fa-search"></i> Find Jobs</button>
+                        <button type="button" class="btn btn-secondary" onclick="resetForm('seekerForm')"><i class="fas fa-redo"></i> Reset</button>
                     </div>
                 </form>
             </div>
@@ -215,106 +179,128 @@
                 <form id="employerForm" class="match-form">
                     <div class="form-row">
                         <div class="form-group">
-                            <label for="job-skills">
-                                <i class="fas fa-code"></i> Required Skills
-                            </label>
-                            <input type="text" id="job-skills" name="skills" 
-                                   placeholder="e.g., Python, JavaScript, SQL" required>
+                            <label for="job-skills"><i class="fas fa-code"></i> Required Skills</label>
+                            <input type="text" id="job-skills" name="skills" list="skill-list"
+                                   placeholder="e.g., Risk Management, Financial Modeling" required>
                             <small>Separate multiple skills with commas</small>
                         </div>
                         <div class="form-group">
-                            <label for="job-experience-min">
-                                <i class="fas fa-briefcase"></i> Min Experience (years)
-                            </label>
-                            <input type="number" id="job-experience-min" name="experience_min" 
-                                   placeholder="e.g., 2" min="0" required>
+                            <label for="job-experience-min"><i class="fas fa-briefcase"></i> Min Experience (years)</label>
+                            <input type="number" id="job-experience-min" name="experience_min"
+                                   placeholder="e.g., 2" min="0" max="60" required>
                         </div>
                     </div>
                     <div class="form-row">
                         <div class="form-group">
-                            <label for="job-experience-max">
-                                <i class="fas fa-briefcase"></i> Max Experience (years)
-                            </label>
-                            <input type="number" id="job-experience-max" name="experience_max" 
-                                   placeholder="e.g., 10" min="0" required>
+                            <label for="job-experience-max"><i class="fas fa-briefcase"></i> Max Experience (years)</label>
+                            <input type="number" id="job-experience-max" name="experience_max"
+                                   placeholder="e.g., 10" min="0" max="60" required>
                         </div>
                         <div class="form-group">
-                            <label for="job-education">
-                                <i class="fas fa-graduation-cap"></i> Required Education
-                            </label>
-                            <select id="job-education" name="education" required>
+                            <label for="job-education"><i class="fas fa-graduation-cap"></i> Required Education</label>
+                            <select id="job-education" name="education" class="edu-select" required>
                                 <option value="">Select...</option>
-                                <option value="9">BAC (9)</option>
-                                <option value="12">Licence (12)</option>
-                                <option value="14">Master (14)</option>
-                                <option value="16">Ingénieur d'État (16)</option>
-                                <option value="18">Doctorat (18)</option>
                             </select>
                         </div>
                     </div>
                     <div class="form-row">
                         <div class="form-group">
-                            <label for="job-city">
-                                <i class="fas fa-map-marker-alt"></i> Job Location
-                            </label>
-                            <select id="job-city" name="city" required>
+                            <label for="job-city"><i class="fas fa-map-marker-alt"></i> Job Location</label>
+                            <select id="job-city" name="city" class="city-select" required>
                                 <option value="">Select...</option>
                             </select>
                         </div>
                         <div class="form-group">
-                            <label for="job-sector">
-                                <i class="fas fa-industry"></i> Sector
-                            </label>
-                            <select id="job-sector" name="sector">
+                            <label for="job-sector"><i class="fas fa-industry"></i> Sector</label>
+                            <select id="job-sector" name="sector" class="sector-select">
                                 <option value="">Any Sector</option>
                             </select>
                         </div>
                     </div>
                     <div class="form-row">
                         <div class="form-group">
-                            <label for="job-contract">
-                                <i class="fas fa-file-contract"></i> Contract Type
-                            </label>
-                            <select id="job-contract" name="contract_type">
+                            <label for="job-contract"><i class="fas fa-file-contract"></i> Contract Type</label>
+                            <select id="job-contract" name="contract_type" class="contract-select">
                                 <option value="">Any Type</option>
-                                <option value="CDI">CDI (Permanent)</option>
-                                <option value="CDD">CDD (Fixed-term)</option>
-                                <option value="Alternance">Alternance</option>
                             </select>
                         </div>
                         <div class="form-group">
-                            <label for="job-salary">
-                                <i class="fas fa-money-bill-wave"></i> Offered Salary (DZD)
-                            </label>
-                            <input type="number" id="job-salary" name="salary" 
+                            <label for="job-salary"><i class="fas fa-money-bill-wave"></i> Offered Salary (DZD)</label>
+                            <input type="number" id="job-salary" name="salary"
                                    placeholder="e.g., 60000" min="0" required>
                         </div>
                     </div>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="job-algorithm"><i class="fas fa-microchip"></i> Algorithm</label>
+                            <select id="job-algorithm" name="algorithm" class="algorithm-select"></select>
+                            <small class="csp-hint">CSP keeps only candidates within <input type="number" class="inline-number" id="job-max-km" value="300" min="0" max="5000"> km</small>
+                        </div>
+                    </div>
                     <div class="form-actions">
-                        <button type="submit" class="btn btn-primary">
-                            <i class="fas fa-search"></i> Find Candidates
-                        </button>
-                        <button type="button" class="btn btn-secondary" onclick="resetForm('employerForm')">
-                            <i class="fas fa-redo"></i> Reset
-                        </button>
+                        <button type="submit" class="btn btn-primary"><i class="fas fa-search"></i> Find Candidates</button>
+                        <button type="button" class="btn btn-secondary" onclick="resetForm('employerForm')"><i class="fas fa-redo"></i> Reset</button>
                     </div>
                 </form>
             </div>
+
+            <datalist id="skill-list"></datalist>
 
             <!-- Results Section -->
             <div id="results" class="results-container hidden">
                 <div class="results-header">
                     <h2>
-                        <i class="fas fa-chart-bar"></i> 
+                        <i class="fas fa-chart-bar"></i>
                         <span id="results-title">Match Results</span>
                     </h2>
                     <p id="results-summary"></p>
+                    <p id="results-stats" class="results-stats"></p>
                 </div>
                 <div id="results-list" class="results-list"></div>
-                <button class="btn btn-secondary" onclick="hideResults()">
-                    <i class="fas fa-arrow-left"></i> New Search
-                </button>
+                <div class="form-actions">
+                    <button id="load-more" class="btn btn-primary hidden" onclick="loadMore()">
+                        <i class="fas fa-plus"></i> Load more
+                    </button>
+                    <button class="btn btn-secondary" onclick="hideResults()">
+                        <i class="fas fa-arrow-left"></i> New Search
+                    </button>
+                </div>
             </div>
+        </div>
+    </section>
+
+    <!-- Batch Assignment Section -->
+    <section id="assign" class="features">
+        <div class="container">
+            <h2 class="section-title">Batch Assignment: GA vs Optimal</h2>
+            <form id="assignForm" class="match-form form-container">
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="assign-seekers"><i class="fas fa-users"></i> Seekers in batch</label>
+                        <input type="number" id="assign-seekers" value="40" min="2" max="200">
+                    </div>
+                    <div class="form-group">
+                        <label for="assign-jobs"><i class="fas fa-briefcase"></i> Job postings in batch</label>
+                        <input type="number" id="assign-jobs" value="15" min="1" max="100">
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="assign-sector"><i class="fas fa-industry"></i> Sector</label>
+                        <select id="assign-sector" class="sector-select">
+                            <option value="">All sectors</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="assign-seed"><i class="fas fa-dice"></i> Random seed</label>
+                        <input type="number" id="assign-seed" value="0" min="0">
+                    </div>
+                </div>
+                <div class="form-actions">
+                    <button type="submit" class="btn btn-primary"><i class="fas fa-dna"></i> Run Assignment</button>
+                </div>
+                <div id="assign-results" class="assign-results"></div>
+            </form>
         </div>
     </section>
 
@@ -324,43 +310,35 @@
             <h2 class="section-title">About the Platform</h2>
             <div class="about-content">
                 <div class="about-text">
-                    <h3>AI-Driven Job Matching</h3>
+                    <h3>How a match is scored</h3>
                     <p>
-                        This platform uses advanced artificial intelligence algorithms to match job seekers 
-                        with their ideal positions and help employers find the perfect candidates. Our system 
-                        evaluates multiple factors including:
+                        Each match is scored on seven criteria, each from 0 to 100%. The overall score is a weighted
+                        average. Weights depend on who is searching; for example, employers weight location and
+                        experience more heavily. Every result shows its own breakdown.
                     </p>
                     <ul>
-                        <li><i class="fas fa-check"></i> Technical skills similarity (30% weight)</li>
-                        <li><i class="fas fa-check"></i> Location proximity (20% weight)</li>
-                        <li><i class="fas fa-check"></i> Experience requirements (20% weight)</li>
-                        <li><i class="fas fa-check"></i> Education level (15% weight)</li>
-                        <li><i class="fas fa-check"></i> Salary expectations (15% weight)</li>
+                        <li><i class="fas fa-check"></i> Technical skills: share of the job's required skills that are covered (TF-IDF soft matching)</li>
+                        <li><i class="fas fa-check"></i> Location: decays with road distance between cities</li>
+                        <li><i class="fas fa-check"></i> Experience: inside the required range, with penalties below or above it</li>
+                        <li><i class="fas fa-check"></i> Education: penalised for each level below the requirement</li>
+                        <li><i class="fas fa-check"></i> Salary: penalised when the offer is below the expectation</li>
+                        <li><i class="fas fa-check"></i> Sector and contract type: match or no match</li>
                     </ul>
                 </div>
                 <div class="about-stats">
                     <div class="stat-item">
-                        <h3>92%</h3>
-                        <p>Match Accuracy</p>
+                        <h3 id="about-vocab">-</h3>
+                        <p>Distinct skills</p>
                     </div>
                     <div class="stat-item">
-                        <h3>0.005s</h3>
-                        <p>Average Response Time</p>
+                        <h3 id="about-nodes">-</h3>
+                        <p>Cluster-tree nodes</p>
                     </div>
                     <div class="stat-item">
-                        <h3>60%</h3>
-                        <p>Search Space Reduction</p>
+                        <h3 id="about-unlisted">-</h3>
+                        <p>Jobs listing no skills</p>
                     </div>
                 </div>
-            </div>
-            <div class="academic-info">
-                <h3>Academic Project</h3>
-                <p>
-                    <strong>Institution:</strong> The National Higher School of Artificial Intelligence (ENSIA), Algeria<br>
-                    <strong>Course:</strong> Introduction to Artificial Intelligence<br>
-                    <strong>Supervisor:</strong> Professor Ahmed Guessoum<br>
-                    <strong>Semester:</strong> Spring 2025
-                </p>
             </div>
         </div>
     </section>
@@ -368,8 +346,7 @@
     <!-- Footer -->
     <footer class="footer">
         <div class="container">
-            <p>&copy; 2025 Job Matching AI Platform - ENSIA Algeria</p>
-            <p>Developed for academic purposes</p>
+            <p>&copy; 2025 Job Matching AI Platform</p>
         </div>
     </footer>
 

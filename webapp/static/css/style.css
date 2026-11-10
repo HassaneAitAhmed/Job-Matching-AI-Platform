@@ -480,19 +480,6 @@ nav {
     margin-bottom: 0.5rem;
 }
 
-.academic-info {
-    background: var(--light-color);
-    padding: 2rem;
-    border-radius: 1rem;
-    text-align: center;
-}
-
-.academic-info h3 {
-    font-size: 1.5rem;
-    margin-bottom: 1rem;
-    color: var(--dark-color);
-}
-
 /* Footer */
 .footer {
     background: var(--dark-color);
@@ -536,6 +523,104 @@ nav {
     font-size: 1.25rem;
 }
 
+/* Score breakdown */
+.breakdown {
+    margin-top: 1.25rem;
+    display: grid;
+    gap: 0.35rem;
+}
+
+.breakdown-row {
+    display: grid;
+    grid-template-columns: 6.5rem 1fr 3rem 3.5rem;
+    align-items: center;
+    gap: 0.75rem;
+    font-size: 0.875rem;
+}
+
+.breakdown-label {
+    color: var(--dark-color);
+    font-weight: 600;
+}
+
+.breakdown-track {
+    height: 0.5rem;
+    background: var(--border-color);
+    border-radius: 1rem;
+    overflow: hidden;
+}
+
+.breakdown-fill {
+    display: block;
+    height: 100%;
+    border-radius: 1rem;
+}
+
+.breakdown-fill.good { background: var(--secondary-color); }
+.breakdown-fill.mid { background: #f59e0b; }
+.breakdown-fill.low { background: #ef4444; }
+
+.breakdown-value {
+    text-align: right;
+    font-variant-numeric: tabular-nums;
+}
+
+.breakdown-weight {
+    color: #64748b;
+    font-size: 0.8rem;
+}
+
+.results-stats {
+    color: #64748b;
+    font-size: 0.875rem;
+    margin-top: 0.5rem;
+}
+
+.data-note {
+    margin-top: 2rem;
+    font-size: 0.9rem;
+    opacity: 0.85;
+}
+
+.form-group .inline-number {
+    width: 5.5rem;
+    padding: 0.2rem 0.4rem;
+    border-width: 1px;
+    font-size: 0.875rem;
+}
+
+.muted {
+    color: #64748b;
+}
+
+.error {
+    color: #b91c1c;
+}
+
+/* Batch assignment */
+.assign-results {
+    margin-top: 1.5rem;
+    overflow-x: auto;
+}
+
+.assign-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1rem 0;
+    font-variant-numeric: tabular-nums;
+}
+
+.assign-table th,
+.assign-table td {
+    padding: 0.6rem 0.75rem;
+    border-bottom: 1px solid var(--border-color);
+    text-align: left;
+}
+
+.assign-table th {
+    color: var(--dark-color);
+}
+
 /* Utility Classes */
 .hidden {
     display: none !important;
@@ -574,6 +659,14 @@ nav {
     .nav-link {
         padding: 0.5rem;
         font-size: 0.9rem;
+    }
+
+    .breakdown-row {
+        grid-template-columns: 5rem 1fr 2.75rem;
+    }
+
+    .breakdown-weight {
+        display: none;
     }
 }
 
