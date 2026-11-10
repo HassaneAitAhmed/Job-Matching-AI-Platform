@@ -47,9 +47,15 @@ instance/
 *.log
 
 # Temporary files
-extracted_code.py
 /tmp/
 
 # Environment variables
 .env
 .env.local
+
+# Generated artifacts (`python -m matching export-tree` writes to build/)
+build/
+.pytest_cache/
+
+# Labelling work in progress (commit eval/labels.csv once filled in)
+eval/to_label.csv
