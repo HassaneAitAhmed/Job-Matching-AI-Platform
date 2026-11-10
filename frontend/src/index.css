@@ -1,0 +1,100 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+/* Palette: warm paper and ink, one deep green accent, red used sparingly. */
+:root {
+  --paper: #f4f0e6;
+  --surface: #fbf8f1;
+  --sunken: #ece6d9;
+  --ink: #1b1915;
+  --muted: #6b6458;
+  --faint: #9a9284;
+  --line: #e0d9ca;
+  --accent: #0e6b4a;
+  --accent-soft: #dcebe1;
+  --signal: #c8371f;
+  --signal-soft: #f7e0d8;
+  --ochre: #a8700c;
+  --ochre-soft: #f3e7c9;
+}
+
+.dark {
+  --paper: #121110;
+  --surface: #1a1916;
+  --sunken: #25231f;
+  --ink: #ede7da;
+  --muted: #a69e90;
+  --faint: #756e62;
+  --line: #2e2b26;
+  --accent: #5cc392;
+  --accent-soft: #183326;
+  --signal: #ef6b51;
+  --signal-soft: #3a1d16;
+  --ochre: #e2b24c;
+  --ochre-soft: #352910;
+}
+
+@theme inline {
+  --color-paper: var(--paper);
+  --color-surface: var(--surface);
+  --color-sunken: var(--sunken);
+  --color-ink: var(--ink);
+  --color-muted: var(--muted);
+  --color-faint: var(--faint);
+  --color-line: var(--line);
+  --color-accent: var(--accent);
+  --color-accent-soft: var(--accent-soft);
+  --color-signal: var(--signal);
+  --color-signal-soft: var(--signal-soft);
+  --color-ochre: var(--ochre);
+  --color-ochre-soft: var(--ochre-soft);
+
+  --font-sans: "Geist Variable", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Fraunces Variable", Georgia, "Times New Roman", serif;
+  --font-mono: "Geist Mono Variable", ui-monospace, "SFMono-Regular", monospace;
+}
+
+@layer base {
+  html {
+    color-scheme: light;
+  }
+  html.dark {
+    color-scheme: dark;
+  }
+  body {
+    @apply bg-paper font-sans text-ink antialiased;
+  }
+  ::selection {
+    @apply bg-accent-soft text-ink;
+  }
+  input[type="number"]::-webkit-inner-spin-button,
+  input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+  input[type="number"] {
+    -moz-appearance: textfield;
+  }
+}
+
+@keyframes fade-up {
+  from {
+    opacity: 0;
+    transform: translateY(6px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+.animate-fade-up {
+  animation: fade-up 0.35s ease-out both;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .animate-fade-up {
+    animation: none;
+  }
+}
