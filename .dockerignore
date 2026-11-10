@@ -9,3 +9,5 @@ docs
 notebooks
 tests
 report.pdf
+frontend/node_modules
+frontend/dist

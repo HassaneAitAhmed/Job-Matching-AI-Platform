@@ -1,0 +1,13 @@
+# Render Blueprint: https://render.com/docs/blueprint-spec
+# One-click setup: https://render.com/deploy?repo=https://github.com/HassaneAitAhmed/Job-Matching-AI-Platform
+services:
+  - type: web
+    name: jobmatch
+    runtime: docker
+    plan: free
+    region: frankfurt          # closest Render region to Algeria
+    branch: main
+    autoDeploy: true           # redeploy on every push to main
+    dockerfilePath: ./Dockerfile
+    dockerContext: .
+    healthCheckPath: /api/health

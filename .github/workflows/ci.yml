@@ -22,6 +22,21 @@ jobs:
         if: matrix.python-version == '3.12'
         run: python -m matching evaluate --quick --out build/BENCHMARKS.md
 
+  frontend:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: frontend
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: frontend/package-lock.json
+      - run: npm ci
+      - run: npm run build   # type-checks, then bundles
+
   docker:
     runs-on: ubuntu-latest
     steps:
@@ -30,5 +45,6 @@ jobs:
       - name: Container answers health check
         run: |
           docker run -d -p 8000:8000 --name app job-matching
-          for i in $(seq 1 30); do curl -sf localhost:8000/api/health && exit 0; sleep 2; done
+          for i in $(seq 1 30); do curl -sf localhost:8000/api/health && break; sleep 2; done
+          curl -sf localhost:8000/ | grep -q '<div id="root">' && exit 0
           docker logs app; exit 1
