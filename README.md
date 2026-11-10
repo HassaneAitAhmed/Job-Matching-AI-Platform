@@ -2,92 +2,56 @@
 
 <div align="center">
 
-![Python](https://img.shields.io/badge/Python-3.9+-blue.svg)
-![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-orange.svg)
-![License](https://img.shields.io/badge/License-Academic-green.svg)
-![Status](https://img.shields.io/badge/Status-Completed-success.svg)
+![Python](https://img.shields.io/badge/Python-3.11+-blue.svg)
+![Tests](https://img.shields.io/badge/tests-pytest-green.svg)
 
-**An AI-driven job matching platform using advanced search algorithms and constraint satisfaction techniques**
-
-*Spring 2025*
+**Job matching with A\* search, greedy best-first search, constraint satisfaction and a genetic algorithm**
 
 </div>
-
----
-
-## 🏛️ Academic Information
-
-| | |
-|---|---|
-| **Institution** | The National Higher School of Artificial Intelligence (ENSIA), Algeria |
-| **Course** | Introduction to Artificial Intelligence |
-| **Supervisor** | Professor **Ahmed Guessoum** |
-| **Semester** | Spring 2025 |
 
 ---
 
 ## 📋 Table of Contents
 
 - [Abstract](#-abstract)
-- [Problem Statement](#-problem-statement)
-- [Features](#-features)
+- [Quick Start](#-quick-start)
 - [Project Structure](#-project-structure)
-- [Algorithms Implemented](#-algorithms-implemented)
-- [Data Preprocessing](#-data-preprocessing)
-- [Installation](#-installation)
+- [How Matching Works](#-how-matching-works)
+- [Algorithms](#-algorithms)
+- [Results](#-results)
+- [Data](#-data)
 - [Usage](#-usage)
-- [Results & Performance](#-results--performance)
-- [Team Members & Contributions](#-team-members--contributions)
-- [References](#-references)
+- [Development](#-development)
+- [Future Work](#-future-work)
 
 ---
 
 ## 📄 Abstract
 
-This project is a **job matching AI-driven platform** that enables:
-- **Employers** to find the most suitable candidates for job postings
-- **Job seekers** to discover the most suitable jobs based on their capabilities and preferences
+The platform matches in both directions:
+- **Job seekers** get the job postings that best fit their skills, experience, education, location and salary expectations.
+- **Employers** get the candidates who best fit a posting.
 
-The system evaluates multiple features including technical skills, experience levels, city/location, sector, education, and expected salary to provide optimal matches using various AI techniques.
+It can also **assign a batch** of seekers to job posts, respecting how many posts each job has open.
 
----
-
-## 🎯 Problem Statement
-
-The Algerian job market faces significant challenges in efficiently connecting qualified candidates with suitable employment opportunities. Despite high unemployment rates (particularly among youth), many employers struggle to find candidates whose skills and expectations align with their needs.
-
-### Key Challenges Addressed:
-- ❌ Inefficient job search methods
-- ❌ Lack of standardized skill assessments
-- ❌ Geographical imbalances in opportunity distribution
-- ❌ Time-consuming manual screening processes
-
-### Our Solution:
-- ✅ AI-driven matching using multiple algorithms
-- ✅ Hierarchical clustering for efficient search
-- ✅ Multi-feature evaluation (skills, location, education, experience, salary)
-- ✅ Bidirectional matching (Seeker→Job and Job→Seeker)
+The Algerian job market struggles to connect qualified candidates with suitable openings. Search is inefficient, skill descriptions aren't standardised, and opportunities are unevenly spread across regions. This project models matching as a search and optimisation problem. It compares classical AI techniques on that problem and measures each one against an exact baseline.
 
 ---
 
-## ✨ Features
+## 🚀 Quick Start
 
-### Core Functionality
-| Feature | Description |
-|---------|-------------|
-| **Seeker → Job Matching** | Find the best jobs for a given job seeker profile |
-| **Job → Seeker Matching** | Find the best candidates for a given job posting |
-| **Custom Profile Creation** | Create custom job or employee profiles for matching |
-| **Algorithm Comparison** | Compare execution times across all algorithms |
+```bash
+pip install -r requirements.txt     # Python 3.11+
+python webapp/app.py                # http://127.0.0.1:5000
+```
 
-### Matching Criteria
-- 🏢 **Sector** - Industry alignment (IT, Healthcare, Finance, etc.)
-- 📝 **Contract Type** - CDI, CDD, Alternance preferences
-- 🎓 **Education Level** - BAC, Licence, Master, Ingénieur d'État, Doctorat
-- 📍 **Location** - City-based matching with distance calculations
-- ⏱️ **Experience** - Years of experience requirements
-- 💰 **Salary** - Salary expectations and offerings
-- 🔧 **Technical Skills** - Skill-based similarity matching
+Or with Docker (gunicorn, one worker, four threads):
+
+```bash
+docker build -t job-matching . && docker run -p 8000:8000 job-matching   # http://localhost:8000
+```
+
+`python webapp/app.py` reads `HOST` (default `127.0.0.1`; set `0.0.0.0` to expose it), `PORT` (default `5000`) and `FLASK_DEBUG` (default `false`; development only). Start-up loads the data and builds the cluster trees once (about 3 s, about 150 MB).
 
 ---
 
@@ -95,391 +59,217 @@ The Algerian job market faces significant challenges in efficiently connecting q
 
 ```
 Job-Matching-AI-Platform/
-├── 📓 finalversion.ipynb           # Main Jupyter notebook with all implementations
-├── 📊 data/
-│   ├── jobs.csv                    # Job postings dataset
-│   ├── emplo.csv                   # Employee/seeker dataset
-│   └── algeria_distances.json      # City distance matrix for Algeria
-├── 📄 job_transition_model.json    # Pre-built job clustering model
-├── 📄 employee_transition_model.json # Pre-built employee clustering model
-├── 📑 report.pdf                   # Detailed project report
-├── 🌐 webapp/                      # Web application
-│   ├── app.py                      # Flask backend server
-│   ├── requirements.txt            # Python dependencies
-│   ├── templates/
-│   │   └── index.html              # Main web interface
-│   ├── static/
-│   │   ├── css/style.css          # Styling
-│   │   └── js/main.js             # Frontend JavaScript
-│   └── README.md                   # Web app documentation
-└── 📖 README.md                    # This file
+├── matching/                 # The engine (one implementation shared by everything below)
+│   ├── normalize.py          #   canonical sectors, contracts, education levels, city names
+│   ├── data.py               #   loading/cleaning the CSVs, data quality report
+│   ├── skills.py             #   skill vocabulary + TF-IDF soft matching
+│   ├── scoring.py            #   cost model: exact costs and admissible cluster bounds
+│   ├── tree.py               #   hierarchical cluster tree
+│   ├── search.py             #   A*, greedy best-first, exhaustive baseline
+│   ├── csp.py                #   constraint satisfaction with forward checking + relaxation
+│   ├── ga.py                 #   batch assignment: GA, greedy, optimal (Hungarian)
+│   ├── engine.py             #   Matcher: the public API
+│   ├── evaluation.py         #   benchmarks and labelled-set metrics
+│   └── __main__.py           #   CLI: python -m matching ...
+├── webapp/                   # Flask UI + JSON API on top of matching.Matcher
+├── notebooks/demo.ipynb      # Walkthrough of every algorithm (executed, with outputs)
+├── tests/                    # pytest suite (correctness, optimality, API, regressions)
+├── docs/
+│   ├── BENCHMARKS.md         #   measured results (generated)
+│   ├── DATA.md               #   data quality report (generated)
+│   ├── LABELING.md           #   human relevance labelling workflow
+│   └── CHANGELOG.md          #   v1 problems and how v2 fixed them
+├── data/                     # jobs.csv, emplo.csv, algeria_distances.json
+├── report.pdf                # Original project report (problem formulation and analysis)
+├── Dockerfile, .github/workflows/ci.yml, pyproject.toml, requirements*.txt
 ```
-
 
 ---
 
-## 🧠 Algorithms Implemented
+## 🧮 How Matching Works
 
-### 1. A* Search Algorithm
-The A* algorithm finds optimal matches by combining:
-- **Path cost g(n)**: Accumulated cost from start to current node
-- **Heuristic h(n)**: Estimated cost to reach the goal
+A match between a query and an item has a **cost** between 0 and 1. The score shown is `100 × (1 − cost)`. The cost is a weighted sum of seven criteria, each also between 0 and 1:
 
-```
-f(n) = g(n) + h(n)
-```
+| Criterion | Cost | Seeker weight | Employer weight |
+|---|---|---|---|
+| Skills | 1 − share of the job's required skills that are covered (TF-IDF soft match) | 25% | 18.2% |
+| Location | 1 − exp(−km / 250) using the 48-wilaya road-distance matrix | 15% | 18.2% |
+| Sector | 0 if same sector, otherwise 1 | 14% | 13.6% |
+| Contract type | 0 if same contract type, otherwise 1 | 12% | 9.1% |
+| Education | 0.4 per level below the requirement (max 1) | 12% | 10.9% |
+| Salary | linear from 0 (offer ≥ expectation) to 1 (offer 30% below) | 12% | 13.6% |
+| Experience | proportional shortfall below the range; mild penalty above it (max 0.6) | 10% | 16.4% |
 
-**Properties:**
-- ✅ Optimal solution guaranteed
-- ✅ 92% match accuracy
-- ⏱️ Time Complexity: O(n) worst case, much less on average
-- 💾 Space Complexity: O(n)
+Fields left blank mean "no preference" and cost 0. A job that lists no skills (58% of postings) scores as a weak skills match. Every result returns a per-criterion breakdown, which the UI shows as bars.
 
-### 2. Greedy Best-First Search
-Uses only the heuristic function to guide the search:
-
-```
-f(n) = h(n)
-```
-
-**Properties:**
-- ⚡ Fastest execution
-- 📊 78% accuracy
-- ⏱️ Time Complexity: O(n log|C|)
-- 💾 Space Complexity: O(log n)
-
-### 3. Genetic Algorithm (GA)
-Evolutionary approach for job-employee pair optimization:
-
-**Key Components:**
-- **Chromosome**: Set of job-employee pairs
-- **Fitness Function**: Multi-criteria scoring (skills, location, experience, salary, education)
-- **Selection**: Tournament selection (k=3)
-- **Crossover**: Uniform crossover with pair validation
-- **Mutation**: Random pair replacement
-
-**Fitness Weights:**
-| Criterion | Weight |
-|-----------|--------|
-| Skills | 30% |
-| Location | 20% |
-| Experience | 20% |
-| Salary | 15% |
-| Education | 15% |
-
-**Properties:**
-- 📊 85% accuracy with 50 chromosomes
-- 🔄 Converges in ~23 generations on average
-- ⏱️ Time Complexity: O(g × p × c)
-
-### 4. Constraint Satisfaction Problem (CSP)
-Models the matching problem with:
-- **Variables**: Attributes (sector, contract_type, edu_value, city, years_experience)
-- **Domains**: Possible values from the transition model
-- **Constraints**: Hard (sector, contract) and soft (education, location, salary)
-
-**Key Features:**
-- Depth-first search with backtracking
-- Value ordering based on compatibility
-- Fallback mechanism for partial matches
+Before scoring, both datasets are normalised into one vocabulary (`matching/normalize.py`):
+- **Sectors:** `Finance` and `Banking & Finance` become one sector.
+- **Contracts:** `Stage` and `Internship` become one contract type.
+- **Education:** `Licence` and `License` become one level.
+- **Cities:** accented spellings (`Sétif`, `Béjaïa`) resolve to the distance-matrix names. Djanet, In Salah and Timimoun map to their former parent wilaya.
 
 ---
 
-## 🔄 Data Preprocessing
+## 🧠 Algorithms
 
-### Hierarchical Feature-Based Clustering
+### Cluster tree
+Items are grouped by `sector → contract type → education → city` (1,239 nodes for jobs, 6,568 for seekers). Each node stores a summary of its items: value sets, min/max education, experience and salary, and the union of their skills.
 
-The preprocessing creates a tree-like structure for efficient search:
+### A* search (`search.py`)
+- **States:** tree nodes and individual items (the goals).
+- **g(n):** the exact cost of the criteria already fixed on the path.
+- **h(n):** for every remaining criterion, its cost at the most favourable value in the cluster (closest city, highest salary, best possible skill coverage, and so on).
 
-```
-Feature Order: [sector, contract_type, edu_value, city, years_experience]
-```
+Each cost is monotone in the summarised quantity, so h never over-estimates (it is **admissible**) and it only tightens as clusters shrink (it is **consistent**). As a result, A* returns **exactly the optimal top-k**. The tests check this on 80 random queries, plus a check of the bound at every node.
 
-#### Cluster Tree Structure:
-```
-ClusterTree:
-├── sector=IT
-│   ├── contract_type=CDI
-│   │   ├── edu_value=Master
-│   │   │   ├── city=Algiers
-│   │   │   │   ├── experience=5+years
-│   │   │   │   │   └── [job_ids: 123, 456, ...]
-│   │   │   │   └── ...
-│   │   │   └── ...
-│   │   └── ...
-│   └── ...
-└── ...
-```
+### Greedy best-first search
+Orders the frontier by h(n) alone. It does slightly less work per query but is not optimal (see [Results](#-results)).
 
-#### Direction-Based Aggregation:
-- **Job Model**: Prefers lower requirements (min education/experience) but higher salaries
-- **Employee Model**: Prefers higher qualifications but lower salary expectations
+### Constraint satisfaction (`csp.py`)
+- **Variables:** the matched item's sector, contract, education, city, and the item itself.
+- **Domains:** the values that actually occur in the tree.
+- **Hard constraints:** same sector, same contract, education requirement met, distance ≤ *D* km, offer ≥ 90% of expectation, and experience within the range ± 2 years.
 
-### Expected Values per Cluster:
-Each cluster stores aggregated "expected values" for heuristic calculations:
-- Maximum/minimum feature values based on direction
-- Skill sets available in the cluster
-- Salary ranges
+The solver uses backtracking with **node consistency**, **forward checking** on subtree summaries, and value ordering by lower bound. It ranks the solutions by soft score. If fewer than *k* solutions exist, it relaxes constraints one at a time and reports which ones.
+
+### Genetic algorithm (`ga.py`)
+Assigns a batch of seekers to job posts, respecting each job's number of `available posts`. This is a weighted bipartite matching problem, so the **Hungarian algorithm gives the exact optimum**. The GA is measured against it:
+- one gene per seeker (a job, or none);
+- tournament selection with k = 3;
+- uniform crossover and reassign/swap mutation;
+- capacity repair and elitism.
+
+A simple greedy assignment is reported alongside.
 
 ---
 
-## 🚀 Installation
+## 📊 Results
 
-### Prerequisites
-- Python 3.9 or higher
-- Jupyter Notebook (for notebook version)
-- Flask (for web application)
+All numbers come from [`docs/BENCHMARKS.md`](docs/BENCHMARKS.md), generated by `python -m matching evaluate`.
 
-### Option 1: Web Application (Recommended)
+| | A* | Greedy | CSP | Exhaustive |
+|---|---|---|---|---|
+| Top-10 identical to the optimum (seeker→job / job→seeker) | **100% / 100%** | 1% / 0% | 38% / 26%* | 100% (by definition) |
+| Mean top-10 score vs optimum | 100% / 100% | 79% / 73% | 97% / 97%* | 100% |
+| Median items scored per query (754 jobs / 8,124 seekers) | **10 / 16** | 10 / 11 | 35 / 38 | 754 / 8,124 |
+| Median time per query | 5.5 / 11.8 ms | 5.7 / 36.1 ms | 4.0 / 4.9 ms | 0.5 / 1.5 ms |
 
-The easiest way to use the platform is through our web interface:
+\* The CSP is expected to differ from the optimum: it enforces hard constraints, and it had to relax them for 93% / 55% of these queries.
 
-1. **Navigate to the webapp directory**
-```bash
-cd webapp
-```
+- **A\*** is exactly optimal while scoring about 0.2–1% of the items. On data this small, the single vectorised NumPy pass of the exhaustive baseline is still faster in milliseconds. A*'s advantage is the work it avoids, which matters with larger catalogues or more expensive scoring functions.
+- **Planted-match recovery:** a query built from a job's own requirements ranks that job first 100% of the time. With noise added (blank fields, nearby city, perturbed salary and skills), it still ranks first 91% of the time and in the top 10 99.7% of the time.
+- **GA vs optimal:** 100% of optimal on 20×8 batches, 99.7% on 40×15 and 92.4% on 100×40, taking 1–2 s. The Hungarian algorithm takes under 1 ms, and the greedy baseline reaches 99%. The GA is kept as a comparison point; `optimal_assignment` is the right production choice.
 
-2. **Install dependencies**
-```bash
-pip install -r requirements.txt
-```
+> The earlier README figures (92% / 78% / 85% accuracy, "40% reduction in hiring time", "72% more diverse shortlists") came from no evaluation in this repository and have been removed. Real relevance can only be measured with human labels; see [`docs/LABELING.md`](docs/LABELING.md).
 
-3. **Run the web application**
-```bash
-python app.py
-```
+---
 
-4. **Open your browser**
-Navigate to `http://localhost:5000`
+## 🗂️ Data
 
-See [webapp/README.md](webapp/README.md) for detailed instructions.
+| File | Rows |
+|---|---|
+| `data/jobs.csv` | 754 job postings |
+| `data/emplo.csv` | 8,124 seekers |
+| `data/algeria_distances.json` | road distances between the 48 wilayas |
 
-### Option 2: Jupyter Notebook
+The data was reportedly collected from Emploitic.com (via [emploitic-scraper](https://github.com/Typh00ns/emploitic-scraper)), LinkedIn (via Apify) and Google Forms. It was standardised with ChatGPT's help, with median/mode imputation.
 
-1. **Clone/Download the repository**
-```bash
-cd ff
-```
+**Caveats** (details in [`docs/DATA.md`](docs/DATA.md)):
+- 58% of jobs list no skills. They make up 11 entire sectors, so the skills can't be imputed from similar postings.
+- Jobs and seekers share only 45 exact skill names.
+- Titles, departments and skills look randomly combined.
+- 1,529 seekers looking for an internship have more than 10 years of experience.
 
-2. **Install dependencies**
-```bash
-pip install pandas numpy scikit-learn matplotlib tqdm
-```
-
-3. **Launch Jupyter Notebook**
-```bash
-jupyter notebook finalversion.ipynb
-```
+The data therefore appears synthetic or heavily augmented. Treat the scores as demonstrations of the algorithms.
 
 ---
 
 ## 💻 Usage
 
-### Web Application Usage
+### Web application
+1. Choose **I'm a Job Seeker** or **I'm an Employer**.
+2. Fill in the form and pick an algorithm (A* by default). Each result shows a breakdown by criterion; use **Load more** to page through.
+3. The **Batch** section runs the GA against the optimal and greedy assignments.
 
-The web application provides an intuitive interface for both job seekers and employers:
+### JSON API
 
-#### For Job Seekers:
-1. Click **"I'm a Job Seeker"** on the home page
-2. Fill in your details:
-   - Technical skills (e.g., "Python, Machine Learning, SQL")
-   - Years of experience
-   - Education level
-   - Preferred city
-   - Sector and contract type preferences (optional)
-   - Expected salary
-3. Click **"Find Jobs"** to see your top matches with percentage scores
-
-#### For Employers:
-1. Click **"I'm an Employer"** on the home page
-2. Fill in job requirements:
-   - Required technical skills
-   - Experience range (min-max years)
-   - Education level required
-   - Job location
-   - Offered salary
-3. Click **"Find Candidates"** to see top candidate matches
-
-### Jupyter Notebook Usage
-
-Execute all cells in the notebook, then run the final cell to access the interactive menu:
-
-```
-1) CSP: seeker → jobs
-2) CSP: job → seekers
-3) Search (A*/Greedy)
-4) Genetic Algorithm (GA)
-5) Compare all (CSP, Search & GA) with timing
+```bash
+curl -X POST localhost:5000/api/match/seeker-to-jobs -H "Content-Type: application/json" \
+  -d '{"skills": "Inventory Management, SQL", "experience": 4, "education": 17, "city": "Oran",
+       "salary": 70000, "sector": "Retail", "algorithm": "astar", "limit": 10, "offset": 0}'
 ```
 
-### Example: Finding Jobs for a Seeker
+| Endpoint | Purpose |
+|---|---|
+| `POST /api/match/seeker-to-jobs` | `skills`, `experience`, `education` (0/12/15/17/19/20 or a name), `city`, `salary`, `sector`, `contract_type`, `algorithm` (`astar` \| `greedy` \| `csp` \| `exhaustive`), `limit`, `offset`, `max_distance_km` (CSP) |
+| `POST /api/match/job-to-seekers` | same, with `experience_min` / `experience_max` |
+| `POST /api/assign` | `n_seekers`, `n_jobs`, `sector`, `seed`, `generations` |
+| `GET /api/options`, `/api/stats`, `/api/skills`, `/api/sectors`, `/api/cities`, `/api/health` | metadata |
+
+Invalid input returns HTTP 400 with `{"error": "..."}`.
+
+### Python
 
 ```python
-# Using CSP
-seeker = Seeker(
-    id=1, 
-    name='John Doe', 
-    skills={'Python', 'Java'}, 
-    experience=10,
-    salary=50000, 
-    preferred_locations={'Algiers'},
-    preferred_job_types={'CDI'}, 
-    sector='Information Technology',
-    education='12'
-)
+from matching import Matcher, SEEKER_TO_JOB
 
-csp = JobMatchingCSP(
-    seeker_model, job_model, attribute_order,
-    items=[seeker], 
-    city_distances=city_dist,
-    direction='seeker_to_job', 
-    top_k=3
-)
-results = csp.solve()
+m = Matcher()
+q = m.make_query(SEEKER_TO_JOB, skills=["Inventory Management", "SQL"], years=4,
+                 education="Master", city="Oran", salary=70000, sector="Retail")
+result = m.search(q, algorithm="astar", k=10)
+for hit in result.hits:
+    print(hit["id"], hit["title"], hit["match_score"], hit["breakdown"]["skills"])
 ```
 
-### Example: Using A* Search
+### Notebook and CLI
 
-```python
-candidate = {
-    'sector': 'Healthcare',
-    'contract_type': 'CDD',
-    'edu_value': '12',
-    'city': 'Jijel',
-    'years_experience': '8',
-    'salary': '50000',
-    'technical_skills': 'Precision Medicine'
-}
-
-gs = GeneralSearch(
-    transition_model_path='employee_transition_model.json',
-    distances_path='data/algeria_distances.json',
-    direction='employee'
-)
-gs.set_entity(candidate)
-results = gs.search_astar(k=3)
+```bash
+jupyter notebook notebooks/demo.ipynb          # walkthrough of every algorithm
+python -m matching search seeker_to_job --skills "SQL" --city Oran --years 3 --salary 60000
+python -m matching evaluate [--quick]          # regenerate docs/BENCHMARKS.md
+python -m matching data-report                 # regenerate docs/DATA.md
+python -m matching label-sheet                 # create eval/to_label.csv for human labelling
+python -m matching export-tree                 # dump the cluster trees as JSON into build/
 ```
 
-### Example: Using Genetic Algorithm
-
-```python
-# Load data
-jobs = DataLoader.load_jobs('data/jobs.csv')
-employees = DataLoader.load_employees('data/emplo.csv')
-
-# Create custom employee
-employee = EmPloyee(
-    employee_id="test_001",
-    technical_skills="python, sql, machine learning",
-    years_experience=4,
-    highest_education="master",
-    city="algiers",
-    salary_expectation=75000
-)
-
-# Initialize GA and match
-ga = PairGA(
-    jobs=jobs,
-    employees=[employee],
-    pop_size=10,
-    generations=100,
-    mutation_rate=0.1,
-    max_pairs=5,
-    distance_file="data/algeria_distances.json"
-)
-_, matches = ga.match_custom_employee(employee, top_n=5)
-```
+### The original notebook
+The original notebook, `finalversion.ipynb`, has been removed; the `matching` package and `notebooks/demo.ipynb` supersede it. It is still in the git history (`git show 7d4321b:finalversion.ipynb > finalversion.ipynb`). Its known problems are listed in [`docs/CHANGELOG.md`](docs/CHANGELOG.md).
 
 ---
 
-## 📊 Results & Performance
+## 🛠️ Development
 
-### Execution Time Comparison
+```bash
+pip install -r requirements-dev.txt
+python -m pytest                     # about 85 tests, ~40 s
+```
 
-| Algorithm | Execution Time | Accuracy |
-|-----------|---------------|----------|
-| CSP (S→J) | ~0.0005s | High |
-| CSP (J→S) | ~0.0001s | High |
-| A* Search | ~0.0038s | 92% |
-| Greedy | ~0.0010s | 78% |
-| GA | ~0.0006s | 85% |
+The tests cover:
+- vocabulary normalisation;
+- per-criterion cost properties;
+- admissibility of the bounds (bound ≤ exact cost for every item under a node);
+- **A\* = exhaustive** on random queries;
+- CSP solutions satisfying every hard constraint, with counts matching brute force;
+- GA validity and its bound by the brute-force optimum;
+- the API, including regression tests for the bugs fixed in this version (HTTP 500 on searches with no sector, only the first 100 rows being scored, the wrong education scale, `Finance` vs `Banking & Finance`).
 
-### Key Achievements
-
-- 📈 **92%** match accuracy with A* algorithm
-- ⏱️ **0.005s** worst-case latency across all algorithms
-- 🔍 **60%** reduction in search space through hierarchical clustering
-- ⚡ **40%** reduction in hiring time compared to manual screening
-- 🌍 **87%** accuracy in location preference matching
-- 👥 **72%** more diverse shortlists than traditional methods
-
-### Comparative Analysis
-
-| Algorithm | Best For | Trade-off |
-|-----------|----------|-----------|
-| **A*** | Optimal accuracy | Higher memory usage |
-| **Greedy** | Speed-critical applications | Lower quality matches |
-| **GA** | Large-scale batch matching | Requires tuning |
-| **CSP** | Constraint-heavy scenarios | Rigid constraints |
-
----
-
-## 👥 Team Members & Contributions
-
-### Project Team
-
-| Name | Group | Contributions |
-|------|-------|---------------|
-| **Hassane Ait Ahmed Lamara** | G5 | • Genetic algorithm formulation<br>• Implementation of cost function for global search<br>• Global problem formulation<br>• Data scraping<br>• Dataset section in report |
-| **Nasrellah Kharoubi** | G8 | • Data cleaning<br>• Global problem formulation<br>• Resource gathering<br>• Proving the admissibility of the heuristic |
-| **Louai Nasrellah Soufi** | G4 | • Data cleaning<br>• Implementing preprocessing (hierarchical clustering)<br>• Implementing functions in global search<br>• Implementing inference function in CSP<br>• Problem solving techniques in report |
-| **Yahia Kerroum** | G6 | • Implementing the genetic algorithm<br>• Implementing the heuristic function<br>• Writing results analysis in report<br>• A* and CSP problem formulation |
-| **Islam Benali** | G1 | • Implementing CSP components<br>• Designing the platform<br>• Visualization contributions<br>• Discussion section in report |
-| **Mohamed Toubal** | G1 | • Gathering data<br>• CSP formulation contributions<br>• Genetic algorithm implementation<br>• Writing remaining parts of report |
-
----
-
-## 📚 Dataset
-
-### Data Sources
-- **Emploitic.com**: Scraped using [emploitic-scraper](https://github.com/Typh00ns/emploitic-scraper)
-- **LinkedIn**: Collected via [Apify API](https://apify.com/curious_coder/linkedin-profile-scraper)
-- **Google Forms**: Real-world data from Algerian professionals
-
-### Data Processing
-- Standardization with ChatGPT assistance
-- Median/mean imputation for numerical fields
-- Mode imputation for categorical fields
-- Duplicate removal and text normalization
-
-### Dataset Links
-- [Employee Dataset](link-to-employee-dataset)
-- [Job Dataset](link-to-job-dataset)
-- [Algeria Distances Dataset](link-to-distances-dataset)
+CI (`.github/workflows/ci.yml`) runs the tests on Python 3.11–3.13, a quick benchmark, and a Docker build with a health check.
 
 ---
 
 ## 🔮 Future Work
 
-- 🔗 Integration with Algerian national employment database
-- 📱 Mobile app for real-time candidate notifications
-- 🌐 Arabic NLP for CV parsing enhancement
-- 🤖 Deep learning for improved skill matching
-- 📊 Real-time market adaptation using reinforcement learning
+- **Real, consented data** and a filled-in `eval/labels.csv`. Human relevance labels are the only way to tell whether the weights reflect good matches.
+- Learn the criterion weights from those labels instead of fixing them by hand.
+- Embedding-based skill similarity (for example multilingual sentence embeddings for French and Arabic job posts), and CV parsing.
+- Integration with the national employment agency's data, and notifications.
 
 ---
 
 ## 📖 References
 
-1. Emploitic Website - [emploitic.com](https://emploitic.com)
-2. Apify Scripts - [apify.com](https://apify.com)
-3. Scraping Tool - [GitHub Repository](https://github.com/Typh00ns/emploitic-scraper)
-4. LLMs for Debugging
-5. Statistical studies on attribute weights
-
----
-
-## 📄 License
-
-This project was developed for academic purposes at **The National Higher School of Artificial Intelligence (ENSIA), Algeria** under the supervision of **Professor Ahmed Guessoum**.
-
+1. Emploitic: [emploitic.com](https://emploitic.com)
+2. Apify LinkedIn profile scraper: [apify.com](https://apify.com/curious_coder/linkedin-profile-scraper)
+3. Scraping tool: [Typh00ns/emploitic-scraper](https://github.com/Typh00ns/emploitic-scraper)
+4. Russell & Norvig, *Artificial Intelligence: A Modern Approach*, chapters on informed search and CSPs
+5. Kuhn, H. W. (1955). *The Hungarian method for the assignment problem*
