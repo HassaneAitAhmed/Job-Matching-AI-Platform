@@ -22,6 +22,7 @@
 - [Data](#data)
 - [Usage](#usage)
 - [Development](#development)
+- [Deployment](#deployment)
 - [Future Work](#future-work)
 
 ---
@@ -40,12 +41,15 @@ The Algerian job market struggles to connect qualified candidates with suitable 
 
 ## Quick Start
 
+Requires Python 3.11+ and Node.js 20.19+.
+
 ```bash
-pip install -r requirements.txt     # Python 3.11+
-python webapp/app.py                # http://127.0.0.1:5000
+pip install -r requirements.txt
+cd frontend && npm install && npm run build && cd ..   # build the React UI once
+python webapp/app.py                                   # http://127.0.0.1:5000
 ```
 
-Or with Docker (gunicorn, one worker, four threads):
+Or with Docker, which builds the frontend for you (gunicorn, one worker, four threads):
 
 ```bash
 docker build -t job-matching . && docker run -p 8000:8000 job-matching   # http://localhost:8000
@@ -71,7 +75,11 @@ Job-Matching-AI-Platform/
 │   ├── engine.py             #   Matcher: the public API
 │   ├── evaluation.py         #   benchmarks and labelled-set metrics
 │   └── __main__.py           #   CLI: python -m matching ...
-├── webapp/                   # Flask UI + JSON API on top of matching.Matcher
+├── webapp/app.py             # Flask JSON API; also serves the built frontend
+├── frontend/                 # React + TypeScript + Tailwind UI (Vite)
+│   ├── src/pages/            #   Find jobs / Find talent, Batch assign, How it works
+│   ├── src/components/       #   score ring, breakdown, skill input, result card, chart
+│   └── src/lib/api.ts        #   typed API client
 ├── notebooks/demo.ipynb      # Walkthrough of every algorithm (executed, with outputs)
 ├── tests/                    # pytest suite (correctness, optimality, API, regressions)
 ├── docs/
@@ -187,9 +195,12 @@ The data therefore appears synthetic or heavily augmented. Treat the scores as d
 ## Usage
 
 ### Web application
-1. Choose **I'm a Job Seeker** or **I'm an Employer**.
-2. Fill in the form and pick an algorithm (A* by default). Each result shows a breakdown by criterion; use **Load more** to page through.
-3. The **Batch** section runs the GA against the optimal and greedy assignments.
+1. Open **Find jobs** (as a seeker) or **Find talent** (as an employer). **Try an example** fills in a sample profile.
+2. Add skills (with suggestions from the 626-skill vocabulary), fill in any other fields, and pick an algorithm (A* by default). Blank fields mean "no preference".
+3. Each result shows a score ring, the skills that matched, and **Why this match**: a per-criterion breakdown with weights. **Load more** pages through the results.
+4. **Batch assign** runs the GA against the optimal and greedy assignments and plots its convergence. **How it works** shows the scoring weights.
+
+Light and dark themes follow your system setting; the moon/sun button switches them.
 
 ### JSON API
 
@@ -244,6 +255,8 @@ pip install -r requirements-dev.txt
 python -m pytest                     # about 85 tests, ~40 s
 ```
 
+Frontend with hot reload: run `python webapp/app.py` in one terminal and `npm run dev` in `frontend/` in another, then open the address Vite prints (it forwards `/api` to Flask). `npm run build` type-checks and writes `frontend/dist/`, which Flask serves.
+
 The tests cover:
 - vocabulary normalisation;
 - per-criterion cost properties;
@@ -253,7 +266,21 @@ The tests cover:
 - GA validity and its bound by the brute-force optimum;
 - the API, including regression tests for the bugs fixed in this version (HTTP 500 on searches with no sector, only the first 100 rows being scored, the wrong education scale, `Finance` vs `Banking & Finance`).
 
-CI (`.github/workflows/ci.yml`) runs the tests on Python 3.11–3.13, a quick benchmark, and a Docker build with a health check.
+CI (`.github/workflows/ci.yml`) runs the tests on Python 3.11–3.13, a quick benchmark, a type-checked frontend build, and a Docker build that checks the API and the UI respond.
+
+---
+
+## Deployment
+
+The app is deployed on [Render](https://render.com) from `render.yaml`. It runs as one Docker web service: the Dockerfile builds the React frontend, then serves it and the API with gunicorn.
+
+- **First-time setup:** sign in to Render with GitHub, then open
+  `https://render.com/deploy?repo=https://github.com/HassaneAitAhmed/Job-Matching-AI-Platform`
+  and click **Apply**. Render reads `render.yaml` and builds the image (a few minutes).
+- **Updates:** every push to `main` redeploys automatically.
+- **Free plan:** the service sleeps after 15 minutes without traffic, so the first request after a pause takes about a minute. The app needs about 200 MB of the plan's 512 MB.
+
+Any other Docker host works the same way: build the `Dockerfile`, and the container listens on `$PORT` (default 8000).
 
 ---
 
