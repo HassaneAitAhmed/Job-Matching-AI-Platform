@@ -2,10 +2,14 @@
 
 <div align="center">
 
+[![Live demo](https://img.shields.io/badge/live_demo-jobmatch--lt3n.onrender.com-0e6b4a)](https://jobmatch-lt3n.onrender.com)
+[![CI](https://github.com/HassaneAitAhmed/Job-Matching-AI-Platform/actions/workflows/ci.yml/badge.svg)](https://github.com/HassaneAitAhmed/Job-Matching-AI-Platform/actions/workflows/ci.yml)
 ![Python](https://img.shields.io/badge/Python-3.11+-blue.svg)
-![Tests](https://img.shields.io/badge/tests-pytest-green.svg)
 
 **Job matching with A\* search, greedy best-first search, constraint satisfaction and a genetic algorithm**
+
+**[Try it live → jobmatch-lt3n.onrender.com](https://jobmatch-lt3n.onrender.com)**
+<br><sub>Free hosting: the first visit after a quiet spell can take about a minute while the server wakes up.</sub>
 
 </div>
 
@@ -272,7 +276,7 @@ CI (`.github/workflows/ci.yml`) runs the tests on Python 3.11–3.13, a quick be
 
 ## Deployment
 
-The app is deployed on [Render](https://render.com) from `render.yaml`. It runs as one Docker web service: the Dockerfile builds the React frontend, then serves it and the API with gunicorn.
+The app is live at **https://jobmatch-lt3n.onrender.com**, deployed on [Render](https://render.com) from `render.yaml`. It runs as one Docker web service: the Dockerfile builds the React frontend, then serves it and the API with gunicorn.
 
 - **First-time setup:** sign in to Render with GitHub, then open
   `https://render.com/deploy?repo=https://github.com/HassaneAitAhmed/Job-Matching-AI-Platform`
