@@ -1,7 +1,7 @@
 import { Check, Minus, Play } from "lucide-react";
 import { useState, type FormEvent } from "react";
 import { ConvergenceChart } from "../components/ConvergenceChart";
-import { Button, Card, ErrorBanner, Field, Input, SectionTitle, Select, cn } from "../components/ui";
+import { Button, Card, ErrorBanner, Field, Input, Page, Select, cn } from "../components/ui";
 import { api, ApiError, type AssignResponse, type Options } from "../lib/api";
 import { ms } from "../lib/format";
 
@@ -44,21 +44,16 @@ export function BatchPage({ options }: { options: Options | null }) {
   const byMethod = Object.fromEntries((result?.results ?? []).map((r) => [r.method, r]));
 
   return (
-    <div className="mx-auto max-w-6xl px-4 py-12 sm:px-6 lg:py-16">
-      <SectionTitle
-        index="03"
-        eyebrow="Batch assignment"
-        title={
-          <>
-            Fill every opening, <em>at once</em>.
-          </>
-        }
-      >
-        Assign a batch of seekers to job posts, respecting how many openings each posting has. The exact optimum is
-        computable, so the genetic algorithm is measured against it.
-      </SectionTitle>
-
-      <Card className="mt-12">
+    <Page
+      eyebrow="Batch assignment"
+      title={
+        <>
+          Fill every opening <mark>at once.</mark>
+        </>
+      }
+      lead="Assign a batch of seekers to job posts, respecting how many openings each posting has. The exact optimum is computable, so the genetic algorithm is measured against it."
+    >
+      <Card>
         <form onSubmit={submit} className="grid items-end gap-4 p-5 sm:grid-cols-2 lg:grid-cols-6">
           <Field label="Seekers" htmlFor="b-seekers">
             <Input id="b-seekers" type="number" min={2} max={200} value={form.seekers} onChange={(e) => set("seekers", e.target.value)} />
@@ -99,45 +94,59 @@ export function BatchPage({ options }: { options: Options | null }) {
       )}
 
       {!result && !loading && !error && (
-        <div className="mt-6 rounded-lg border border-dashed border-line px-6 py-14 sm:px-10">
-          <p className="font-mono text-[11px] tracking-[0.08em] text-faint uppercase">Nothing run yet</p>
-          <p className="mt-3 max-w-lg font-display text-2xl leading-snug font-[420]">
-            Compare the <em className="text-accent">optimal</em>, greedy and genetic-algorithm assignments, and watch the
-            GA converge.
+        <Card className="mt-6 px-6 py-12 sm:px-10">
+          <p className="max-w-lg text-2xl leading-snug font-[800] tracking-[-0.02em]">
+            Compare the optimal, greedy and genetic-algorithm assignments, and watch the GA converge.
           </p>
-        </div>
+          <p className="mt-2 text-sm text-muted">Pick a batch size above and run it.</p>
+        </Card>
       )}
 
       {result && (
         <div className={cn("mt-8 space-y-6 transition", loading && "opacity-50")}>
-          <p className="font-mono text-[11px] text-muted">
+          <p className="text-sm font-medium text-muted">
             {result.n_seekers} seekers · {result.n_jobs} postings · {result.total_posts} openings
           </p>
 
-          <div className="grid gap-px overflow-hidden rounded-lg border border-line bg-line md:grid-cols-3">
+          <div className="grid gap-4 md:grid-cols-3">
             {result.results.map((r) => {
               const meta = METHOD_LABELS[r.method] ?? { name: r.method, note: "" };
               const optimal = r.method.startsWith("optimal");
               return (
-                <div key={r.method} className="animate-fade-up bg-surface p-5">
+                <div
+                  key={r.method}
+                  className={cn(
+                    "animate-fade-up rounded-2xl border p-5",
+                    optimal ? "border-transparent bg-band text-on-cobalt" : "border-line bg-surface",
+                  )}
+                >
                   <div className="flex items-center justify-between">
-                    <h3 className="text-sm font-medium">{meta.name}</h3>
-                    {optimal && <span className="font-mono text-[10.5px] text-accent uppercase">exact</span>}
+                    <h3 className="text-sm font-bold">{meta.name}</h3>
+                    {optimal && (
+                      <span className="rounded-md bg-lime px-1.5 py-0.5 text-[11px] font-bold text-lime-ink">Exact</span>
+                    )}
                   </div>
-                  <p className="mt-3 font-display text-5xl leading-none font-[420] tracking-tight tabular-nums">
+                  <p className="mt-3 text-5xl leading-none font-[800] tracking-[-0.04em]">
                     {r.pct_of_optimal.toFixed(1)}
-                    <span className="ml-0.5 text-2xl text-faint">%</span>
+                    <span className={cn("ml-0.5 text-2xl", optimal ? "text-white/60" : "text-faint")}>%</span>
                   </p>
-                  <p className="mt-1.5 text-xs text-muted">of the optimal total score</p>
-                  <dl className="mt-5 grid grid-cols-2 gap-y-1.5 border-t border-line pt-3 font-mono text-[11px]">
-                    <dt className="text-muted">time</dt>
-                    <dd className="text-right tabular-nums">{ms(r.elapsed_ms)}</dd>
-                    <dt className="text-muted">assigned</dt>
-                    <dd className="text-right tabular-nums">{r.assigned}</dd>
-                    <dt className="text-muted">total score</dt>
-                    <dd className="text-right tabular-nums">{r.total_score.toFixed(2)}</dd>
+                  <p className={cn("mt-1.5 text-xs", optimal ? "text-white/70" : "text-muted")}>
+                    of the optimal total score
+                  </p>
+                  <dl
+                    className={cn(
+                      "mt-5 grid grid-cols-2 gap-y-1.5 border-t pt-3 text-[13px]",
+                      optimal ? "border-white/20" : "border-line",
+                    )}
+                  >
+                    <dt className={optimal ? "text-white/70" : "text-muted"}>Time</dt>
+                    <dd className="text-right font-semibold">{ms(r.elapsed_ms)}</dd>
+                    <dt className={optimal ? "text-white/70" : "text-muted"}>Assigned</dt>
+                    <dd className="text-right font-semibold">{r.assigned}</dd>
+                    <dt className={optimal ? "text-white/70" : "text-muted"}>Total score</dt>
+                    <dd className="text-right font-semibold">{r.total_score.toFixed(2)}</dd>
                   </dl>
-                  <p className="mt-3 text-xs text-faint">{meta.note}</p>
+                  <p className={cn("mt-3 text-xs", optimal ? "text-white/60" : "text-faint")}>{meta.note}</p>
                 </div>
               );
             })}
@@ -145,7 +154,7 @@ export function BatchPage({ options }: { options: Options | null }) {
 
           <div className="grid gap-6 lg:grid-cols-5">
             <Card className="p-5 lg:col-span-3">
-              <h3 className="font-display text-lg font-[480]">GA convergence</h3>
+              <h3 className="text-lg font-[800] tracking-[-0.02em]">GA convergence</h3>
               <p className="mb-4 text-xs text-muted">Best total score found so far, per generation.</p>
               <ConvergenceChart
                 history={result.ga_history}
@@ -157,30 +166,30 @@ export function BatchPage({ options }: { options: Options | null }) {
 
             <Card className="overflow-hidden lg:col-span-2">
               <div className="p-5 pb-3">
-                <h3 className="font-display text-lg font-[480]">Optimal pairs</h3>
+                <h3 className="text-lg font-[800] tracking-[-0.02em]">Optimal pairs</h3>
                 <p className="text-xs text-muted">Best-scoring pairs in the optimal assignment.</p>
               </div>
               <div className="max-h-80 overflow-auto">
                 <table className="w-full text-sm">
-                  <thead className="sticky top-0 bg-surface text-left font-mono text-[10.5px] tracking-[0.06em] text-muted uppercase">
+                  <thead className="sticky top-0 bg-surface text-left text-xs text-muted">
                     <tr>
-                      <th className="px-5 py-2 font-normal">Seeker</th>
-                      <th className="py-2 font-normal">Job</th>
-                      <th className="py-2 text-right font-normal">Score</th>
-                      <th className="px-5 py-2 text-right font-normal">GA</th>
+                      <th className="px-5 py-2 font-semibold">Seeker</th>
+                      <th className="py-2 font-semibold">Job</th>
+                      <th className="py-2 text-right font-semibold">Score</th>
+                      <th className="px-5 py-2 text-right font-semibold">GA</th>
                     </tr>
                   </thead>
                   <tbody className="divide-y divide-line">
                     {result.optimal_pairs.map((p) => (
                       <tr key={`${p.seeker_id}-${p.job_id}`}>
-                        <td className="px-5 py-2 font-mono text-xs text-muted tabular-nums">{p.seeker_id}</td>
+                        <td className="px-5 py-2 text-muted">#{p.seeker_id}</td>
                         <td className="max-w-40 truncate py-2" title={p.job_title}>
                           {p.job_title}
                         </td>
-                        <td className="py-2 text-right font-mono text-xs tabular-nums">{p.score.toFixed(1)}</td>
+                        <td className="py-2 text-right font-semibold">{p.score.toFixed(1)}</td>
                         <td className="px-5 py-2 text-right">
                           {p.ga_agrees ? (
-                            <Check className="ml-auto size-4 text-accent" aria-label="GA picked the same pair" />
+                            <span className="ml-auto flex size-5 items-center justify-center rounded-full bg-lime text-lime-ink"><Check className="size-3" strokeWidth={3.5} aria-label="GA picked the same pair" /></span>
                           ) : (
                             <Minus className="ml-auto size-4 text-faint" aria-label="GA picked a different pair" />
                           )}
@@ -194,6 +203,6 @@ export function BatchPage({ options }: { options: Options | null }) {
           </div>
         </div>
       )}
-    </div>
+    </Page>
   );
 }

@@ -68,14 +68,14 @@ export function SkillInput({ id, value, onChange, suggestions, placeholder }: Pr
       <div
         onClick={() => inputRef.current?.focus()}
         className={cn(
-          "flex min-h-10 w-full cursor-text flex-wrap items-center gap-1.5 rounded-md border border-line bg-surface px-2 py-1.5 transition",
-          "hover:border-faint focus-within:border-accent focus-within:ring-3 focus-within:ring-accent/15",
+          "flex min-h-11 w-full cursor-text flex-wrap items-center gap-1.5 rounded-xl border border-line bg-surface px-2 py-1.5 transition",
+          "hover:border-faint focus-within:border-cobalt focus-within:ring-4 focus-within:ring-cobalt/15",
         )}
       >
         {value.map((skill) => (
           <span
             key={skill}
-            className="inline-flex items-center gap-1 rounded-full bg-accent-soft py-0.5 pr-1 pl-2.5 text-xs font-medium text-accent"
+            className="inline-flex items-center gap-1 rounded-lg bg-cobalt py-1 pr-1 pl-2.5 text-xs font-semibold text-on-cobalt"
           >
             {skill}
             <button
@@ -84,7 +84,7 @@ export function SkillInput({ id, value, onChange, suggestions, placeholder }: Pr
                 e.stopPropagation();
                 onChange(value.filter((v) => v !== skill));
               }}
-              className="rounded-full p-0.5 hover:bg-accent/15"
+              className="rounded-md p-0.5 hover:bg-white/20"
               aria-label={`Remove ${skill}`}
             >
               <X className="size-3" />
@@ -125,7 +125,7 @@ export function SkillInput({ id, value, onChange, suggestions, placeholder }: Pr
         <ul
           id={listId}
           role="listbox"
-          className="absolute z-20 mt-1 max-h-64 w-full overflow-auto rounded-md border border-line bg-surface p-1 shadow-[0_12px_32px_-12px_rgb(0_0_0/0.25)]"
+          className="absolute z-20 mt-1.5 max-h-64 w-full overflow-auto rounded-xl border border-line bg-surface p-1 shadow-[0_16px_40px_-12px_rgb(11_16_32/0.25)]"
         >
           {matches.map((m, i) => (
             <li
@@ -138,8 +138,8 @@ export function SkillInput({ id, value, onChange, suggestions, placeholder }: Pr
               }}
               onMouseEnter={() => setActive(i)}
               className={cn(
-                "cursor-pointer rounded px-2.5 py-1.5 text-sm",
-                i === active ? "bg-accent-soft text-accent" : "text-ink",
+                "cursor-pointer rounded-lg px-2.5 py-2 text-sm",
+                i === active ? "bg-cobalt-soft font-semibold text-link" : "text-ink",
               )}
             >
               {m}

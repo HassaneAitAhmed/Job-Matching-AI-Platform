@@ -3,7 +3,7 @@ import { useRef, useState, type FormEvent } from "react";
 import { AlgorithmPicker } from "../components/AlgorithmPicker";
 import { ResultCard, ResultSkeleton } from "../components/ResultCard";
 import { SkillInput } from "../components/SkillInput";
-import { Button, Card, ErrorBanner, Field, Input, SectionTitle, Select } from "../components/ui";
+import { Button, Card, ErrorBanner, Field, Input, Page, Select } from "../components/ui";
 import { api, ApiError, type Algorithm, type Direction, type Match, type Options, type SearchStats, type Stats } from "../lib/api";
 import { ALGORITHMS, fmt, ms, RELAXED_LABELS } from "../lib/format";
 
@@ -143,29 +143,27 @@ export function SearchPage({
   const total = stats ? (seeker ? stats.total_jobs : stats.total_seekers) : null;
 
   return (
-    <div className="mx-auto max-w-6xl px-4 py-12 sm:px-6 lg:py-16">
-      <SectionTitle
-        index={seeker ? "01" : "02"}
-        eyebrow={seeker ? "For job seekers" : "For employers"}
-        title={
-          seeker ? (
-            <>
-              Find work that <em>fits</em> you.
-            </>
-          ) : (
-            <>
-              Find people who <em>fit</em> the role.
-            </>
-          )
-        }
-      >
-        {seeker
+    <Page
+      eyebrow={seeker ? "For job seekers" : "For employers"}
+      title={
+        seeker ? (
+          <>
+            Find work that <mark>fits.</mark>
+          </>
+        ) : (
+          <>
+            Find people who <mark>fit.</mark>
+          </>
+        )
+      }
+      lead={
+        seeker
           ? "Describe your skills and expectations. We rank every posting on seven criteria and show you exactly why each one matches."
-          : "Describe the role. We rank every candidate on seven criteria, weighted from the employer's point of view."}
-      </SectionTitle>
-
-      <div className="mt-12 grid items-start gap-8 lg:grid-cols-[minmax(0,22rem)_minmax(0,1fr)]">
-        <Card className="lg:sticky lg:top-24">
+          : "Describe the role. We rank every candidate on seven criteria, weighted from the employer's point of view."
+      }
+    >
+      <div className="grid items-start gap-6 lg:grid-cols-[minmax(0,22rem)_minmax(0,1fr)]">
+        <Card className="lg:sticky lg:top-20">
           <form onSubmit={submit} className="space-y-4 p-5">
             <Field
               label={seeker ? "Your skills" : "Required skills"}
@@ -319,7 +317,7 @@ export function SearchPage({
           </form>
         </Card>
 
-        <section ref={resultsRef} aria-live="polite" className="min-w-0 scroll-mt-20 space-y-4">
+        <section ref={resultsRef} aria-live="polite" className="min-w-0 scroll-mt-24 space-y-4">
           {error && <ErrorBanner message={error} />}
 
           {loading && (
@@ -331,44 +329,35 @@ export function SearchPage({
           )}
 
           {!loading && !results && !error && (
-            <div className="rounded-lg border border-dashed border-line px-6 py-16 sm:px-10">
-              <p className="font-mono text-[11px] tracking-[0.08em] text-faint uppercase">No search yet</p>
-              <h2 className="mt-3 max-w-md font-display text-3xl leading-tight font-[420] tracking-[-0.01em]">
-                {seeker ? (
-                  <>
-                    Your best matches will be <em className="text-accent">ranked</em> here.
-                  </>
-                ) : (
-                  <>
-                    Your best candidates will be <em className="text-accent">ranked</em> here.
-                  </>
-                )}
+            <Card className="px-6 py-14 sm:px-10">
+              <div className="flex items-center gap-2">
+                <span className="size-3 rounded-full bg-lime ring-4 ring-lime/30" aria-hidden />
+                <span className="text-xs font-semibold text-muted">Ready when you are</span>
+              </div>
+              <h2 className="mt-4 max-w-md text-3xl leading-[1.1] font-[800] tracking-[-0.03em]">
+                {seeker ? "Your best matches will show up here." : "Your best candidates will show up here."}
               </h2>
-              <p className="mt-3 max-w-md text-sm leading-relaxed text-muted">
+              <p className="mt-3 max-w-md text-[15px] leading-relaxed text-muted">
                 Every field is optional; a blank field means no preference. Each result explains its score, criterion
                 by criterion.
               </p>
-              <Button variant="secondary" className="mt-6" onClick={tryExample}>
+              <Button className="mt-7" onClick={tryExample}>
                 Try an example
                 <ArrowRight className="size-4" aria-hidden />
               </Button>
-            </div>
+            </Card>
           )}
 
           {!loading && results && (
             <>
-              <div className="flex flex-wrap items-end justify-between gap-x-6 gap-y-2 border-b border-line pb-3">
-                <h2 className="font-display text-2xl font-[450] tracking-[-0.01em]">
-                  {results.matches.length ? (
-                    <>
-                      Top <em className="text-accent">{results.matches.length}</em> matches
-                    </>
-                  ) : (
-                    "No matches"
-                  )}
+              <Card className="flex flex-wrap items-center justify-between gap-x-6 gap-y-2 px-5 py-4">
+                <h2 className="text-xl font-[800] tracking-[-0.02em]">
+                  {results.matches.length ? `Top ${results.matches.length} matches` : "No matches"}
                 </h2>
-                <p className="font-mono text-[11px] text-muted tabular-nums">
-                  <span className="text-ink">{ALGORITHMS[results.stats.algorithm].name}</span>
+                <p className="text-[13px] text-muted">
+                  <span className="rounded-md bg-cobalt-soft px-1.5 py-0.5 font-semibold text-link">
+                    {ALGORITHMS[results.stats.algorithm].name}
+                  </span>
                   <Dot />
                   {ms(results.stats.elapsed_ms)}
                   <Dot />
@@ -387,10 +376,10 @@ export function SearchPage({
                     </>
                   )}
                 </p>
-              </div>
+              </Card>
 
               {results.stats.relaxed_constraints && results.stats.relaxed_constraints.length > 0 && (
-                <div className="flex items-start gap-2 rounded-md bg-ochre-soft px-4 py-3 text-sm text-ochre">
+                <div className="flex items-start gap-2 rounded-2xl bg-amber-soft px-4 py-3 text-sm text-amber">
                   <TriangleAlert className="mt-0.5 size-4 shrink-0" aria-hidden />
                   <span>
                     Too few results met every constraint, so these were relaxed:{" "}
@@ -414,10 +403,10 @@ export function SearchPage({
           )}
         </section>
       </div>
-    </div>
+    </Page>
   );
 }
 
 function Dot() {
-  return <span className="mx-2 text-faint">·</span>;
+  return <span className="mx-1.5 text-faint">·</span>;
 }

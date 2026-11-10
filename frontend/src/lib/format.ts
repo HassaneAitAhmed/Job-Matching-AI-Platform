@@ -59,7 +59,7 @@ export const RELAXED_LABELS: Record<string, string> = {
 };
 
 export function scoreTone(score: number) {
-  if (score >= 75) return { text: "text-accent", bar: "bg-accent" };
-  if (score >= 50) return { text: "text-ochre", bar: "bg-ochre" };
-  return { text: "text-signal", bar: "bg-signal" };
+  if (score >= 75) return { tile: "bg-lime text-lime-ink", bar: "bg-cobalt", text: "text-link" };
+  if (score >= 50) return { tile: "bg-amber-soft text-amber", bar: "bg-amber", text: "text-amber" };
+  return { tile: "bg-coral-soft text-coral", bar: "bg-coral", text: "text-coral" };
 }

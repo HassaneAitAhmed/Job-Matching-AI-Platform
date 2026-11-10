@@ -12,13 +12,24 @@ const NAV: { route: Route; label: string; short: string }[] = [
   { route: "jobs", label: "Find jobs", short: "Jobs" },
   { route: "talent", label: "Find talent", short: "Talent" },
   { route: "batch", label: "Batch assign", short: "Batch" },
-  { route: "how", label: "Method", short: "How" },
+  { route: "how", label: "How it works", short: "How" },
 ];
+
+/** Two overlapping discs, white and lime: a seeker and a job that match. */
+function Mark({ className }: { className?: string }) {
+  return (
+    <svg viewBox="0 0 28 20" className={className} aria-hidden>
+      <circle cx="10" cy="10" r="9" fill="white" />
+      <circle cx="18" cy="10" r="9" fill="var(--lime)" />
+    </svg>
+  );
+}
 
 function Wordmark({ className }: { className?: string }) {
   return (
-    <span className={cn("font-display font-[520] tracking-[-0.03em] italic", className)}>
-      jobmatch<span className="text-signal not-italic">.</span>
+    <span className={cn("inline-flex items-center gap-2 font-[800] tracking-[-0.04em]", className)}>
+      <Mark className="h-5 w-7" />
+      <span className="hidden sm:inline">jobmatch</span>
     </span>
   );
 }
@@ -43,14 +54,14 @@ export default function App() {
 
   return (
     <div className="flex min-h-dvh flex-col">
-      <header className="sticky top-0 z-30 border-b border-line bg-paper/90 backdrop-blur-md">
-        <div className="mx-auto flex h-14 max-w-6xl items-stretch gap-5 px-4 sm:gap-10 sm:px-6">
-          <a href="#/jobs" className="flex items-center text-[1.3rem] leading-none sm:text-[1.45rem]" aria-label="jobmatch home">
+      <header className="sticky top-0 z-30 bg-band text-on-cobalt">
+        <div className="mx-auto flex h-16 max-w-6xl items-center gap-3 px-4 sm:gap-8 sm:px-6">
+          <a href="#/jobs" className="text-[1.35rem] sm:text-2xl" aria-label="jobmatch home">
             <Wordmark />
           </a>
 
-          <nav className="-mb-px flex items-stretch gap-3.5 overflow-x-auto sm:gap-7" aria-label="Main">
-            {NAV.map((n, i) => {
+          <nav className="flex gap-0.5 overflow-x-auto rounded-full bg-black/15 p-1 sm:gap-1" aria-label="Main">
+            {NAV.map((n) => {
               const active = route === n.route;
               return (
                 <a
@@ -62,18 +73,10 @@ export default function App() {
                   }}
                   aria-current={active ? "page" : undefined}
                   className={cn(
-                    "group relative flex items-center gap-1.5 border-b-2 text-sm whitespace-nowrap transition",
-                    active ? "border-accent text-ink" : "border-transparent text-muted hover:text-ink",
+                    "rounded-full px-2.5 py-1.5 text-sm font-semibold whitespace-nowrap transition sm:px-4",
+                    active ? "bg-white text-band shadow-sm" : "text-white/75 hover:text-white",
                   )}
                 >
-                  <span
-                    className={cn(
-                      "hidden font-mono text-[10.5px] sm:inline",
-                      active ? "text-accent" : "text-faint group-hover:text-muted",
-                    )}
-                  >
-                    0{i + 1}
-                  </span>
                   <span className="sm:hidden">{n.short}</span>
                   <span className="hidden sm:inline">{n.label}</span>
                 </a>
@@ -83,25 +86,26 @@ export default function App() {
 
           <div className="ml-auto flex items-center gap-4">
             {stats && (
-              <span className="hidden font-mono text-[11px] text-muted lg:inline">
-                {fmt(stats.total_jobs)} jobs <span className="text-faint">·</span> {fmt(stats.total_seekers)} people
+              <span className="hidden items-center gap-2 text-[13px] font-medium text-white/75 lg:inline-flex">
+                <span className="size-2 rounded-full bg-lime" aria-hidden />
+                {fmt(stats.total_jobs)} jobs · {fmt(stats.total_seekers)} people
               </span>
             )}
             <button
               type="button"
               onClick={toggleTheme}
               aria-label={dark ? "Switch to light theme" : "Switch to dark theme"}
-              className="flex size-8 items-center justify-center rounded-full border border-line text-muted transition hover:border-ink hover:text-ink"
+              className="flex size-9 shrink-0 items-center justify-center rounded-full bg-white/12 text-white transition hover:bg-white/20"
             >
-              {dark ? <Sun className="size-3.5" /> : <Moon className="size-3.5" />}
+              {dark ? <Sun className="size-4" /> : <Moon className="size-4" />}
             </button>
           </div>
         </div>
       </header>
 
       {bootError && (
-        <div className="border-b border-signal/30 bg-signal-soft px-4 py-2 text-center text-sm text-signal">
-          Can't reach the API. Start the backend with <code className="font-mono">python webapp/app.py</code> and reload.
+        <div className="bg-coral-soft px-4 py-2 text-center text-sm font-medium text-coral">
+          Can't reach the API. Start the backend with <code>python webapp/app.py</code> and reload.
         </div>
       )}
 
@@ -119,11 +123,11 @@ export default function App() {
         {route === "how" && <HowItWorksPage options={options} stats={stats} />}
       </main>
 
-      <footer className="border-t border-line">
-        <div className="mx-auto flex max-w-6xl flex-col gap-2 px-4 py-6 sm:flex-row sm:items-center sm:justify-between sm:px-6">
-          <Wordmark className="text-lg" />
+      <footer className="border-t border-line bg-surface">
+        <div className="mx-auto flex max-w-6xl flex-col gap-2 px-4 py-6 text-sm text-muted sm:flex-row sm:items-center sm:justify-between sm:px-6">
+          <span className="font-[800] tracking-[-0.04em] text-ink">jobmatch</span>
           {stats && (
-            <span className="font-mono text-[11px] text-muted tabular-nums">
+            <span className="">
               {fmt(stats.total_jobs)} postings · {fmt(stats.total_seekers)} seekers · {stats.cities} cities ·{" "}
               {stats.sectors} sectors
             </span>

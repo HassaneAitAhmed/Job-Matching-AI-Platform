@@ -2,37 +2,49 @@
 
 @custom-variant dark (&:where(.dark, .dark *));
 
-/* Palette: warm paper and ink, one deep green accent, red used sparingly. */
+/* Palette: cobalt brand, acid-lime highlight, cool greys. */
 :root {
-  --paper: #f4f0e6;
-  --surface: #fbf8f1;
-  --sunken: #ece6d9;
-  --ink: #1b1915;
-  --muted: #6b6458;
-  --faint: #9a9284;
-  --line: #e0d9ca;
-  --accent: #0e6b4a;
-  --accent-soft: #dcebe1;
-  --signal: #c8371f;
-  --signal-soft: #f7e0d8;
-  --ochre: #a8700c;
-  --ochre-soft: #f3e7c9;
+  --paper: #eef0f6;
+  --surface: #ffffff;
+  --sunken: #eef0f6;
+  --ink: #0b1020;
+  --muted: #565e76;
+  --faint: #8f97ad;
+  --line: #dde1eb;
+  --cobalt: #1f3bff;
+  --cobalt-deep: #1429c9;
+  --cobalt-soft: #e7ebff;
+  --on-cobalt: #ffffff;
+  --band: #1f3bff;
+  --link: #1f3bff;
+  --lime: #c8ff3d;
+  --lime-ink: #1b2600;
+  --amber: #b97400;
+  --amber-soft: #fff0cc;
+  --coral: #e5392d;
+  --coral-soft: #ffe4e1;
 }
 
 .dark {
-  --paper: #121110;
-  --surface: #1a1916;
-  --sunken: #25231f;
-  --ink: #ede7da;
-  --muted: #a69e90;
-  --faint: #756e62;
-  --line: #2e2b26;
-  --accent: #5cc392;
-  --accent-soft: #183326;
-  --signal: #ef6b51;
-  --signal-soft: #3a1d16;
-  --ochre: #e2b24c;
-  --ochre-soft: #352910;
+  --paper: #090c18;
+  --surface: #11162a;
+  --sunken: #1a2038;
+  --ink: #eef1fa;
+  --muted: #9aa2bc;
+  --faint: #646c88;
+  --line: #232a46;
+  --cobalt: #3d58ff;
+  --cobalt-deep: #2a41e0;
+  --cobalt-soft: #1b2457;
+  --on-cobalt: #ffffff;
+  --band: #1a2cc4;
+  --link: #95a4ff;
+  --lime: #c8ff3d;
+  --lime-ink: #1b2600;
+  --amber: #f2b33d;
+  --amber-soft: #36290c;
+  --coral: #ff6b5e;
+  --coral-soft: #3b1714;
 }
 
 @theme inline {
@@ -43,16 +55,20 @@
   --color-muted: var(--muted);
   --color-faint: var(--faint);
   --color-line: var(--line);
-  --color-accent: var(--accent);
-  --color-accent-soft: var(--accent-soft);
-  --color-signal: var(--signal);
-  --color-signal-soft: var(--signal-soft);
-  --color-ochre: var(--ochre);
-  --color-ochre-soft: var(--ochre-soft);
+  --color-cobalt: var(--cobalt);
+  --color-cobalt-deep: var(--cobalt-deep);
+  --color-cobalt-soft: var(--cobalt-soft);
+  --color-on-cobalt: var(--on-cobalt);
+  --color-band: var(--band);
+  --color-link: var(--link);
+  --color-lime: var(--lime);
+  --color-lime-ink: var(--lime-ink);
+  --color-amber: var(--amber);
+  --color-amber-soft: var(--amber-soft);
+  --color-coral: var(--coral);
+  --color-coral-soft: var(--coral-soft);
 
-  --font-sans: "Geist Variable", ui-sans-serif, system-ui, sans-serif;
-  --font-display: "Fraunces Variable", Georgia, "Times New Roman", serif;
-  --font-mono: "Geist Mono Variable", ui-monospace, "SFMono-Regular", monospace;
+  --font-sans: "Schibsted Grotesk Variable", ui-sans-serif, system-ui, sans-serif;
 }
 
 @layer base {
@@ -66,7 +82,7 @@
     @apply bg-paper font-sans text-ink antialiased;
   }
   ::selection {
-    @apply bg-accent-soft text-ink;
+    @apply bg-lime text-lime-ink;
   }
   input[type="number"]::-webkit-inner-spin-button,
   input[type="number"]::-webkit-outer-spin-button {

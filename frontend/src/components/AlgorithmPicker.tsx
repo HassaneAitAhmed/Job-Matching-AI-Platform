@@ -1,3 +1,4 @@
+import { Check } from "lucide-react";
 import type { Algorithm } from "../lib/api";
 import { ALGORITHMS } from "../lib/format";
 import { cn } from "./ui";
@@ -17,13 +18,17 @@ export function AlgorithmPicker({ value, onChange }: { value: Algorithm; onChang
             title={a.description}
             onClick={() => onChange(key)}
             className={cn(
-              "relative rounded-md border px-3 py-2 text-left transition outline-none focus-visible:ring-3 focus-visible:ring-accent/25",
-              selected ? "border-ink bg-sunken/70" : "border-line bg-surface hover:border-faint",
+              "relative rounded-xl border-2 px-3 py-2 text-left transition outline-none focus-visible:ring-4 focus-visible:ring-cobalt/25",
+              selected ? "border-cobalt bg-cobalt-soft" : "border-line bg-surface hover:border-faint",
             )}
           >
-            <span className="block text-sm font-medium">{a.name}</span>
-            <span className="block font-mono text-[10.5px] text-muted">{a.tagline}</span>
-            {selected && <span className="absolute top-2.5 right-2.5 size-1.5 rounded-full bg-accent" aria-hidden />}
+            <span className="block text-sm font-bold">{a.name}</span>
+            <span className={cn("block text-xs", selected ? "text-link" : "text-muted")}>{a.tagline}</span>
+            {selected && (
+              <span className="absolute top-2 right-2 flex size-4 items-center justify-center rounded-full bg-cobalt text-on-cobalt">
+                <Check className="size-2.5" strokeWidth={4} aria-hidden />
+              </span>
+            )}
           </button>
         );
       })}

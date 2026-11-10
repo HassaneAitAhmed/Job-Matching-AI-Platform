@@ -22,19 +22,16 @@ export const CRITERION_ICONS: Record<Criterion, LucideIcon> = {
   contract_type: FileText,
 };
 
-/** The match score as a large serif numeral over a thin bar. */
-export function ScoreFigure({ score }: { score: number }) {
+/** The match score as a solid tile: lime for strong matches, amber for fair, coral for weak. */
+export function ScoreTile({ score }: { score: number }) {
   const tone = scoreTone(score);
-  const pct = Math.max(0, Math.min(100, score));
   return (
-    <div className="w-14 shrink-0" aria-label={`Match score ${Math.round(score)} out of 100`}>
-      <div className={cn("font-display text-[2.6rem] leading-none font-[450] tracking-tight tabular-nums", tone.text)}>
-        {Math.round(score)}
-      </div>
-      <div className="mt-2 h-[3px] bg-sunken">
-        <div className={cn("h-full", tone.bar)} style={{ width: `${pct}%`, transition: "width .6s ease" }} />
-      </div>
-      <div className="mt-1.5 font-mono text-[10px] tracking-[0.08em] text-faint uppercase">match</div>
+    <div
+      className={cn("flex size-16 shrink-0 flex-col items-center justify-center rounded-2xl", tone.tile)}
+      aria-label={`Match score ${Math.round(score)} out of 100`}
+    >
+      <span className="text-[1.65rem] leading-none font-[800] tracking-tight">{Math.round(score)}</span>
+      <span className="mt-0.5 text-[10px] font-semibold opacity-70">match</span>
     </div>
   );
 }
@@ -47,14 +44,14 @@ export function Breakdown({ data }: { data: BreakdownData }) {
         const Icon = CRITERION_ICONS[c];
         const tone = scoreTone(score);
         return (
-          <div key={c} className="flex items-center gap-3 text-xs" title={CRITERIA[c].description}>
-            <Icon className="size-3.5 shrink-0 text-faint" aria-hidden />
-            <span className="w-20 shrink-0 font-medium">{CRITERIA[c].label}</span>
-            <span className="h-[3px] flex-1 bg-sunken">
-              <span className={cn("block h-full", tone.bar)} style={{ width: `${score}%` }} />
+          <div key={c} className="flex items-center gap-3 text-[13px]" title={CRITERIA[c].description}>
+            <Icon className="size-4 shrink-0 text-faint" aria-hidden />
+            <span className="w-20 shrink-0 font-semibold">{CRITERIA[c].label}</span>
+            <span className="h-1.5 flex-1 overflow-hidden rounded-full bg-sunken">
+              <span className={cn("block h-full rounded-full", tone.bar)} style={{ width: `${score}%` }} />
             </span>
-            <span className="w-9 shrink-0 text-right font-mono tabular-nums">{Math.round(score)}</span>
-            <span className="w-10 shrink-0 text-right font-mono text-faint tabular-nums">×{Math.round(weight)}%</span>
+            <span className="w-8 shrink-0 text-right font-bold">{Math.round(score)}</span>
+            <span className="w-10 shrink-0 text-right text-xs text-faint">×{Math.round(weight)}%</span>
           </div>
         );
       })}

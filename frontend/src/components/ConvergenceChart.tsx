@@ -26,26 +26,26 @@ export function ConvergenceChart({
         {ticks.map((t) => (
           <g key={t}>
             <line x1={pad.left} x2={W - pad.right} y1={y(t)} y2={y(t)} className="stroke-line" />
-            <text x={pad.left - 8} y={y(t)} textAnchor="end" dominantBaseline="middle" className="fill-faint font-mono text-[11px]">
+            <text x={pad.left - 8} y={y(t)} textAnchor="end" dominantBaseline="middle" className="fill-faint text-[11px]">
               {t.toFixed(1)}
             </text>
           </g>
         ))}
-        <text x={pad.left} y={H - 8} className="fill-faint font-mono text-[11px]">
+        <text x={pad.left} y={H - 8} className="fill-faint text-[11px]">
           0
         </text>
-        <text x={W - pad.right} y={H - 8} textAnchor="end" className="fill-faint font-mono text-[11px]">
+        <text x={W - pad.right} y={H - 8} textAnchor="end" className="fill-faint text-[11px]">
           {generations} generations
         </text>
 
         <line x1={pad.left} x2={W - pad.right} y1={y(optimal)} y2={y(optimal)} strokeDasharray="6 4" className="stroke-ink" strokeWidth={1.5} />
-        <line x1={pad.left} x2={W - pad.right} y1={y(greedy)} y2={y(greedy)} strokeDasharray="2 4" className="stroke-ochre" strokeWidth={1.5} />
-        <path d={path} fill="none" className="stroke-accent" strokeWidth={2.5} strokeLinejoin="round" />
+        <line x1={pad.left} x2={W - pad.right} y1={y(greedy)} y2={y(greedy)} strokeDasharray="2 4" className="stroke-amber" strokeWidth={1.5} />
+        <path d={path} fill="none" className="stroke-cobalt" strokeWidth={3} strokeLinejoin="round" strokeLinecap="round" />
       </svg>
-      <figcaption className="mt-2 flex flex-wrap gap-4 font-mono text-[11px] text-muted">
-        <Legend className="bg-accent" label="GA best so far" />
+      <figcaption className="mt-2 flex flex-wrap gap-4 text-xs text-muted">
+        <Legend className="bg-cobalt" label="GA best so far" />
         <Legend className="bg-ink" label="Optimal (Hungarian)" />
-        <Legend className="bg-ochre" label="Greedy" />
+        <Legend className="bg-amber" label="Greedy" />
       </figcaption>
     </figure>
   );
